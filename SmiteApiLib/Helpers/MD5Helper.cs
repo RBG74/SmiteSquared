@@ -5,17 +5,15 @@ internal static class MD5Helper
 {
     internal static string CreateMD5Hash(string input)
     {
-        // Step 1, calculate MD5 hash from input
         var md5 = MD5.Create();
-        var inputBytes = Encoding.ASCII.GetBytes(input);
-        var hashBytes = md5.ComputeHash(inputBytes);
-
-        // Step 2, convert byte array to hex string
+        var bytes = Encoding.UTF8.GetBytes(input);
+        bytes = md5.ComputeHash(bytes);
         var sb = new StringBuilder();
-        for (int i = 0; i < hashBytes.Length; i++)
+        foreach (byte b in bytes)
         {
-            sb.Append(hashBytes[i].ToString("X2"));
+            sb.Append(b.ToString("x2").ToLower());
         }
         return sb.ToString();
     }
+
 }
