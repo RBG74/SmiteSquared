@@ -1,7 +1,7 @@
 ﻿public class HttpClientConnectivitySmiteApi : IConnectivitySmiteApi
 {
 
-    private HttpClient httpClient;
+    private HttpClient? httpClient;
     public HttpClient HttpClient
     {
         get 
@@ -23,8 +23,15 @@
             var response = await HttpClient.GetStringAsync(url);
             return response;
         }
+        catch (HttpRequestException ex)
+        {
+            Console.WriteLine("\nStatusCode: ", ex.StatusCode.ToString());
+            Console.WriteLine("Message :{0} ", ex.Message);
+            throw;
+        }
         catch (Exception ex)
         {
+            //TODO Handle logs
             throw;
         }
     }
@@ -43,20 +50,64 @@
             Console.WriteLine("Message :{0} ", ex.Message);
             throw;
         }
+        catch (Exception ex)
+        {
+            //TODO Handle logs
+            throw;
+        }
     }
 
     public Task<string> TestSession()
     {
-        throw new NotImplementedException();
+        try
+        {
+            throw new NotImplementedException();
+        }
+        catch (HttpRequestException ex)
+        {
+            //TODO Handle logs
+            throw;
+        }
+        catch (Exception ex)
+        {
+            //TODO Handle logs
+            throw;
+        }
     }
 
     public Task<string> GetDataUsed()
     {
-        throw new NotImplementedException();
+        try
+        {
+            throw new NotImplementedException();
+        }
+        catch (HttpRequestException ex)
+        {
+            //TODO Handle logs
+            throw;
+        }
+        catch (Exception ex)
+        {
+            //TODO Handle logs
+            throw;
+        }
     }
 
     public Task<string> GetHirezServerStatus()
     {
-        throw new NotImplementedException();
+        try
+        {
+            throw new NotImplementedException();
+        }
+        catch (HttpRequestException ex)
+        {
+            //TODO Handle logs
+            throw;
+        }
+        catch (Exception ex)
+        {
+            //TODO Handle logs
+            throw;
+        }
     }
 }
