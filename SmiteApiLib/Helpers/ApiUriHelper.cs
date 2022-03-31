@@ -2,42 +2,63 @@
 
 public static class ApiUriHelper
 {
-    public static string CreateApiUri(ApiMethodEnum method, ResponseFormatEnum responseFormat = ResponseFormatEnum.Json, string? timestamp = null)
+    public static string CreateApiUri(ApiMethodEnum method, ResponseFormatEnum responseFormat = ResponseFormatEnum.Json)
     {
-        var sb = new StringBuilder();
-        sb.Append(Constants.BaseUrl + "/");
-
-        switch (method)
+        try
         {
-            case ApiMethodEnum.Ping:
-                return $"{Constants.BaseUrl}/{ApiMethodEnum.Ping.GetMethodNameAndFormat()}";
-            case ApiMethodEnum.CreateSession:
-                sb.Append(method.GetMethodNameAndFormat(responseFormat) + "/")
-                    .Append(ApiKeys.DevId + "/")
-                    .Append(CreateSignature(method, timestamp) + "/")
-                    .Append(timestamp ?? TimestampHelper.GetUtcTimestamp());
+            var timestamp = TimestampHelper.GetUtcTimestamp();
+
+            var sb = new StringBuilder();
+            sb.Append(Constants.BaseUrl + "/");
+
+            switch (method)
+            {
+                case ApiMethodEnum.Ping:
+                    return $"{Constants.BaseUrl}/{ApiMethodEnum.Ping.GetMethodNameAndFormat()}";
+                case ApiMethodEnum.CreateSession:
+                    sb.Append(method.GetMethodNameAndFormat(responseFormat) + "/")
+                        .Append(ApiKeys.DevId + "/")
+                        .Append(CreateSignature(method, timestamp) + "/")
+                        .Append(timestamp);
                     break;
-            case ApiMethodEnum.TestSession:
-            case ApiMethodEnum.GetDataUsed:
-            case ApiMethodEnum.GetHirezServerStatus:
-                sb.Append(method.GetMethodNameAndFormat(responseFormat) + "/")
-                    .Append(ApiKeys.DevId + "/")
-                    .Append(CreateSignature(method, timestamp) + "/")
-                    .Append(SessionHelper.GetSessionId() + "/")
-                    .Append(timestamp ?? TimestampHelper.GetUtcTimestamp());
+                case ApiMethodEnum.TestSession:
+                case ApiMethodEnum.GetDataUsed:
+                case ApiMethodEnum.GetHirezServerStatus:
+                    sb.Append(method.GetMethodNameAndFormat(responseFormat) + "/")
+                        .Append(ApiKeys.DevId + "/")
+                        .Append(CreateSignature(method, timestamp) + "/")
+                        .Append(SessionHelper.GetSessionId() + "/")
+                        .Append(timestamp);
                     break;
-            default:
-                throw new ArgumentOutOfRangeException(nameof(method));
+                default:
+                    throw new ArgumentOutOfRangeException(nameof(method));
+            }
+            var url = sb.ToString();
+            return url;
         }
-        return sb.ToString();
+        catch (Exception ex)
+        {
+            //TODO Handle logs
+            throw;
+        }
     }
 
-    private static string CreateSignature(ApiMethodEnum method, string? timestamp = null)
+    private static string CreateSignature(ApiMethodEnum method, string timestamp)
     {
-        var toHash = ApiKeys.DevId + method.GetMethodName() + ApiKeys.AuthKey + (timestamp ?? TimestampHelper.GetUtcTimestamp());
+        try
+        {
+            if (string.IsNullOrWhiteSpace(timestamp)) throw new ArgumentNullException(nameof(timestamp));
 
-        var signature = MD5Helper.CreateMD5Hash(toHash);
+            var toHash = ApiKeys.DevId + method.GetMethodName() + ApiKeys.AuthKey + timestamp;
 
-        return signature;
+            var signature = MD5Helper.CreateMD5Hash(toHash);
+
+            return signature;
+        }
+        catch (Exception ex)
+        {
+            //TODO Handle logs
+            throw;
+        }
     }
 }
