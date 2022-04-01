@@ -1,9 +1,4 @@
-﻿using SmiteApiLib;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using SmiteApiLib.ApiConsumers;
 
 internal class GodsAndItemsApi : BaseSmiteApi, IGodsAndItemsApi
 {
@@ -40,5 +35,5 @@ internal class GodsAndItemsApi : BaseSmiteApi, IGodsAndItemsApi
         throw new NotImplementedException();
     }
 
-    
+
 }

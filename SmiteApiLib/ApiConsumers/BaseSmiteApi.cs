@@ -1,10 +1,10 @@
-﻿using SmiteApiLib.Constants;
-using SmiteApiLib.Models.ApiResponses;
+﻿using SmiteApiLib.Models.ApiResponses;
+using SmiteApiLib.Ressources.Constants;
 using SmiteApiLib.Ressources.Exceptions;
 using SmiteApiLib.Ressources.Helpers;
 using System.Text.Json;
 
-namespace SmiteApiLib
+namespace SmiteApiLib.ApiConsumers
 {
     internal class BaseSmiteApi
     {

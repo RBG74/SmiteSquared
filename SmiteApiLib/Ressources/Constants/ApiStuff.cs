@@ -1,6 +1,6 @@
-﻿using SmiteApiLib.Enums;
+﻿using SmiteApiLib.Ressources.Enums;
 
-namespace SmiteApiLib.Constants
+namespace SmiteApiLib.Ressources.Constants
 {
     internal static class ApiStuff
     {

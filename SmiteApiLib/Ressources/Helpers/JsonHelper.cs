@@ -1,4 +1,4 @@
-﻿using SmiteApiLib.Constants;
+﻿using SmiteApiLib.Ressources.Constants;
 using System.Text.Json.Nodes;
 
 namespace SmiteApiLib.Ressources.Helpers

@@ -1,4 +1,4 @@
-﻿using SmiteApiLib.Constants;
+﻿using SmiteApiLib.Ressources.Constants;
 using System.Text;
 
 public static class ApiUriHelper

@@ -1,6 +1,5 @@
-﻿using SmiteApiLib;
-using SmiteApiLib.Constants;
-using SmiteApiLib.Ressources.Exceptions;
+﻿using SmiteApiLib.ApiConsumers;
+using SmiteApiLib.Ressources.Constants;
 
 internal class ConnectivitySmiteApi : BaseSmiteApi, IConnectivitySmiteApi
 {

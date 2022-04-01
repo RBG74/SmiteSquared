@@ -1,4 +1,4 @@
-﻿namespace SmiteApiLib.Enums
+﻿namespace SmiteApiLib.Ressources.Enums
 {
     internal enum LanguageCodeEnum
     {

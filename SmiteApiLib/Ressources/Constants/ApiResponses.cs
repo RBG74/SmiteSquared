@@ -1,4 +1,4 @@
-﻿namespace SmiteApiLib.Constants
+﻿namespace SmiteApiLib.Ressources.Constants
 {
     internal static class ApiResponses
     {
