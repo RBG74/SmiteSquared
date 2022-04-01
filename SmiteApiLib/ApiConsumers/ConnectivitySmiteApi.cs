@@ -25,16 +25,9 @@ internal class ConnectivitySmiteApi : BaseSmiteApi, IConnectivitySmiteApi
 
     public async Task<string> GetHirezServerStatus()
     {
-        try
-        {
-            var url = ApiUriHelper.GetBaseApiUrl(ApiMethodEnum.GetHirezServerStatus);
-            var jsonResponse = await ExecuteRequest(url);
-            return jsonResponse;
-        }
-        catch (InvalidSessionException)
-        {
-            return await GetHirezServerStatus();
-        }
+        var url = ApiUriHelper.GetBaseApiUrl(ApiMethodEnum.GetHirezServerStatus);
+        var jsonResponse = await ExecuteRequest(url);
+        return jsonResponse;
     }
 
     public async Task<string> GetPatchInfo()
