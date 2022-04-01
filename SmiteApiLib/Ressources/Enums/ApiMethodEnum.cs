@@ -4,7 +4,9 @@
     CreateSession,
     TestSession,
     GetDataUsed,
-    GetHirezServerStatus
+    GetHirezServerStatus,
+    GetGods,
+    GetPatchInfo,
 }
 
 public static class ApiMethodEnumExtensions
@@ -18,6 +20,7 @@ public static class ApiMethodEnumExtensions
             ApiMethodEnum.TestSession => "testsession",
             ApiMethodEnum.GetDataUsed => "getdataused",
             ApiMethodEnum.GetHirezServerStatus => "gethirezserverstatus",
+            ApiMethodEnum.GetPatchInfo => "getpatchinfo",
             _ => throw new ArgumentOutOfRangeException(nameof(method)),
         };
     }
