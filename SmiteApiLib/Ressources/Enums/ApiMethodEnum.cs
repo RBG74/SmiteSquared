@@ -1,4 +1,4 @@
-﻿public enum ApiMethodEnum
+﻿internal enum ApiMethodEnum
 {
     Ping,
     CreateSession,
@@ -9,7 +9,7 @@
     GetPatchInfo,
 }
 
-public static class ApiMethodEnumExtensions
+internal static class ApiMethodEnumExtensions
 {
     public static string GetMethodName(this ApiMethodEnum method)
     {
@@ -25,7 +25,7 @@ public static class ApiMethodEnumExtensions
         };
     }
 
-    public static string GetMethodNameAndFormat(this ApiMethodEnum method, ResponseFormatEnum responseFormat = ResponseFormatEnum.Json)
+    public static string GetMethodNameAndFormat(this ApiMethodEnum method, ResponseFormatEnum responseFormat)
     {
         return method.GetMethodName() + responseFormat.ToFriendlyString();
     }

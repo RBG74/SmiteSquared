@@ -1,6 +1,5 @@
 ﻿public enum ResponseFormatEnum
 {
-    None,
     Json,
     Xml
 }
@@ -11,9 +10,6 @@ public static class ResponseFormatEnumExtensions
     {
         switch (responseFormat)
         {
-            case ResponseFormatEnum.None:
-                return string.Empty;
-
             case ResponseFormatEnum.Json:
                 return "Json";
 

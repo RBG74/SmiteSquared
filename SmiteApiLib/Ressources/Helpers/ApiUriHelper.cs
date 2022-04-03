@@ -1,8 +1,9 @@
 ﻿using SmiteApiLib.Ressources.Constants;
 using System.Text;
 
-public static class ApiUriHelper
+internal static class ApiUriHelper
 {
+
     /// <summary>
     /// Creates a base url of type {baseUrl}/{methodName[ResponseFormat]}/{developerId}/{signature}/{0}/{timestamp}
     /// </summary>
@@ -17,8 +18,8 @@ public static class ApiUriHelper
 
             var url = new StringBuilder()
                 .Append(ApiStuff.BaseUrl + "/")
-                .Append(method.GetMethodNameAndFormat() + "/")
-                .Append(ApiKeys.DevId + "/")
+                .Append(method.GetMethodNameAndFormat(ApiSettings.ResponseFormat) + "/")
+                .Append(ApiSettings.DevId + "/")
                 .Append(CreateSignature(method, timestamp) + "/")
                 .Append("{0}/") //SessionId will be inserted here
                 .Append(timestamp)
@@ -40,8 +41,8 @@ public static class ApiUriHelper
             var timestamp = TimestampHelper.GetUtcTimestamp();
             var url = new StringBuilder()
                 .Append(ApiStuff.BaseUrl + "/")
-                .Append(ApiMethodEnum.CreateSession.GetMethodNameAndFormat() + "/")
-                .Append(ApiKeys.DevId + "/")
+                .Append(ApiMethodEnum.CreateSession.GetMethodNameAndFormat(ApiSettings.ResponseFormat) + "/")
+                .Append(ApiSettings.DevId + "/")
                 .Append(CreateSignature(ApiMethodEnum.CreateSession, timestamp) + "/")
                 .Append(timestamp)
                 .ToString();
@@ -60,7 +61,7 @@ public static class ApiUriHelper
         {
             if (string.IsNullOrWhiteSpace(timestamp)) throw new ArgumentNullException(nameof(timestamp));
 
-            var toHash = ApiKeys.DevId + method.GetMethodName() + ApiKeys.AuthKey + timestamp;
+            var toHash = ApiSettings.DevId + method.GetMethodName() + ApiSettings.AuthKey + timestamp;
 
             var signature = MD5Helper.CreateMD5Hash(toHash);
 

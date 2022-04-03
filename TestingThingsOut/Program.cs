@@ -1,10 +1,10 @@
-﻿
-using SmiteApiLib;
+﻿using SmiteApiLib;
 
-var smiteApiHelper = new SmiteApiHelper();
-
-//var pingResult = await smiteApi.Ping();
-//Console.WriteLine(pingResult);
+#region Api initialization 
+var httpClient = new HttpClient();
+var apiSettings = new ApiSettingsParameters(ApiKeys.DevId, ApiKeys.AuthKey);
+var smiteApiHelper = new SmiteApiHelper(httpClient, apiSettings);
+#endregion
 
 var createSessionResult = await smiteApiHelper.GetServerStatus();
 Console.Read();

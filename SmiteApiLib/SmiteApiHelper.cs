@@ -6,11 +6,14 @@ namespace SmiteApiLib
     public class SmiteApiHelper
     {
         private readonly IConnectivitySmiteApi _connectivitySmiteApi;
+        private readonly IGodsAndItemsApi _godsAndItemsApi;
 
-        public SmiteApiHelper()
+        public SmiteApiHelper(HttpClient httpClient, ApiSettingsParameters apiSettingsParameters)
         {
-            var httpClient = new HttpClient();
+            ApiSettings.Init(apiSettingsParameters);
+
             _connectivitySmiteApi = new ConnectivitySmiteApi(httpClient);
+            _godsAndItemsApi = new GodsAndItemsApi(httpClient);
         }
 
         public async Task<List<GetHirezServerStatusApiResponse>> GetServerStatus()

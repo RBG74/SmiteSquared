@@ -1,4 +1,4 @@
-﻿public enum QueueEnum
+﻿internal enum QueueEnum
 {
     Conquest = 426,
     Arena = 435,

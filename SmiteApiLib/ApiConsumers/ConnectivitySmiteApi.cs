@@ -10,7 +10,7 @@ internal class ConnectivitySmiteApi : BaseSmiteApi, IConnectivitySmiteApi
 
     public async Task<string> Ping()
     {
-        var url = $"{ApiStuff.BaseUrl}/{ApiMethodEnum.Ping.GetMethodNameAndFormat()}";
+        var url = $"{ApiStuff.BaseUrl}/{ApiMethodEnum.Ping.GetMethodNameAndFormat(ApiSettings.ResponseFormat)}";
         var jsonResponse = await ExecuteRequest(url);
         return jsonResponse;
     }
