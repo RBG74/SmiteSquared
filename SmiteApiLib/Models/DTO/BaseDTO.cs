@@ -1,8 +1,8 @@
 ﻿using System.Text.Json.Serialization;
 
-namespace SmiteApiLib.Models.ApiResponses
+namespace SmiteApiLib.Models.DTO
 {
-    public class BaseApiResponse
+    public class BaseDTO
     {
         [JsonPropertyName("ret_msg")]
         public string? ReturnMessage { get; set; }

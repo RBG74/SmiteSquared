@@ -1,8 +1,6 @@
-﻿using SmiteApiLib.ApiConsumers;
-
-internal class GodsAndItemsApi : BaseSmiteApi, IGodsAndItemsApi
+﻿public class GodsAndItemsApi : BaseSmiteApi, IGodsAndItemsApi
 {
-    public GodsAndItemsApi(HttpClient httpClient) : base(httpClient)
+    public GodsAndItemsApi(IHttpClientFactory httpClientFactory) : base(httpClientFactory)
     {
     }
 

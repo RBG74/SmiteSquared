@@ -12,6 +12,7 @@ internal static class ApiUriHelper
     {
         try
         {
+            if (!ApiSettings.WasInitialized) throw new ApiSettingsNotInitializedException();
             if (method == ApiMethodEnum.CreateSession) throw new ArgumentException($"Use method {nameof(GetCreateSessionUrl)} to get the url for {ApiMethodEnum.CreateSession.GetMethodName()}.");
 
             var timestamp = TimestampHelper.GetUtcTimestamp();
@@ -38,6 +39,8 @@ internal static class ApiUriHelper
     {
         try
         {
+            if (!ApiSettings.WasInitialized) throw new ApiSettingsNotInitializedException();
+
             var timestamp = TimestampHelper.GetUtcTimestamp();
             var url = new StringBuilder()
                 .Append(ApiStuff.BaseUrl + "/")
@@ -59,6 +62,7 @@ internal static class ApiUriHelper
     {
         try
         {
+            if (!ApiSettings.WasInitialized) throw new ApiSettingsNotInitializedException();
             if (string.IsNullOrWhiteSpace(timestamp)) throw new ArgumentNullException(nameof(timestamp));
 
             var toHash = ApiSettings.DevId + method.GetMethodName() + ApiSettings.AuthKey + timestamp;

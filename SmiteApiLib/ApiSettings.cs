@@ -1,35 +1,33 @@
-﻿public class ApiSettingsParameters
+﻿public class SmiteApiSettings
 {
-    public ApiSettingsParameters(
-        string devId,
-        string authKey,
-        LanguageCodeEnum languageCode = LanguageCodeEnum.English,
-        ResponseFormatEnum responseFormat = ResponseFormatEnum.Json)
+    public SmiteApiSettings(string devId, string authKey)
     {
         DevId = devId;
         AuthKey = authKey;
-        LanguageCode = languageCode;
-        ResponseFormat = responseFormat;
     }
 
-    public string DevId { get; init; }
-    public string AuthKey { get; init; }
-    public ResponseFormatEnum ResponseFormat { get; init; }
-    public LanguageCodeEnum LanguageCode { get; init; }
+    public string DevId;
+    public string AuthKey;
+    public ResponseFormatEnum ResponseFormat = ResponseFormatEnum.Json;
+    public LanguageCodeEnum LanguageCode = LanguageCodeEnum.English;
 }
 
 internal static class ApiSettings
 {
-    public static void Init(ApiSettingsParameters apiSettingsParameters)
+    public static void Init(SmiteApiSettings smiteApiSettings)
     {
-        DevId = apiSettingsParameters.DevId;
-        AuthKey = apiSettingsParameters.AuthKey;
-        ResponseFormat = apiSettingsParameters.ResponseFormat;
-        LanguageCode = apiSettingsParameters.LanguageCode;
+        DevId = smiteApiSettings.DevId ?? throw new ArgumentNullException(nameof(smiteApiSettings.DevId));
+        AuthKey = smiteApiSettings.AuthKey ?? throw new ArgumentNullException(nameof(smiteApiSettings.AuthKey));
+        LanguageCode = smiteApiSettings.LanguageCode;
+        ResponseFormat = smiteApiSettings.ResponseFormat;
+
+        WasInitialized = true;
     }
 
-    public static string DevId;
-    public static string AuthKey;
-    public static ResponseFormatEnum ResponseFormat;
-    public static LanguageCodeEnum LanguageCode;
+    internal static bool WasInitialized = false;
+
+    internal static string DevId;
+    internal static string AuthKey;
+    internal static ResponseFormatEnum ResponseFormat;
+    internal static LanguageCodeEnum LanguageCode;
 }

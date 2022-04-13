@@ -1,15 +1,18 @@
-﻿using SmiteApiLib.ApiConsumers;
+﻿using SmiteApiLib.Models.DTO;
 using SmiteApiLib.Ressources.Constants;
+using System.Text.Json;
 
-internal class ConnectivitySmiteApi : BaseSmiteApi, IConnectivitySmiteApi
+public class ConnectivitySmiteApi : BaseSmiteApi, IConnectivitySmiteApi
 {
 
-    public ConnectivitySmiteApi(HttpClient httpClient) : base(httpClient)
+    public ConnectivitySmiteApi(IHttpClientFactory httpClientFactory) : base(httpClientFactory)
     {
     }
 
     public async Task<string> Ping()
     {
+        if (!ApiSettings.WasInitialized) throw new ApiSettingsNotInitializedException();
+
         var url = $"{ApiStuff.BaseUrl}/{ApiMethodEnum.Ping.GetMethodNameAndFormat(ApiSettings.ResponseFormat)}";
         var jsonResponse = await ExecuteRequest(url);
         return jsonResponse;
@@ -22,11 +25,12 @@ internal class ConnectivitySmiteApi : BaseSmiteApi, IConnectivitySmiteApi
         return jsonResponse;
     }
 
-    public async Task<string> GetHirezServerStatus()
+    public async Task<IEnumerable<GetHirezServerStatusDTO>> GetHirezServerStatus()
     {
         var url = ApiUriHelper.GetBaseApiUrl(ApiMethodEnum.GetHirezServerStatus);
         var jsonResponse = await ExecuteRequest(url);
-        return jsonResponse;
+        var response = JsonSerializer.Deserialize<IEnumerable<GetHirezServerStatusDTO>>(jsonResponse);
+        return response;
     }
 
     public async Task<string> GetPatchInfo()

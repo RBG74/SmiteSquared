@@ -1,7 +1,9 @@
-﻿internal interface IConnectivitySmiteApi
+﻿using SmiteApiLib.Models.DTO;
+
+public interface IConnectivitySmiteApi
 {
     Task<string> Ping();
     Task<string> GetDataUsed();
-    Task<string> GetHirezServerStatus();
+    Task<IEnumerable<GetHirezServerStatusDTO>> GetHirezServerStatus();
     Task<string> GetPatchInfo();
 }

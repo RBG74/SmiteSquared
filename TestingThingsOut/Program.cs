@@ -1,10 +1,16 @@
-﻿using SmiteApiLib;
+﻿
 
-#region Api initialization 
-var httpClient = new HttpClient();
-var apiSettings = new ApiSettingsParameters(ApiKeys.DevId, ApiKeys.AuthKey);
-var smiteApiHelper = new SmiteApiHelper(httpClient, apiSettings);
-#endregion
 
-var createSessionResult = await smiteApiHelper.GetServerStatus();
+using Microsoft.Extensions.DependencyInjection;
+
+var services = new ServiceCollection();
+
+services.AddSmiteApiServices(new SmiteApiSettings(ApiKeys.DevId, ApiKeys.AuthKey));
+
+var provider = services.BuildServiceProvider();
+
+var connectivitySmiteService = provider.GetService<IConnectivitySmiteApi>();
+
+var test = await connectivitySmiteService.GetHirezServerStatus();
+
 Console.Read();
