@@ -6,10 +6,10 @@ public static class ServiceCollectionExtensions
     {
         ApiSettings.Init(apiSettings);
 
-        services.AddHttpClient<IConnectivitySmiteApi>();
-        services.AddScoped<IConnectivitySmiteApi, ConnectivitySmiteApi>();
+        services.AddHttpClient<IConnectivityService>();
+        services.AddScoped<IConnectivityService, ConnectivityService>();
 
-        services.AddHttpClient<IGodsAndItemsApi>();
-        services.AddScoped<IGodsAndItemsApi, GodsAndItemsApi>();
+        services.AddHttpClient<IGodsAndItemsService>();
+        services.AddScoped<IGodsAndItemsService, GodsAndItemsService>();
     }
 }

@@ -1,6 +1,6 @@
 ﻿using SmiteApiLib.Models.DTO;
 
-public interface IConnectivitySmiteApi
+public interface IConnectivityService
 {
     Task<string> Ping();
     Task<string> GetDataUsed();

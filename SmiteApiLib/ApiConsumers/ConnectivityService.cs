@@ -2,10 +2,10 @@
 using SmiteApiLib.Ressources.Constants;
 using System.Text.Json;
 
-public class ConnectivitySmiteApi : BaseSmiteApi, IConnectivitySmiteApi
+public class ConnectivityService : BaseSmiteApi, IConnectivityService
 {
 
-    public ConnectivitySmiteApi(IHttpClientFactory httpClientFactory) : base(httpClientFactory)
+    public ConnectivityService(IHttpClientFactory httpClientFactory) : base(httpClientFactory)
     {
     }
 

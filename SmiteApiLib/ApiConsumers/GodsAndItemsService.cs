@@ -1,6 +1,6 @@
-﻿public class GodsAndItemsApi : BaseSmiteApi, IGodsAndItemsApi
+﻿public class GodsAndItemsService : BaseSmiteApi, IGodsAndItemsService
 {
-    public GodsAndItemsApi(IHttpClientFactory httpClientFactory) : base(httpClientFactory)
+    public GodsAndItemsService(IHttpClientFactory httpClientFactory) : base(httpClientFactory)
     {
     }
 
@@ -32,6 +32,5 @@
     {
         throw new NotImplementedException();
     }
-
 
 }
