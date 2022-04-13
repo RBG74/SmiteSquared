@@ -1,13 +1,14 @@
-﻿using SmiteApiLib.Models.DTO;
+﻿using Microsoft.Extensions.Logging;
+using SmiteApiLib.Models.DTO;
 using SmiteApiLib.Ressources.Constants;
 using SmiteApiLib.Ressources.Exceptions;
 using SmiteApiLib.Ressources.Helpers;
-using System.Net.Http;
 using System.Text.Json;
 
 public class BaseSmiteApi
 {
-    private HttpClient _httpClient;
+    protected ILogger? _logger;
+    private readonly HttpClient _httpClient;
 
     public BaseSmiteApi(IHttpClientFactory httpClientFactory)
     {
@@ -25,48 +26,38 @@ public class BaseSmiteApi
         try
         {
             var sessionId = await GetSessionId();
-            url = string.Format(url, sessionId);
+            var formatedUrl = string.Format(url, sessionId);
 
-            var jsonResponse = await _httpClient.GetStringAsync(url);
+            var jsonResponse = await _httpClient.GetStringAsync(formatedUrl);
 
             var returnMessage = JsonHelper.GetReturnMessageFromJson(jsonResponse);
             if (returnMessage == ApiResponses.InvalidSessionId)
             {
                 await LocalSessionHelper.WriteSessionId(string.Empty);
-                if (executionCounter > 3) throw new InvalidSessionException(url);
+                if (executionCounter > 3) throw new InvalidSessionException(formatedUrl);
                 return await ExecuteRequest(url, executionCounter);
             }
             return jsonResponse;
         }
         catch (Exception ex)
         {
-            //TODO
-            throw;
+            _logger?.LogError(ex.Message, ex);
+            throw new SmiteApiLibException(ex);
         }
     }
 
     private async Task<string> GetSessionId()
     {
-        try
+        var sessionId = await LocalSessionHelper.GetExistingSessionId();
+        if (string.IsNullOrWhiteSpace(sessionId))
         {
-            var sessionId = await LocalSessionHelper.GetExistingSessionId();
-            Console.WriteLine($"Local session: {sessionId}");//TODO
-            if (string.IsNullOrWhiteSpace(sessionId))
-            {
-                var url = ApiUriHelper.GetCreateSessionUrl();
-                var jsonResponse = await _httpClient.GetStringAsync(url);
-                var response = JsonSerializer.Deserialize<CreateSessionDTO>(jsonResponse);
-                sessionId = response!.SessionId!;
-                await LocalSessionHelper.WriteSessionId(sessionId);
-                Console.WriteLine("---New session generated !---");//TODO
-            }
-            return sessionId;
+            var url = ApiUriHelper.GetCreateSessionUrl();
+            var jsonResponse = await _httpClient.GetStringAsync(url);
+            var response = JsonSerializer.Deserialize<CreateSessionDTO>(jsonResponse);
+            sessionId = response!.SessionId!;
+            await LocalSessionHelper.WriteSessionId(sessionId);
         }
-        catch (Exception ex)
-        {
-            //TODO
-            throw;
-        }
+        return sessionId;
     }
 
 }

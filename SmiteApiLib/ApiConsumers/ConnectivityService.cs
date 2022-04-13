@@ -1,16 +1,17 @@
-﻿using SmiteApiLib.Models.DTO;
-using SmiteApiLib.Ressources.Constants;
+﻿using Microsoft.Extensions.Logging;
 using System.Text.Json;
 
 public class ConnectivityService : BaseSmiteApi, IConnectivityService
 {
-
-    public ConnectivityService(IHttpClientFactory httpClientFactory) : base(httpClientFactory)
+    public ConnectivityService(IHttpClientFactory httpClientFactory, ILoggerFactory loggerFactory) : base(httpClientFactory)
     {
+        _logger = loggerFactory.CreateLogger<ConnectivityService>();
     }
 
     public async Task<string> Ping()
     {
+        _logger?.LogInformation($"Calling method {nameof(Ping)}");
+
         if (!ApiSettings.WasInitialized) throw new ApiSettingsNotInitializedException();
 
         var url = $"{ApiStuff.BaseUrl}/{ApiMethodEnum.Ping.GetMethodNameAndFormat(ApiSettings.ResponseFormat)}";
@@ -20,6 +21,8 @@ public class ConnectivityService : BaseSmiteApi, IConnectivityService
 
     public async Task<string> GetDataUsed()
     {
+        _logger?.LogInformation($"Calling method {nameof(GetDataUsed)}");
+
         var url = ApiUriHelper.GetBaseApiUrl(ApiMethodEnum.GetDataUsed);
         var jsonResponse = await ExecuteRequest(url);
         return jsonResponse;
@@ -27,6 +30,8 @@ public class ConnectivityService : BaseSmiteApi, IConnectivityService
 
     public async Task<IEnumerable<GetHirezServerStatusDTO>> GetHirezServerStatus()
     {
+        _logger?.LogInformation($"Calling method {nameof(GetHirezServerStatus)}");
+
         var url = ApiUriHelper.GetBaseApiUrl(ApiMethodEnum.GetHirezServerStatus);
         var jsonResponse = await ExecuteRequest(url);
         var response = JsonSerializer.Deserialize<IEnumerable<GetHirezServerStatusDTO>>(jsonResponse);
@@ -35,6 +40,8 @@ public class ConnectivityService : BaseSmiteApi, IConnectivityService
 
     public async Task<string> GetPatchInfo()
     {
+        _logger?.LogInformation($"Calling method {nameof(GetPatchInfo)}");
+
         var url = ApiUriHelper.GetBaseApiUrl(ApiMethodEnum.GetPatchInfo);
         var jsonResponse = await ExecuteRequest(url);
         return jsonResponse;
