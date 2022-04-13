@@ -1,4 +1,5 @@
 ﻿using SmiteApiLib.Ressources.Constants;
+using System.Text.Json;
 using System.Text.Json.Nodes;
 
 namespace SmiteApiLib.Ressources.Helpers
@@ -11,18 +12,17 @@ namespace SmiteApiLib.Ressources.Helpers
             {
                 if (string.IsNullOrWhiteSpace(json)) return string.Empty;
 
-                var jsonNode = JsonNode.Parse(json);
-                if (jsonNode == null) return string.Empty;
+                var elements = JsonSerializer.Deserialize<JsonElement>(json);
 
-                var returnMessageNode = jsonNode[0][ApiStuff.ReturnMessageJsonProperty];
-                if (returnMessageNode == null) return string.Empty;
+                var returnMessageElement = elements.ValueKind == JsonValueKind.Array ?
+                    elements[0].GetProperty(ApiStuff.ReturnMessageJsonProperty) :
+                    elements.GetProperty(ApiStuff.ReturnMessageJsonProperty);
 
-                var result = returnMessageNode.ToString();
-                return result;
+                var returnMessage = returnMessageElement.ToString();
+                return returnMessage;
             }
             catch (Exception ex)
             {
-                //TODO
                 throw;
             }
         }

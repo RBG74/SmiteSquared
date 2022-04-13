@@ -14,6 +14,7 @@ var provider = services.BuildServiceProvider();
 
 var connectivitySmiteService = provider.GetService<IConnectivityService>();
 
-var test = await connectivitySmiteService.GetHirezServerStatus();
+//var test = await connectivitySmiteService.GetHirezServerStatus();
+var test = await connectivitySmiteService.GetPatchInfo();
 
 Console.Read();

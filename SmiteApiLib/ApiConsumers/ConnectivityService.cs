@@ -1,4 +1,5 @@
 ﻿using Microsoft.Extensions.Logging;
+using SmiteApiLib.Models.DTO;
 using System.Text.Json;
 
 public class ConnectivityService : BaseSmiteApi, IConnectivityService
@@ -38,12 +39,13 @@ public class ConnectivityService : BaseSmiteApi, IConnectivityService
         return response;
     }
 
-    public async Task<string> GetPatchInfo()
+    public async Task<GetPatchInfoDTO> GetPatchInfo()
     {
         _logger?.LogInformation($"Calling method {nameof(GetPatchInfo)}");
 
         var url = ApiUriHelper.GetBaseApiUrl(ApiMethodEnum.GetPatchInfo);
         var jsonResponse = await ExecuteRequest(url);
-        return jsonResponse;
+        var response = JsonSerializer.Deserialize<GetPatchInfoDTO>(jsonResponse);
+        return response;
     }
 }

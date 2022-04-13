@@ -5,5 +5,5 @@ public interface IConnectivityService
     Task<string> Ping();
     Task<string> GetDataUsed();
     Task<IEnumerable<GetHirezServerStatusDTO>> GetHirezServerStatus();
-    Task<string> GetPatchInfo();
+    Task<GetPatchInfoDTO> GetPatchInfo();
 }
