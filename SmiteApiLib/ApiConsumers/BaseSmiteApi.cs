@@ -15,6 +15,12 @@ public class BaseSmiteApi
         _httpClient = httpClientFactory.CreateClient();
     }
 
+    protected void ManageException(Exception ex)
+    {
+        _logger?.LogError(ex.Message, ex);
+        throw ex;
+    }
+
     protected async Task<string> ExecuteRequest(string url)
     {
         return await ExecuteRequest(url, 0);
@@ -48,6 +54,7 @@ public class BaseSmiteApi
 
     private async Task<string> GetSessionId()
     {
+        //Gets locally stored Session if there is one, if it is expired it will be deleted by the ExecuteRequest method which will then call this method again
         var sessionId = await LocalSessionHelper.GetExistingSessionId();
         if (string.IsNullOrWhiteSpace(sessionId))
         {

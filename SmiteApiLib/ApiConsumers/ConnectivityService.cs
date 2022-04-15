@@ -1,5 +1,6 @@
 ﻿using Microsoft.Extensions.Logging;
 using SmiteApiLib.Models.DTO;
+using SmiteApiLib.Ressources.Constants;
 using System.Text.Json;
 
 public class ConnectivityService : BaseSmiteApi, IConnectivityService
@@ -13,39 +14,74 @@ public class ConnectivityService : BaseSmiteApi, IConnectivityService
     {
         _logger?.LogInformation($"Calling method {nameof(Ping)}");
 
-        if (!ApiSettings.WasInitialized) throw new ApiSettingsNotInitializedException();
+        try
+        {
+            if (!ApiSettings.WasInitialized) throw new ApiSettingsNotInitializedException();
 
-        var url = $"{ApiStuff.BaseUrl}/{ApiMethodEnum.Ping.GetMethodNameAndFormat(ApiSettings.ResponseFormat)}";
-        var jsonResponse = await ExecuteRequest(url);
-        return jsonResponse;
+            var url = $"{ApiStuff.BaseUrl}/{ApiMethodEnum.Ping.GetMethodNameAndFormat(ApiSettings.ResponseFormat)}";
+            var jsonResponse = await ExecuteRequest(url);
+            return jsonResponse;
+        }
+        catch (Exception ex)
+        {
+            ManageException(ex);
+            throw;
+        }        
     }
 
-    public async Task<string> GetDataUsed()
+    public async Task<IEnumerable<GetDataUsedDTO>> GetDataUsed()
     {
         _logger?.LogInformation($"Calling method {nameof(GetDataUsed)}");
 
-        var url = ApiUriHelper.GetBaseApiUrl(ApiMethodEnum.GetDataUsed);
-        var jsonResponse = await ExecuteRequest(url);
-        return jsonResponse;
+        try
+        {
+            var url = ApiUriHelper.GetBaseApiUrl(ApiMethodEnum.GetDataUsed);
+            var jsonResponse = await ExecuteRequest(url);
+            var response = JsonSerializer.Deserialize<IEnumerable<GetDataUsedDTO>>(jsonResponse)!;
+            return response;
+        }
+        catch (Exception ex)
+        {
+            ManageException(ex);
+            throw;
+        }
     }
 
     public async Task<IEnumerable<GetHirezServerStatusDTO>> GetHirezServerStatus()
     {
         _logger?.LogInformation($"Calling method {nameof(GetHirezServerStatus)}");
 
-        var url = ApiUriHelper.GetBaseApiUrl(ApiMethodEnum.GetHirezServerStatus);
-        var jsonResponse = await ExecuteRequest(url);
-        var response = JsonSerializer.Deserialize<IEnumerable<GetHirezServerStatusDTO>>(jsonResponse);
-        return response;
+        try
+        {
+            var url = ApiUriHelper.GetBaseApiUrl(ApiMethodEnum.GetHirezServerStatus);
+            var jsonResponse = await ExecuteRequest(url);
+            var response = JsonSerializer.Deserialize<IEnumerable<GetHirezServerStatusDTO>>(jsonResponse)!;
+            return response;
+        }
+        catch (Exception ex)
+        {
+            ManageException(ex);
+            throw;
+        }
+
+        
     }
 
     public async Task<GetPatchInfoDTO> GetPatchInfo()
     {
         _logger?.LogInformation($"Calling method {nameof(GetPatchInfo)}");
 
-        var url = ApiUriHelper.GetBaseApiUrl(ApiMethodEnum.GetPatchInfo);
-        var jsonResponse = await ExecuteRequest(url);
-        var response = JsonSerializer.Deserialize<GetPatchInfoDTO>(jsonResponse);
-        return response;
+        try
+        {
+            var url = ApiUriHelper.GetBaseApiUrl(ApiMethodEnum.GetPatchInfo);
+            var jsonResponse = await ExecuteRequest(url);
+            var response = JsonSerializer.Deserialize<GetPatchInfoDTO>(jsonResponse)!;
+            return response;
+        }
+        catch (Exception ex)
+        {
+            ManageException(ex);
+            throw;
+        }
     }
 }

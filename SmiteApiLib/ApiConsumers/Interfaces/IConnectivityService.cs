@@ -3,7 +3,7 @@
 public interface IConnectivityService
 {
     Task<string> Ping();
-    Task<string> GetDataUsed();
+    Task<IEnumerable<GetDataUsedDTO>> GetDataUsed();
     Task<IEnumerable<GetHirezServerStatusDTO>> GetHirezServerStatus();
     Task<GetPatchInfoDTO> GetPatchInfo();
 }

@@ -10,13 +10,20 @@ namespace SmiteApiLib.Ressources.Helpers
         {
             try
             {
-                if (string.IsNullOrWhiteSpace(json)) return string.Empty;
+                if (string.IsNullOrWhiteSpace(json) || !json.IsJson()) return string.Empty;
 
                 var elements = JsonSerializer.Deserialize<JsonElement>(json);
 
-                var returnMessageElement = elements.ValueKind == JsonValueKind.Array ?
-                    elements[0].GetProperty(ApiStuff.ReturnMessageJsonProperty) :
-                    elements.GetProperty(ApiStuff.ReturnMessageJsonProperty);
+                JsonElement returnMessageElement = new JsonElement();
+                switch (elements.ValueKind)
+                {
+                    case JsonValueKind.Array:
+                        returnMessageElement = elements[0].GetProperty(ApiStuff.ReturnMessageJsonProperty);
+                        break;
+                    case JsonValueKind.Object:
+                        elements.GetProperty(ApiStuff.ReturnMessageJsonProperty);
+                        break;
+                }
 
                 var returnMessage = returnMessageElement.ToString();
                 return returnMessage;
@@ -24,6 +31,22 @@ namespace SmiteApiLib.Ressources.Helpers
             catch (Exception ex)
             {
                 throw;
+            }
+        }
+
+        public static bool IsJson(this string source)
+        {
+            if (source == null)
+                return false;
+
+            try
+            {
+                JsonDocument.Parse(source);
+                return true;
+            }
+            catch (JsonException)
+            {
+                return false;
             }
         }
     }

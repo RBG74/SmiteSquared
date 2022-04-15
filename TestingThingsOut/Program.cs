@@ -13,8 +13,9 @@ services.AddSmiteApiServices(new SmiteApiSettings(ApiKeys.DevId, ApiKeys.AuthKey
 var provider = services.BuildServiceProvider();
 
 var connectivitySmiteService = provider.GetService<IConnectivityService>();
+var godsAndItemsService = provider.GetService<IGodsAndItemsService>();
 
 //var test = await connectivitySmiteService.GetHirezServerStatus();
-var test = await connectivitySmiteService.GetPatchInfo();
+var test = await godsAndItemsService.GetGods();
 
 Console.Read();
