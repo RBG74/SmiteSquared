@@ -16,6 +16,6 @@ var connectivitySmiteService = provider.GetService<IConnectivityService>();
 var godsAndItemsService = provider.GetService<IGodsAndItemsService>();
 
 //var test = await connectivitySmiteService.GetHirezServerStatus();
-var test = await godsAndItemsService.GetGods();
+var gods = await godsAndItemsService.GetGods();
 
 Console.Read();

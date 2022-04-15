@@ -5,8 +5,8 @@
     TestSession,
     GetDataUsed,
     GetHirezServerStatus,
-    GetGods,
     GetPatchInfo,
+    GetGods,
 }
 
 internal static class ApiMethodEnumExtensions
@@ -21,6 +21,7 @@ internal static class ApiMethodEnumExtensions
             ApiMethodEnum.GetDataUsed => "getdataused",
             ApiMethodEnum.GetHirezServerStatus => "gethirezserverstatus",
             ApiMethodEnum.GetPatchInfo => "getpatchinfo",
+            ApiMethodEnum.GetGods => "getgods",
             _ => throw new ArgumentOutOfRangeException(nameof(method)),
         };
     }
