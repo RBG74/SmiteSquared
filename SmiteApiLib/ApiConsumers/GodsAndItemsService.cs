@@ -31,11 +31,23 @@ namespace SmiteApiLib.ApiConsumers
                 throw;
             }
         }
-        public async Task<string> GetGodLeaderBoard(int godId, QueueEnum queue)
+        public async Task<IEnumerable<GodLeaderboardDTO>> GetGodLeaderboard(int godId, QueueEnum queue)
         {
-            _logger?.LogInformation($"Calling method {nameof(GetGodLeaderBoard)}");
+            _logger?.LogInformation($"Calling method {nameof(GetGodLeaderboard)}");
 
-            throw new NotImplementedException();
+            try
+            {
+                var baseUrl = ApiUriHelper.GetBaseApiUrl(ApiMethodEnum.GetGodLeaderboard);
+                var url = $"{baseUrl}/{godId}/{(int)queue}";
+                var jsonResponse = await ExecuteRequest(url);
+                var response = JsonSerializer.Deserialize<IEnumerable<GodLeaderboardDTO>>(jsonResponse)!;
+                return response;
+            }
+            catch (Exception ex)
+            {
+                ManageException(ex);
+                throw;
+            }
         }
 
         public async Task<string> GetGodAbilities()

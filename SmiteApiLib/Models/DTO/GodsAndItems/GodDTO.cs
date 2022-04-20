@@ -4,6 +4,7 @@ using System.Text.Json.Serialization;
 
 namespace SmiteApiLib.Models.DTO
 {
+#pragma warning disable CS8618 // Non-nullable field must contain a non-null value when exiting constructor. Consider declaring as nullable.
     public class GodDTO : BaseDTO
     {
         [JsonPropertyName("Ability1")]
@@ -236,5 +237,5 @@ namespace SmiteApiLib.Models.DTO
     }
 
     public enum Roles { Assassin, Guardian, Hunter, Mage, Warrior };
-
+#pragma warning restore CS8618 // Non-nullable field must contain a non-null value when exiting constructor. Consider declaring as nullable.
 }

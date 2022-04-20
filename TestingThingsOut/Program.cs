@@ -3,6 +3,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Logging.Debug;
 using SmiteApiLib;
 using SmiteApiLib.ApiConsumers;
+using SmiteApiLib.Ressources.Enums;
 
 var services = new ServiceCollection();
 
@@ -14,9 +15,9 @@ services.AddSmiteApiServices(new SmiteApiSettings(ApiKeys.DevId, ApiKeys.AuthKey
 var provider = services.BuildServiceProvider();
 
 var connectivitySmiteService = provider.GetService<IConnectivityService>();
-var godsAndItemsService = provider.GetService<IGodsAndItemsService>();
+var godsAndItemsService = provider.GetService<IGodsAndItemsService>()!;
 
 //var test = await connectivitySmiteService.GetHirezServerStatus();
-var gods = await godsAndItemsService.GetGods();
+var godLeaderboard = await godsAndItemsService.GetGodLeaderboard(1779, QueueEnum.ConquestRanked);
 
 Console.Read();

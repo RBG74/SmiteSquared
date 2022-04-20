@@ -9,6 +9,11 @@
         GetHirezServerStatus,
         GetPatchInfo,
         GetGods,
+        GetGodLeaderboard,
+        GetGodAbilities,
+        GetGodSkins,
+        GetGodRecommendedItems,
+        GetItems,
     }
 
     internal static class ApiMethodEnumExtensions
@@ -24,6 +29,11 @@
                 ApiMethodEnum.GetHirezServerStatus => "gethirezserverstatus",
                 ApiMethodEnum.GetPatchInfo => "getpatchinfo",
                 ApiMethodEnum.GetGods => "getgods",
+                ApiMethodEnum.GetGodLeaderboard => "getgodleaderboard",
+                ApiMethodEnum.GetGodAbilities => "getgodaltabilities",
+                ApiMethodEnum.GetGodSkins => "getgodskins",
+                ApiMethodEnum.GetGodRecommendedItems => "getgodrecommendeditems",
+                ApiMethodEnum.GetItems => "getitems",
                 _ => throw new ArgumentOutOfRangeException(nameof(method)),
             };
         }

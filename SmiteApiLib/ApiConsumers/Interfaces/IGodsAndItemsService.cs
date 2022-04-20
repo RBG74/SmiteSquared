@@ -6,7 +6,7 @@ namespace SmiteApiLib.ApiConsumers
     public interface IGodsAndItemsService
     {
         Task<IEnumerable<GodDTO>> GetGods();
-        Task<string> GetGodLeaderBoard(int godId, QueueEnum queue);
+        Task<IEnumerable<GodLeaderboardDTO>> GetGodLeaderboard(int godId, QueueEnum queue);
         Task<string> GetGodAbilities();
         Task<string> GetGodSkins(int godId);
         Task<string> GetGodRecommendedItems(int godId);
