@@ -22,6 +22,7 @@ var godsAndItemsService = provider.GetService<IGodsAndItemsService>()!;
 //var godSkins = await godsAndItemsService.GetGodSkins(1779);
 //var godRecommendedItems = await godsAndItemsService.GetGodRecommendedItems(1779);
 //var t = await godsAndItemsService.GetGodAltAbilities();
-var t = await godsAndItemsService.GetItems();
+//var t = await godsAndItemsService.GetItems();
+//var t2 = await godsAndItemsService.GetItems(LanguageCodeEnum.French);
 
 Console.Read();

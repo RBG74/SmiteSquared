@@ -13,14 +13,14 @@ namespace SmiteApiLib.ApiConsumers
             _logger = loggerFactory.CreateLogger<GodsAndItemsService>();
         }
 
-        public async Task<IEnumerable<GodDTO>> GetGods()
+        public async Task<IEnumerable<GodDTO>> GetGods(LanguageCodeEnum? languageCode = null)
         {
             _logger?.LogInformation($"Calling method {nameof(GetGods)}");
 
             try
             {
                 var baseUrl = ApiUriHelper.GetBaseApiUrl(ApiMethodEnum.GetGods);
-                var url = $"{baseUrl}/{(int)ApiSettings.LanguageCode}";
+                var url = $"{baseUrl}/{(languageCode.HasValue ? (int)languageCode : (int)ApiSettings.LanguageCode)}";
                 var jsonResponse = await ExecuteRequest(url);
                 var response = JsonSerializer.Deserialize<IEnumerable<GodDTO>>(jsonResponse)!;
                 return response;
@@ -68,14 +68,14 @@ namespace SmiteApiLib.ApiConsumers
             }
         }
 
-        public async Task<IEnumerable<GodSkinDTO>> GetGodSkins(int godId)
+        public async Task<IEnumerable<GodSkinDTO>> GetGodSkins(int godId, LanguageCodeEnum? languageCode = null)
         {
             _logger?.LogInformation($"Calling method {nameof(GetGodSkins)}");
 
             try
             {
                 var baseUrl = ApiUriHelper.GetBaseApiUrl(ApiMethodEnum.GetGodSkins);
-                var url = $"{baseUrl}/{godId}/{(int)ApiSettings.LanguageCode}";
+                var url = $"{baseUrl}/{godId}/{(languageCode.HasValue ? (int)languageCode : (int)ApiSettings.LanguageCode)}";
                 var jsonResponse = await ExecuteRequest(url);
                 var response = JsonSerializer.Deserialize<IEnumerable<GodSkinDTO>>(jsonResponse)!;
                 return response;
@@ -87,14 +87,14 @@ namespace SmiteApiLib.ApiConsumers
             }
         }
 
-        public async Task<IEnumerable<GodRecommendedItemDTO>> GetGodRecommendedItems(int godId)
+        public async Task<IEnumerable<GodRecommendedItemDTO>> GetGodRecommendedItems(int godId, LanguageCodeEnum? languageCode = null)
         {
             _logger?.LogInformation($"Calling method {nameof(GetGodRecommendedItems)}");
 
             try
             {
                 var baseUrl = ApiUriHelper.GetBaseApiUrl(ApiMethodEnum.GetGodRecommendedItems);
-                var url = $"{baseUrl}/{godId}/{(int)ApiSettings.LanguageCode}";
+                var url = $"{baseUrl}/{godId}/{(languageCode.HasValue ? (int)languageCode : (int)ApiSettings.LanguageCode)}";
                 var jsonResponse = await ExecuteRequest(url);
                 var response = JsonSerializer.Deserialize<IEnumerable<GodRecommendedItemDTO>>(jsonResponse)!;
                 return response;
@@ -106,14 +106,14 @@ namespace SmiteApiLib.ApiConsumers
             }
         }
 
-        public async Task<IEnumerable<ItemDTO>> GetItems()
+        public async Task<IEnumerable<ItemDTO>> GetItems(LanguageCodeEnum? languageCode = null)
         {
             _logger?.LogInformation($"Calling method {nameof(GetItems)}");
 
             try
             {
                 var baseUrl = ApiUriHelper.GetBaseApiUrl(ApiMethodEnum.GetItems);
-                var url = $"{baseUrl}/{(int)ApiSettings.LanguageCode}";
+                var url = $"{baseUrl}/{(languageCode.HasValue ? (int)languageCode : (int)ApiSettings.LanguageCode)}";
                 var jsonResponse = await ExecuteRequest(url);
                 var response = JsonSerializer.Deserialize<IEnumerable<ItemDTO>>(jsonResponse)!;
                 return response;
