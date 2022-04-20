@@ -68,11 +68,23 @@ namespace SmiteApiLib.ApiConsumers
             }
         }
 
-        public async Task<string> GetGodSkins(int godId)
+        public async Task<IEnumerable<GodSkinDTO>> GetGodSkins(int godId)
         {
             _logger?.LogInformation($"Calling method {nameof(GetGodSkins)}");
 
-            throw new NotImplementedException();
+            try
+            {
+                var baseUrl = ApiUriHelper.GetBaseApiUrl(ApiMethodEnum.GetGodSkins);
+                var url = $"{baseUrl}/{godId}/{(int)ApiSettings.LanguageCode}";
+                var jsonResponse = await ExecuteRequest(url);
+                var response = JsonSerializer.Deserialize<IEnumerable<GodSkinDTO>>(jsonResponse)!;
+                return response;
+            }
+            catch (Exception ex)
+            {
+                ManageException(ex);
+                throw;
+            }
         }
 
         public async Task<string> GetGodRecommendedItems(int godId)

@@ -130,7 +130,7 @@ namespace SmiteApiLib.Models.DTO
 
         [JsonPropertyName("Roles")]
         [JsonConverter(typeof(JsonStringEnumConverter))]
-        public Roles Roles { get; set; }
+        public RolesEnum Roles { get; set; }
 
         [JsonPropertyName("Speed")]
         public long Speed { get; set; }
@@ -236,6 +236,6 @@ namespace SmiteApiLib.Models.DTO
         public Uri Url { get; set; }
     }
 
-    public enum Roles { Assassin, Guardian, Hunter, Mage, Warrior };
+    public enum RolesEnum { Assassin, Guardian, Hunter, Mage, Warrior };
 #pragma warning restore CS8618 // Non-nullable field must contain a non-null value when exiting constructor. Consider declaring as nullable.
 }
