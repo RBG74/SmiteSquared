@@ -10,6 +10,6 @@ namespace SmiteApiLib.ApiConsumers
         Task<IEnumerable<GodAltAbilityDTO>> GetGodAltAbilities();
         Task<IEnumerable<GodSkinDTO>> GetGodSkins(int godId);
         Task<IEnumerable<GodRecommendedItemDTO>> GetGodRecommendedItems(int godId);
-        Task<string> GetItems();
+        Task<IEnumerable<ItemDTO>> GetItems();
     }
 }

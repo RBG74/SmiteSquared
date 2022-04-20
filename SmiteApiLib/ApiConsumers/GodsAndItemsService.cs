@@ -106,11 +106,23 @@ namespace SmiteApiLib.ApiConsumers
             }
         }
 
-        public async Task<string> GetItems()
+        public async Task<IEnumerable<ItemDTO>> GetItems()
         {
             _logger?.LogInformation($"Calling method {nameof(GetItems)}");
 
-            throw new NotImplementedException();
+            try
+            {
+                var baseUrl = ApiUriHelper.GetBaseApiUrl(ApiMethodEnum.GetItems);
+                var url = $"{baseUrl}/{(int)ApiSettings.LanguageCode}";
+                var jsonResponse = await ExecuteRequest(url);
+                var response = JsonSerializer.Deserialize<IEnumerable<ItemDTO>>(jsonResponse)!;
+                return response;
+            }
+            catch (Exception ex)
+            {
+                ManageException(ex);
+                throw;
+            }
         }
 
     }

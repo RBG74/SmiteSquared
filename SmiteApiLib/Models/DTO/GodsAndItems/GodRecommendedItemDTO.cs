@@ -32,7 +32,7 @@ namespace SmiteApiLib.Models.DTO
 
         [JsonPropertyName("Role")]
         [JsonConverter(typeof(JsonStringEnumConverter))]
-        public RoleEnum Role { get; set; }
+        public RecommendedRoleEnum Role { get; set; }
 
         [JsonPropertyName("role_value_id")]
         public long RoleValueId { get; set; }
@@ -40,7 +40,7 @@ namespace SmiteApiLib.Models.DTO
 
     public enum CategoryEnum { Consumable, Core, Damage, Defensive, Relic, Starter };
 
-    public enum RoleEnum { Arena, Ngm3_Pep, Standard, Tutorial };
+    public enum RecommendedRoleEnum { Arena, Ngm3_Pep, Standard, Tutorial };
 
 
 #pragma warning restore CS8618 // Non-nullable field must contain a non-null value when exiting constructor. Consider declaring as nullable.
