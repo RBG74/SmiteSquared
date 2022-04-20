@@ -18,6 +18,7 @@ var connectivitySmiteService = provider.GetService<IConnectivityService>();
 var godsAndItemsService = provider.GetService<IGodsAndItemsService>()!;
 
 //var test = await connectivitySmiteService.GetHirezServerStatus();
-var godLeaderboard = await godsAndItemsService.GetGodLeaderboard(1779, QueueEnum.ConquestRanked);
+//var godLeaderboard = await godsAndItemsService.GetGodLeaderboard(1779, QueueEnum.ConquestRanked);
+//var t = await godsAndItemsService.GetGodAltAbilities();
 
 Console.Read();

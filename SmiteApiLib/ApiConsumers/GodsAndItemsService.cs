@@ -50,11 +50,22 @@ namespace SmiteApiLib.ApiConsumers
             }
         }
 
-        public async Task<string> GetGodAbilities()
+        public async Task<IEnumerable<GodAltAbilityDTO>> GetGodAltAbilities()
         {
-            _logger?.LogInformation($"Calling method {nameof(GetGodAbilities)}");
+            _logger?.LogInformation($"Calling method {nameof(GetGodAltAbilities)}");
 
-            throw new NotImplementedException();
+            try
+            {
+                var url = ApiUriHelper.GetBaseApiUrl(ApiMethodEnum.GetGodAltAbilities);
+                var jsonResponse = await ExecuteRequest(url);
+                var response = JsonSerializer.Deserialize<IEnumerable<GodAltAbilityDTO>>(jsonResponse)!;
+                return response;
+            }
+            catch (Exception ex)
+            {
+                ManageException(ex);
+                throw;
+            }
         }
 
         public async Task<string> GetGodSkins(int godId)
