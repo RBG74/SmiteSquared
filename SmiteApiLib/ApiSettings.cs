@@ -1,33 +1,40 @@
-﻿public class SmiteApiSettings
+﻿using SmiteApiLib.Ressources.Enums;
+
+namespace SmiteApiLib
 {
-    public SmiteApiSettings(string devId, string authKey)
+    public class SmiteApiSettings
     {
-        DevId = devId;
-        AuthKey = authKey;
+        public SmiteApiSettings(string devId, string authKey)
+        {
+            DevId = devId;
+            AuthKey = authKey;
+        }
+
+        public string DevId;
+        public string AuthKey;
+        public ResponseFormatEnum ResponseFormat = ResponseFormatEnum.Json;
+        public LanguageCodeEnum LanguageCode = LanguageCodeEnum.English;
     }
 
-    public string DevId;
-    public string AuthKey;
-    public ResponseFormatEnum ResponseFormat = ResponseFormatEnum.Json;
-    public LanguageCodeEnum LanguageCode = LanguageCodeEnum.English;
-}
-
-internal static class ApiSettings
-{
-    public static void Init(SmiteApiSettings smiteApiSettings)
+    internal static class ApiSettings
     {
-        DevId = smiteApiSettings.DevId ?? throw new ArgumentNullException(nameof(smiteApiSettings.DevId));
-        AuthKey = smiteApiSettings.AuthKey ?? throw new ArgumentNullException(nameof(smiteApiSettings.AuthKey));
-        LanguageCode = smiteApiSettings.LanguageCode;
-        ResponseFormat = smiteApiSettings.ResponseFormat;
+        public static void Init(SmiteApiSettings smiteApiSettings)
+        {
+            DevId = smiteApiSettings.DevId ?? throw new ArgumentNullException(nameof(smiteApiSettings.DevId));
+            AuthKey = smiteApiSettings.AuthKey ?? throw new ArgumentNullException(nameof(smiteApiSettings.AuthKey));
+            LanguageCode = smiteApiSettings.LanguageCode;
+            ResponseFormat = smiteApiSettings.ResponseFormat;
 
-        WasInitialized = true;
+            WasInitialized = true;
+        }
+
+        internal static bool WasInitialized = false;
+
+#pragma warning disable CS8618 // Non-nullable field must contain a non-null value when exiting constructor. Consider declaring as nullable.
+        internal static string DevId;
+        internal static string AuthKey;
+#pragma warning restore CS8618 // Non-nullable field must contain a non-null value when exiting constructor. Consider declaring as nullable.
+        internal static ResponseFormatEnum ResponseFormat;
+        internal static LanguageCodeEnum LanguageCode;
     }
-
-    internal static bool WasInitialized = false;
-
-    internal static string DevId;
-    internal static string AuthKey;
-    internal static ResponseFormatEnum ResponseFormat;
-    internal static LanguageCodeEnum LanguageCode;
 }

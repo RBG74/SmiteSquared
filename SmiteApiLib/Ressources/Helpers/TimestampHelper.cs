@@ -1,7 +1,10 @@
-﻿internal static class TimestampHelper
+﻿namespace SmiteApiLib.Ressources.Helpers
 {
-    public static string GetUtcTimestamp()
+    internal static class TimestampHelper
     {
-        return DateTime.UtcNow.ToString("yyyyMMddHHmmss");
+        public static string GetUtcTimestamp()
+        {
+            return DateTime.UtcNow.ToString("yyyyMMddHHmmss");
+        }
     }
 }

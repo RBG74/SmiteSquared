@@ -1,23 +1,26 @@
-﻿public enum ResponseFormatEnum
+﻿namespace SmiteApiLib.Ressources.Enums
 {
-    Json,
-    Xml
-}
-
-public static class ResponseFormatEnumExtensions
-{
-    public static string ToFriendlyString(this ResponseFormatEnum responseFormat)
+    public enum ResponseFormatEnum
     {
-        switch (responseFormat)
+        Json,
+        Xml
+    }
+
+    public static class ResponseFormatEnumExtensions
+    {
+        public static string ToFriendlyString(this ResponseFormatEnum responseFormat)
         {
-            case ResponseFormatEnum.Json:
-                return "Json";
+            switch (responseFormat)
+            {
+                case ResponseFormatEnum.Json:
+                    return "Json";
 
-            case ResponseFormatEnum.Xml:
-                return "Xml";
+                case ResponseFormatEnum.Xml:
+                    return "Xml";
 
-            default:
-                throw new ArgumentOutOfRangeException(nameof(responseFormat));
+                default:
+                    throw new ArgumentOutOfRangeException(nameof(responseFormat));
+            }
         }
     }
 }

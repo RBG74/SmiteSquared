@@ -1,11 +1,15 @@
 ﻿using SmiteApiLib.Models.DTO;
+using SmiteApiLib.Ressources.Enums;
 
-public interface IGodsAndItemsService
+namespace SmiteApiLib.ApiConsumers
 {
-    Task<IEnumerable<GodDTO>> GetGods();
-    Task<string> GetGodLeaderBoard(int godId, QueueEnum queue);
-    Task<string> GetGodAbilities();
-    Task<string> GetGodSkins(int godId);
-    Task<string> GetGodRecommendedItems(int godId);
-    Task<string> GetItems();
+    public interface IGodsAndItemsService
+    {
+        Task<IEnumerable<GodDTO>> GetGods();
+        Task<string> GetGodLeaderBoard(int godId, QueueEnum queue);
+        Task<string> GetGodAbilities();
+        Task<string> GetGodSkins(int godId);
+        Task<string> GetGodRecommendedItems(int godId);
+        Task<string> GetItems();
+    }
 }

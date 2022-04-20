@@ -1,80 +1,85 @@
 ﻿using SmiteApiLib.Ressources.Constants;
+using SmiteApiLib.Ressources.Enums;
+using SmiteApiLib.Ressources.Exceptions;
 using System.Text;
 
-internal static class ApiUriHelper
+namespace SmiteApiLib.Ressources.Helpers
 {
-
-    /// <summary>
-    /// Creates a base url of type {baseUrl}/{methodName[ResponseFormat]}/{developerId}/{signature}/{0}/{timestamp}
-    /// </summary>
-    /// <param name="method"></param>
-    public static string GetBaseApiUrl(ApiMethodEnum method)
+    internal static class ApiUriHelper
     {
-        try
+
+        /// <summary>
+        /// Creates a base url of type {baseUrl}/{methodName[ResponseFormat]}/{developerId}/{signature}/{0}/{timestamp}
+        /// </summary>
+        /// <param name="method"></param>
+        public static string GetBaseApiUrl(ApiMethodEnum method)
         {
-            if (!ApiSettings.WasInitialized) throw new ApiSettingsNotInitializedException();
-            if (method == ApiMethodEnum.CreateSession) throw new ArgumentException($"Use method {nameof(GetCreateSessionUrl)} to get the url for {ApiMethodEnum.CreateSession.GetMethodName()}.");
+            try
+            {
+                if (!ApiSettings.WasInitialized) throw new ApiSettingsNotInitializedException();
+                if (method == ApiMethodEnum.CreateSession) throw new ArgumentException($"Use method {nameof(GetCreateSessionUrl)} to get the url for {ApiMethodEnum.CreateSession.GetMethodName()}.");
 
-            var timestamp = TimestampHelper.GetUtcTimestamp();
+                var timestamp = TimestampHelper.GetUtcTimestamp();
 
-            var url = new StringBuilder()
-                .Append(ApiStuff.BaseUrl + "/")
-                .Append(method.GetMethodNameAndFormat(ApiSettings.ResponseFormat) + "/")
-                .Append(ApiSettings.DevId + "/")
-                .Append(CreateSignature(method, timestamp) + "/")
-                .Append("{0}/") //SessionId will be inserted here
-                .Append(timestamp)
-                .ToString();
+                var url = new StringBuilder()
+                    .Append(ApiStuff.BaseUrl + "/")
+                    .Append(method.GetMethodNameAndFormat(ApiSettings.ResponseFormat) + "/")
+                    .Append(ApiSettings.DevId + "/")
+                    .Append(CreateSignature(method, timestamp) + "/")
+                    .Append("{0}/") //SessionId will be inserted here
+                    .Append(timestamp)
+                    .ToString();
 
-            return url;
+                return url;
+            }
+            catch (Exception ex)
+            {
+                //TODO Handle logs
+                throw;
+            }
         }
-        catch (Exception ex)
+
+        public static string GetCreateSessionUrl()
         {
-            //TODO Handle logs
-            throw;
+            try
+            {
+                if (!ApiSettings.WasInitialized) throw new ApiSettingsNotInitializedException();
+
+                var timestamp = TimestampHelper.GetUtcTimestamp();
+                var url = new StringBuilder()
+                    .Append(ApiStuff.BaseUrl + "/")
+                    .Append(ApiMethodEnum.CreateSession.GetMethodNameAndFormat(ApiSettings.ResponseFormat) + "/")
+                    .Append(ApiSettings.DevId + "/")
+                    .Append(CreateSignature(ApiMethodEnum.CreateSession, timestamp) + "/")
+                    .Append(timestamp)
+                    .ToString();
+                return url;
+            }
+            catch (Exception ex)
+            {
+                //TODO Handle logs
+                throw;
+            }
         }
-    }
 
-    public static string GetCreateSessionUrl()
-    {
-        try
+        private static string CreateSignature(ApiMethodEnum method, string timestamp)
         {
-            if (!ApiSettings.WasInitialized) throw new ApiSettingsNotInitializedException();
+            try
+            {
+                if (!ApiSettings.WasInitialized) throw new ApiSettingsNotInitializedException();
+                if (string.IsNullOrWhiteSpace(timestamp)) throw new ArgumentNullException(nameof(timestamp));
 
-            var timestamp = TimestampHelper.GetUtcTimestamp();
-            var url = new StringBuilder()
-                .Append(ApiStuff.BaseUrl + "/")
-                .Append(ApiMethodEnum.CreateSession.GetMethodNameAndFormat(ApiSettings.ResponseFormat) + "/")
-                .Append(ApiSettings.DevId + "/")
-                .Append(CreateSignature(ApiMethodEnum.CreateSession, timestamp) + "/")
-                .Append(timestamp)
-                .ToString();
-            return url;
-        }
-        catch (Exception ex)
-        {
-            //TODO Handle logs
-            throw;
-        }
-    }
+                var toHash = ApiSettings.DevId + method.GetMethodName() + ApiSettings.AuthKey + timestamp;
 
-    private static string CreateSignature(ApiMethodEnum method, string timestamp)
-    {
-        try
-        {
-            if (!ApiSettings.WasInitialized) throw new ApiSettingsNotInitializedException();
-            if (string.IsNullOrWhiteSpace(timestamp)) throw new ArgumentNullException(nameof(timestamp));
+                var signature = MD5Helper.CreateMD5Hash(toHash);
 
-            var toHash = ApiSettings.DevId + method.GetMethodName() + ApiSettings.AuthKey + timestamp;
-
-            var signature = MD5Helper.CreateMD5Hash(toHash);
-
-            return signature;
-        }
-        catch (Exception ex)
-        {
-            //TODO Handle logs
-            throw;
+                return signature;
+            }
+            catch (Exception ex)
+            {
+                //TODO Handle logs
+                throw;
+            }
         }
     }
 }

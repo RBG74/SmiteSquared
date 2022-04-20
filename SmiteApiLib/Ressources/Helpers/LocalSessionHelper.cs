@@ -1,18 +1,21 @@
 ﻿using System.Reflection;
 
-internal static class LocalSessionHelper
+namespace SmiteApiLib.Ressources.Helpers
 {
-    private static string path = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), @"Ressources\Session.json");
-
-    internal async static Task<string?> GetExistingSessionId()
+    internal static class LocalSessionHelper
     {
-        if (!File.Exists(path)) return null;
-        var sessionId = await File.ReadAllTextAsync(path);
-        return sessionId;
-    }
+        private static string path = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), @"Ressources\Session.json");
 
-    internal async static Task WriteSessionId(string sessionId)
-    {
-        await File.WriteAllTextAsync(path, sessionId);
+        internal async static Task<string?> GetExistingSessionId()
+        {
+            if (!File.Exists(path)) return null;
+            var sessionId = await File.ReadAllTextAsync(path);
+            return sessionId;
+        }
+
+        internal async static Task WriteSessionId(string sessionId)
+        {
+            await File.WriteAllTextAsync(path, sessionId);
+        }
     }
 }

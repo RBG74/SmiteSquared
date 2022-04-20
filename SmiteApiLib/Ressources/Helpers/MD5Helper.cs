@@ -1,19 +1,22 @@
 ﻿using System.Security.Cryptography;
 using System.Text;
 
-internal static class MD5Helper
+namespace SmiteApiLib.Ressources.Helpers
 {
-    internal static string CreateMD5Hash(string input)
+    internal static class MD5Helper
     {
-        var md5 = MD5.Create();
-        var bytes = Encoding.UTF8.GetBytes(input);
-        bytes = md5.ComputeHash(bytes);
-        var sb = new StringBuilder();
-        foreach (byte b in bytes)
+        internal static string CreateMD5Hash(string input)
         {
-            sb.Append(b.ToString("x2").ToLower());
+            var md5 = MD5.Create();
+            var bytes = Encoding.UTF8.GetBytes(input);
+            bytes = md5.ComputeHash(bytes);
+            var sb = new StringBuilder();
+            foreach (byte b in bytes)
+            {
+                sb.Append(b.ToString("x2").ToLower());
+            }
+            return sb.ToString();
         }
-        return sb.ToString();
-    }
 
+    }
 }

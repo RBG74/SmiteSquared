@@ -1,7 +1,8 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Logging.Debug;
-
+using SmiteApiLib;
+using SmiteApiLib.ApiConsumers;
 
 var services = new ServiceCollection();
 

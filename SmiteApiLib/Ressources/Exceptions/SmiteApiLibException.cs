@@ -1,6 +1,9 @@
-﻿public class SmiteApiLibException : Exception
+﻿namespace SmiteApiLib.Ressources.Exceptions
 {
-    public SmiteApiLibException(Exception ex) : base(ex.Message, ex)
+    public class SmiteApiLibException : Exception
     {
+        public SmiteApiLibException(Exception ex) : base(ex.Message, ex)
+        {
+        }
     }
 }

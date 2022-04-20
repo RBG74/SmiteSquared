@@ -1,17 +1,21 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
+using SmiteApiLib.ApiConsumers;
 
-public static class ServiceCollectionExtensions
+namespace SmiteApiLib
 {
-    public static void AddSmiteApiServices(this IServiceCollection services, SmiteApiSettings apiSettings)
+    public static class ServiceCollectionExtensions
     {
-        if(string.IsNullOrWhiteSpace(apiSettings.DevId)) throw new ArgumentNullException(nameof(apiSettings.DevId));
-        if(string.IsNullOrWhiteSpace(apiSettings.AuthKey)) throw new ArgumentNullException(nameof(apiSettings.AuthKey));
-        ApiSettings.Init(apiSettings);
+        public static void AddSmiteApiServices(this IServiceCollection services, SmiteApiSettings apiSettings)
+        {
+            if (string.IsNullOrWhiteSpace(apiSettings.DevId)) throw new ArgumentNullException(nameof(apiSettings.DevId));
+            if (string.IsNullOrWhiteSpace(apiSettings.AuthKey)) throw new ArgumentNullException(nameof(apiSettings.AuthKey));
+            ApiSettings.Init(apiSettings);
 
-        services.AddHttpClient<IConnectivityService>();
-        services.AddScoped<IConnectivityService, ConnectivityService>();
+            services.AddHttpClient<IConnectivityService>();
+            services.AddScoped<IConnectivityService, ConnectivityService>();
 
-        services.AddHttpClient<IGodsAndItemsService>();
-        services.AddScoped<IGodsAndItemsService, GodsAndItemsService>();
+            services.AddHttpClient<IGodsAndItemsService>();
+            services.AddScoped<IGodsAndItemsService, GodsAndItemsService>();
+        }
     }
 }

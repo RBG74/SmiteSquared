@@ -1,33 +1,36 @@
-﻿internal enum ApiMethodEnum
+﻿namespace SmiteApiLib.Ressources.Enums
 {
-    Ping,
-    CreateSession,
-    TestSession,
-    GetDataUsed,
-    GetHirezServerStatus,
-    GetPatchInfo,
-    GetGods,
-}
-
-internal static class ApiMethodEnumExtensions
-{
-    public static string GetMethodName(this ApiMethodEnum method)
+    internal enum ApiMethodEnum
     {
-        return method switch
-        {
-            ApiMethodEnum.Ping => "ping",
-            ApiMethodEnum.CreateSession => "createsession",
-            ApiMethodEnum.TestSession => "testsession",
-            ApiMethodEnum.GetDataUsed => "getdataused",
-            ApiMethodEnum.GetHirezServerStatus => "gethirezserverstatus",
-            ApiMethodEnum.GetPatchInfo => "getpatchinfo",
-            ApiMethodEnum.GetGods => "getgods",
-            _ => throw new ArgumentOutOfRangeException(nameof(method)),
-        };
+        Ping,
+        CreateSession,
+        TestSession,
+        GetDataUsed,
+        GetHirezServerStatus,
+        GetPatchInfo,
+        GetGods,
     }
 
-    public static string GetMethodNameAndFormat(this ApiMethodEnum method, ResponseFormatEnum responseFormat)
+    internal static class ApiMethodEnumExtensions
     {
-        return method.GetMethodName() + responseFormat.ToFriendlyString();
+        public static string GetMethodName(this ApiMethodEnum method)
+        {
+            return method switch
+            {
+                ApiMethodEnum.Ping => "ping",
+                ApiMethodEnum.CreateSession => "createsession",
+                ApiMethodEnum.TestSession => "testsession",
+                ApiMethodEnum.GetDataUsed => "getdataused",
+                ApiMethodEnum.GetHirezServerStatus => "gethirezserverstatus",
+                ApiMethodEnum.GetPatchInfo => "getpatchinfo",
+                ApiMethodEnum.GetGods => "getgods",
+                _ => throw new ArgumentOutOfRangeException(nameof(method)),
+            };
+        }
+
+        public static string GetMethodNameAndFormat(this ApiMethodEnum method, ResponseFormatEnum responseFormat)
+        {
+            return method.GetMethodName() + responseFormat.ToFriendlyString();
+        }
     }
 }

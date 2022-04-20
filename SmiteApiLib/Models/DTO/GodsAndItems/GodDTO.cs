@@ -7,19 +7,19 @@ namespace SmiteApiLib.Models.DTO
     public class GodDTO : BaseDTO
     {
         [JsonPropertyName("Ability1")]
-        public string Ability1 { get; set; }
+        public string AbilityName1 { get; set; }
 
         [JsonPropertyName("Ability2")]
-        public string Ability2 { get; set; }
+        public string AbilityName2 { get; set; }
 
         [JsonPropertyName("Ability3")]
-        public string Ability3 { get; set; }
+        public string AbilityName3 { get; set; }
 
         [JsonPropertyName("Ability4")]
-        public string Ability4 { get; set; }
+        public string AbilityName4 { get; set; }
 
         [JsonPropertyName("Ability5")]
-        public string Ability5 { get; set; }
+        public string AbilityName5 { get; set; }
 
         [JsonPropertyName("AbilityId1")]
         public long AbilityId1 { get; set; }
@@ -37,19 +37,19 @@ namespace SmiteApiLib.Models.DTO
         public long AbilityId5 { get; set; }
 
         [JsonPropertyName("Ability_1")]
-        public Ability GodDtoAbility1 { get; set; }
+        public Ability Ability1 { get; set; }
 
         [JsonPropertyName("Ability_2")]
-        public Ability GodDtoAbility2 { get; set; }
+        public Ability Ability2 { get; set; }
 
         [JsonPropertyName("Ability_3")]
-        public Ability GodDtoAbility3 { get; set; }
+        public Ability Ability3 { get; set; }
 
         [JsonPropertyName("Ability_4")]
-        public Ability GodDtoAbility4 { get; set; }
+        public Ability Ability4 { get; set; }
 
         [JsonPropertyName("Ability_5")]
-        public Ability GodDtoAbility5 { get; set; }
+        public Ability Ability5 { get; set; }
 
         [JsonPropertyName("AttackSpeed")]
         public double AttackSpeed { get; set; }
