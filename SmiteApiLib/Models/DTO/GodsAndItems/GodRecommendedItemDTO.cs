@@ -1,13 +1,11 @@
-﻿using SmiteApiLib.Models.DTO.JsonConverters;
-using System.Text.Json;
-using System.Text.Json.Serialization;
+﻿using System.Text.Json.Serialization;
 
 namespace SmiteApiLib.Models.DTO
 {
 #pragma warning disable CS8618 // Non-nullable field must contain a non-null value when exiting constructor. Consider declaring as nullable.
+
     public class GodRecommendedItemDTO : BaseDTO
     {
-
         [JsonPropertyName("god_id")]
         public long GodId { get; set; }
 
@@ -38,10 +36,11 @@ namespace SmiteApiLib.Models.DTO
         public long RoleValueId { get; set; }
     }
 
-    public enum CategoryEnum { Consumable, Core, Damage, Defensive, Relic, Starter };
+    public enum CategoryEnum
+    { Consumable, Core, Damage, Defensive, Relic, Starter };
 
-    public enum RecommendedRoleEnum { Arena, Ngm3_Pep, Standard, Tutorial };
-
+    public enum RecommendedRoleEnum
+    { Arena, Ngm3_Pep, Standard, Tutorial };
 
 #pragma warning restore CS8618 // Non-nullable field must contain a non-null value when exiting constructor. Consider declaring as nullable.
 }

@@ -7,7 +7,6 @@ namespace SmiteApiLib.Ressources.Helpers
 {
     internal static class ApiUriHelper
     {
-
         /// <summary>
         /// Creates a base url of type {baseUrl}/{methodName[ResponseFormat]}/{developerId}/{signature}/{0}/{timestamp}
         /// </summary>

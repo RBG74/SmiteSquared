@@ -1,10 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Text.Json;
+﻿using System.Text.Json;
 using System.Text.Json.Serialization;
-using System.Threading.Tasks;
 
 namespace SmiteApiLib.Models.DTO.JsonConverters
 {
@@ -14,7 +9,7 @@ namespace SmiteApiLib.Models.DTO.JsonConverters
         {
             var json = reader.GetString();
             var converted = new List<RoleEnum>();
-            if(!string.IsNullOrWhiteSpace(json))
+            if (!string.IsNullOrWhiteSpace(json))
             {
                 var splits = json.Split(',');
 

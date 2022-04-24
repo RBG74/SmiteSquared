@@ -1,13 +1,11 @@
-﻿using SmiteApiLib.Models.DTO.JsonConverters;
-using System.Text.Json;
-using System.Text.Json.Serialization;
+﻿using System.Text.Json.Serialization;
 
 namespace SmiteApiLib.Models.DTO
 {
 #pragma warning disable CS8618 // Non-nullable field must contain a non-null value when exiting constructor. Consider declaring as nullable.
+
     public class GodAltAbilityDTO : BaseDTO
     {
-
         [JsonPropertyName("god_id")]
         public long GodId { get; set; }
 
@@ -23,5 +21,6 @@ namespace SmiteApiLib.Models.DTO
         [JsonPropertyName("alt_position")]
         public string AltPosition { get; set; }
     }
+
 #pragma warning restore CS8618 // Non-nullable field must contain a non-null value when exiting constructor. Consider declaring as nullable.
 }

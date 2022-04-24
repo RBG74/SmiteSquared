@@ -3,7 +3,6 @@ using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Logging.Debug;
 using SmiteApiLib;
 using SmiteApiLib.ApiConsumers;
-using SmiteApiLib.Ressources.Enums;
 
 var services = new ServiceCollection();
 

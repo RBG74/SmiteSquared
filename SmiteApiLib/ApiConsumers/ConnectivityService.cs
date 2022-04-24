@@ -68,8 +68,6 @@ namespace SmiteApiLib.ApiConsumers
                 ManageException(ex);
                 throw;
             }
-
-
         }
 
         public async Task<GetPatchInfoDTO> GetPatchInfo()

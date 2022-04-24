@@ -31,6 +31,7 @@ namespace SmiteApiLib.ApiConsumers
                 throw;
             }
         }
+
         public async Task<IEnumerable<GodLeaderboardDTO>> GetGodLeaderboard(int godId, QueueEnum queue)
         {
             _logger?.LogInformation($"Calling method {nameof(GetGodLeaderboard)}");
@@ -124,6 +125,5 @@ namespace SmiteApiLib.ApiConsumers
                 throw;
             }
         }
-
     }
 }

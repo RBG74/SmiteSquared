@@ -15,7 +15,7 @@ namespace SmiteApiLib.Models.DTO
 
         [JsonPropertyName("Session_Cap")]
         public int SessionCap { get; set; }
-        
+
         [JsonPropertyName("Session_Time_Limit")]
         public int SessionTimeLimit { get; set; }
 

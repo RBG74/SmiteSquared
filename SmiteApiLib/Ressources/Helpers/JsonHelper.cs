@@ -1,6 +1,5 @@
 ﻿using SmiteApiLib.Ressources.Constants;
 using System.Text.Json;
-using System.Text.Json.Nodes;
 
 namespace SmiteApiLib.Ressources.Helpers
 {
@@ -20,6 +19,7 @@ namespace SmiteApiLib.Ressources.Helpers
                     case JsonValueKind.Array:
                         returnMessageElement = elements[0].GetProperty(ApiStuff.ReturnMessageJsonProperty);
                         break;
+
                     case JsonValueKind.Object:
                         elements.GetProperty(ApiStuff.ReturnMessageJsonProperty);
                         break;

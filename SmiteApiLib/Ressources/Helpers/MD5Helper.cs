@@ -17,6 +17,5 @@ namespace SmiteApiLib.Ressources.Helpers
             }
             return sb.ToString();
         }
-
     }
 }

@@ -68,6 +68,5 @@ namespace SmiteApiLib.ApiConsumers
             }
             return sessionId;
         }
-
     }
 }
