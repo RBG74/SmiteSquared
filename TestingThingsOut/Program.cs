@@ -9,7 +9,8 @@ var services = new ServiceCollection();
 services.AddLogging(config => config.AddDebug());
 services.Configure<LoggerFilterOptions>(options => options.AddFilter<DebugLoggerProvider>(null /* category*/, LogLevel.Information));
 
-services.AddSmiteApiServices(new SmiteApiSettings(ApiKeys.DevId, ApiKeys.AuthKey));
+//services.AddSmiteApiServices(new SmiteApiSettings(ApiKeys.DevId, ApiKeys.AuthKey));
+services.AddSmiteApiFakeServices();
 
 var provider = services.BuildServiceProvider();
 
@@ -23,5 +24,12 @@ var godsAndItemsService = provider.GetService<IGodsAndItemsService>()!;
 //var t = await godsAndItemsService.GetGodAltAbilities();
 //var t = await godsAndItemsService.GetItems();
 //var t2 = await godsAndItemsService.GetItems(LanguageCodeEnum.French);
+const int thorId = 1779;
+
+var test1 = await godsAndItemsService.GetGods();
+var test2 = await godsAndItemsService.GetGodSkins(thorId);
+var test3 = await godsAndItemsService.GetGodRecommendedItems(thorId);
+var test4 = await godsAndItemsService.GetGodLeaderboard(thorId, SmiteApiLib.Ressources.Enums.QueueEnum.ConquestRanked);
+var test5 = await godsAndItemsService.GetItems();
 
 Console.Read();

@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "Ability1": "Shield of Achilles",
     "Ability2": "Radiant Glory",
@@ -15,7 +15,7 @@
         "itemDescription": {
           "cooldown": "14s",
           "cost": "60\/65\/70\/75\/80",
-          "description": "Achilles punches forward with the edge of his Shield, inflicting massive damage and stunning enemy targets hit by the impact. The force of his punch continues to radiate past his initial target area, dealing 75% damage to targets farther away.",
+          "description": "Achilles punches forward with the edge of his Shield, inflicting massive damage and stunning enemy targets hit by the impact. The force of his punch continues to radiate past his initial target area, dealing 70% damage to targets farther away.",
           "menuitems": [
             {
               "description": "Ability:",
@@ -193,7 +193,7 @@
             },
             {
               "description": "Protections Bonus:",
-              "value": "5 +2 per Level"
+              "value": "5 +1.5 per Level"
             },
             {
               "description": "Movement Speed Bonus:",
@@ -201,7 +201,7 @@
             },
             {
               "description": "Physical Power Bonus:",
-              "value": "3 +2 per Level"
+              "value": "3 +1.5 per Level"
             }
           ]
         }
@@ -243,7 +243,7 @@
       "itemDescription": {
         "cooldown": "14s",
         "cost": "60\/65\/70\/75\/80",
-        "description": "Achilles punches forward with the edge of his Shield, inflicting massive damage and stunning enemy targets hit by the impact. The force of his punch continues to radiate past his initial target area, dealing 75% damage to targets farther away.",
+        "description": "Achilles punches forward with the edge of his Shield, inflicting massive damage and stunning enemy targets hit by the impact. The force of his punch continues to radiate past his initial target area, dealing 70% damage to targets farther away.",
         "menuitems": [
           {
             "description": "Ability:",
@@ -401,7 +401,7 @@
           },
           {
             "description": "Protections Bonus:",
-            "value": "5 +2 per Level"
+            "value": "5 +1.5 per Level"
           },
           {
             "description": "Movement Speed Bonus:",
@@ -409,7 +409,7 @@
           },
           {
             "description": "Physical Power Bonus:",
-            "value": "3 +2 per Level"
+            "value": "3 +1.5 per Level"
           }
         ]
       }
@@ -429,7 +429,8 @@
             "value": "None"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/shield-of-achilles.jpg",
@@ -597,7 +598,7 @@
           "rankitems": [
             {
               "description": "Damage:",
-              "value": "140\/180\/220\/260\/300 (+70% of your Magical Power)"
+              "value": "120\/160\/200\/240\/280 (+65% of your Magical Power)"
             },
             {
               "description": "Max Halos:",
@@ -629,7 +630,7 @@
           "rankitems": [
             {
               "description": "Damage per Tick:",
-              "value": "5 (+10% of your Magical Power)"
+              "value": "5 (+8% of your Magical Power)"
             }
           ]
         }
@@ -794,7 +795,7 @@
         "rankitems": [
           {
             "description": "Damage:",
-            "value": "140\/180\/220\/260\/300 (+70% of your Magical Power)"
+            "value": "120\/160\/200\/240\/280 (+65% of your Magical Power)"
           },
           {
             "description": "Max Halos:",
@@ -821,7 +822,7 @@
         "rankitems": [
           {
             "description": "Damage per Tick:",
-            "value": "5 (+10% of your Magical Power)"
+            "value": "5 (+8% of your Magical Power)"
           }
         ]
       }
@@ -841,7 +842,8 @@
             "value": "None"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/noxious-fumes.jpg",
@@ -933,7 +935,7 @@
           "rankitems": [
             {
               "description": "Damage:",
-              "value": "60\/110\/160\/210\/260 (+80% of your Physical Power)"
+              "value": "60\/110\/160\/210\/260 (+75% of your Physical Power)"
             }
           ]
         }
@@ -969,7 +971,7 @@
             },
             {
               "description": "Slow:",
-              "value": "20\/22.5\/25\/27.5\/30%"
+              "value": "20%"
             }
           ]
         }
@@ -1005,11 +1007,11 @@
           "rankitems": [
             {
               "description": "Damage:",
-              "value": "275\/355\/435\/515\/595 (110% of your Physical Power)"
+              "value": "275\/355\/435\/515\/595 (100% of your Physical Power)"
             },
             {
               "description": "Slow:",
-              "value": "20\/22.5\/25\/27.5\/30%"
+              "value": "20%"
             },
             {
               "description": "Physical Protection Reduction:",
@@ -1148,7 +1150,7 @@
         "rankitems": [
           {
             "description": "Damage:",
-            "value": "60\/110\/160\/210\/260 (+80% of your Physical Power)"
+            "value": "60\/110\/160\/210\/260 (+75% of your Physical Power)"
           }
         ]
       }
@@ -1179,7 +1181,7 @@
           },
           {
             "description": "Slow:",
-            "value": "20\/22.5\/25\/27.5\/30%"
+            "value": "20%"
           }
         ]
       }
@@ -1210,11 +1212,11 @@
         "rankitems": [
           {
             "description": "Damage:",
-            "value": "275\/355\/435\/515\/595 (110% of your Physical Power)"
+            "value": "275\/355\/435\/515\/595 (100% of your Physical Power)"
           },
           {
             "description": "Slow:",
-            "value": "20\/22.5\/25\/27.5\/30%"
+            "value": "20%"
           },
           {
             "description": "Physical Protection Reduction:",
@@ -1269,7 +1271,8 @@
             "value": "None"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/hive.jpg",
@@ -1498,7 +1501,8 @@
               "value": "45s"
             }
           ],
-          "rankitems": []
+          "rankitems": [
+          ]
         }
       },
       "Id": 11361,
@@ -1717,7 +1721,8 @@
             "value": "45s"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "basicAttack": {
@@ -1735,7 +1740,8 @@
             "value": "None"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/undead-surge.jpg",
@@ -2195,7 +2201,8 @@
             "value": "1\/.5\/1 damage and swing time"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/divine-presence.jpg",
@@ -2591,7 +2598,8 @@
             "value": "None"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/shifting-sands.jpg",
@@ -2979,7 +2987,8 @@
             "value": "None"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/plague-of-locusts.jpg",
@@ -3415,7 +3424,8 @@
             "value": "1\/0.5\/0.5\/1x Damage and Speed"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/water-illusion.jpg",
@@ -3600,7 +3610,8 @@
               "value": "Self"
             }
           ],
-          "rankitems": []
+          "rankitems": [
+          ]
         }
       },
       "Id": 13180,
@@ -3775,7 +3786,8 @@
             "value": "Self"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "basicAttack": {
@@ -3793,7 +3805,8 @@
             "value": "None"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/kiss.jpg",
@@ -3957,7 +3970,7 @@
           "rankitems": [
             {
               "description": "Damage per Tick:",
-              "value": "70\/95\/120\/145\/170 (+30% of your Physical Power)"
+              "value": "70\/95\/120\/145\/170 (+25% of your Physical Power)"
             }
           ]
         }
@@ -4150,7 +4163,7 @@
         "rankitems": [
           {
             "description": "Damage per Tick:",
-            "value": "70\/95\/120\/145\/170 (+30% of your Physical Power)"
+            "value": "70\/95\/120\/145\/170 (+25% of your Physical Power)"
           }
         ]
       }
@@ -4197,7 +4210,8 @@
             "value": "None"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/so-beautiful.jpg",
@@ -4249,7 +4263,7 @@
             },
             {
               "description": "Damage per Tick:",
-              "value": "10\/18\/26\/34\/42 (+10% of your Physical Power)"
+              "value": "10\/18\/26\/34\/42 (+8% of your Physical Power)"
             },
             {
               "description": "Healing per Tick:",
@@ -4395,14 +4409,15 @@
         "itemDescription": {
           "cooldown": "",
           "cost": "",
-          "description": "Arachne's Basic Attacks gain 1.5% Physical damage for every 5% of a target's missing Health. ",
+          "description": "Arachne's Basic Attacks gain 1.25% Physical damage for every 5% of a target's missing Health. ",
           "menuitems": [
             {
               "description": "Affects:",
               "value": "Self"
             }
           ],
-          "rankitems": []
+          "rankitems": [
+          ]
         }
       },
       "Id": 10493,
@@ -4464,7 +4479,7 @@
           },
           {
             "description": "Damage per Tick:",
-            "value": "10\/18\/26\/34\/42 (+10% of your Physical Power)"
+            "value": "10\/18\/26\/34\/42 (+8% of your Physical Power)"
           },
           {
             "description": "Healing per Tick:",
@@ -4590,14 +4605,15 @@
       "itemDescription": {
         "cooldown": "",
         "cost": "",
-        "description": "Arachne's Basic Attacks gain 1.5% Physical damage for every 5% of a target's missing Health. ",
+        "description": "Arachne's Basic Attacks gain 1.25% Physical damage for every 5% of a target's missing Health. ",
         "menuitems": [
           {
             "description": "Affects:",
             "value": "Self"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "basicAttack": {
@@ -4615,7 +4631,8 @@
             "value": ".5\/1\/1x damage and swing time"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/venomous-bite.jpg",
@@ -4667,7 +4684,7 @@
             },
             {
               "description": "God Damage per Tick:",
-              "value": "25\/45\/65\/85\/105 (+15% of your Magical Power)"
+              "value": "20\/40\/60\/80\/100 (+15% of your Magical Power)"
             },
             {
               "description": "Speed Buff per Target Shackled:",
@@ -4832,7 +4849,8 @@
               "value": "Self"
             }
           ],
-          "rankitems": []
+          "rankitems": [
+          ]
         }
       },
       "Id": 8317,
@@ -4894,7 +4912,7 @@
           },
           {
             "description": "God Damage per Tick:",
-            "value": "25\/45\/65\/85\/105 (+15% of your Magical Power)"
+            "value": "20\/40\/60\/80\/100 (+15% of your Magical Power)"
           },
           {
             "description": "Speed Buff per Target Shackled:",
@@ -5039,7 +5057,8 @@
             "value": "Self"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "basicAttack": {
@@ -5057,7 +5076,8 @@
             "value": "1\/.75\/1\/1.25x damage and swing time"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/shackles.jpg",
@@ -5258,7 +5278,8 @@
               "value": "Self"
             }
           ],
-          "rankitems": []
+          "rankitems": [
+          ]
         }
       },
       "Id": 16348,
@@ -5449,7 +5470,8 @@
             "value": "Self"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "basicAttack": {
@@ -5467,7 +5489,8 @@
             "value": "None"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/transgressors-fate.jpg",
@@ -5519,7 +5542,7 @@
           "rankitems": [
             {
               "description": "Druid Damage:",
-              "value": "80\/110\/140\/170\/200 (+35% of your Magical Power)"
+              "value": "60\/95\/130\/165\/200 (+35% of your Magical Power)"
             },
             {
               "description": "Druid Heal:",
@@ -5619,7 +5642,7 @@
             },
             {
               "description": "Bear Damage:",
-              "value": "70\/120\/170\/220\/270 (+50% of your Magical Power)"
+              "value": "65\/110\/155\/200\/245 (+50% of your Magical Power)"
             },
             {
               "description": "Bear Slow:",
@@ -5755,7 +5778,7 @@
         "rankitems": [
           {
             "description": "Druid Damage:",
-            "value": "80\/110\/140\/170\/200 (+35% of your Magical Power)"
+            "value": "60\/95\/130\/165\/200 (+35% of your Magical Power)"
           },
           {
             "description": "Druid Heal:",
@@ -5845,7 +5868,7 @@
           },
           {
             "description": "Bear Damage:",
-            "value": "70\/120\/170\/220\/270 (+50% of your Magical Power)"
+            "value": "65\/110\/155\/200\/245 (+50% of your Magical Power)"
           },
           {
             "description": "Bear Slow:",
@@ -5927,7 +5950,8 @@
             "value": "1x damage and swing time"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/energy-surge.jpg",
@@ -6116,7 +6140,8 @@
               "value": "Passive"
             }
           ],
-          "rankitems": []
+          "rankitems": [
+          ]
         }
       },
       "Id": 8961,
@@ -6295,7 +6320,8 @@
             "value": "Passive"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "basicAttack": {
@@ -6313,7 +6339,8 @@
             "value": "1\/1\/2x damage and swing time, hitting in an AoE on the final blow"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/preemptive-strike.jpg",
@@ -6441,7 +6468,7 @@
           "rankitems": [
             {
               "description": "Damage:",
-              "value": "80\/135\/190\/245\/300 (+45% of your Magical Power)"
+              "value": "80\/130\/180\/230\/280 (+40% of your Magical Power)"
             },
             {
               "description": "Movement Speed:",
@@ -6655,7 +6682,7 @@
         "rankitems": [
           {
             "description": "Damage:",
-            "value": "80\/135\/190\/245\/300 (+45% of your Magical Power)"
+            "value": "80\/130\/180\/230\/280 (+40% of your Magical Power)"
           },
           {
             "description": "Movement Speed:",
@@ -6749,7 +6776,8 @@
             "value": "1.25\/1.25\/1.25 damage and swing time, hitting in an AoE on the final blow"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/unburden.jpg",
@@ -7185,7 +7213,8 @@
             "value": "1\/0.75\/1.25x damage. Range of 16"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/summon-suku.jpg",
@@ -7637,7 +7666,8 @@
             "value": "None"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/wild-witchcraft.jpg",
@@ -7817,7 +7847,7 @@
           "rankitems": [
             {
               "description": "Damage:",
-              "value": "250\/325\/400\/475\/550 (+70% of your Magical Power)"
+              "value": "230\/300\/370\/440\/510 (+60% of your Magical Power)"
             },
             {
               "description": "Intoxication Debuff Duration:",
@@ -8038,7 +8068,7 @@
         "rankitems": [
           {
             "description": "Damage:",
-            "value": "250\/325\/400\/475\/550 (+70% of your Magical Power)"
+            "value": "230\/300\/370\/440\/510 (+60% of your Magical Power)"
           },
           {
             "description": "Intoxication Debuff Duration:",
@@ -8097,7 +8127,8 @@
             "value": "None"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/chug.jpg",
@@ -8581,7 +8612,8 @@
             "value": "None"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/take-down.jpg",
@@ -8818,7 +8850,8 @@
               "value": "Passive"
             }
           ],
-          "rankitems": []
+          "rankitems": [
+          ]
         }
       },
       "Id": 16084,
@@ -9045,7 +9078,8 @@
             "value": "Passive"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "basicAttack": {
@@ -9063,7 +9097,8 @@
             "value": "None"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/vivid-gaze.jpg",
@@ -9091,7 +9126,7 @@
     "Ability_1": {
       "Description": {
         "itemDescription": {
-          "cooldown": "12s",
+          "cooldown": "14\/13.5\/13\/12.5\/12s",
           "cost": "60\/65\/70\/75\/80",
           "description": "Bastet pounces to her target location, damaging enemies within the radius. For 4 seconds after pouncing, you can press the button again to pounce back to your initial location. Bastet moves 25% faster while in the return pounce state.",
           "menuitems": [
@@ -9147,7 +9182,7 @@
           "rankitems": [
             {
               "description": "Damage per Tick:",
-              "value": "30\/50\/70\/90\/110 (20% of your Physical Power)"
+              "value": "30\/45\/60\/75\/90 (20% of your Physical Power)"
             },
             {
               "description": "Duration:",
@@ -9311,7 +9346,7 @@
     "Type": "Melee, Physical",
     "abilityDescription1": {
       "itemDescription": {
-        "cooldown": "12s",
+        "cooldown": "14\/13.5\/13\/12.5\/12s",
         "cost": "60\/65\/70\/75\/80",
         "description": "Bastet pounces to her target location, damaging enemies within the radius. For 4 seconds after pouncing, you can press the button again to pounce back to your initial location. Bastet moves 25% faster while in the return pounce state.",
         "menuitems": [
@@ -9362,7 +9397,7 @@
         "rankitems": [
           {
             "description": "Damage per Tick:",
-            "value": "30\/50\/70\/90\/110 (20% of your Physical Power)"
+            "value": "30\/45\/60\/75\/90 (20% of your Physical Power)"
           },
           {
             "description": "Duration:",
@@ -9491,7 +9526,8 @@
             "value": "1\/.7\/1.3x damage and swing time"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/pounce.jpg",
@@ -9547,7 +9583,7 @@
             },
             {
               "description": "Slow:",
-              "value": "15\/20\/25\/30\/35% for 2s"
+              "value": "10\/12.5\/15\/17.5\/20% for 2s"
             }
           ]
         }
@@ -9583,7 +9619,7 @@
           "rankitems": [
             {
               "description": "Spin Damage:",
-              "value": "45\/75\/105\/135\/165 (+25% of your Physical Power)"
+              "value": "35\/65\/95\/125\/155 (+25% of your Physical Power)"
             },
             {
               "description": "Slam Damage:",
@@ -9787,7 +9823,7 @@
           },
           {
             "description": "Slow:",
-            "value": "15\/20\/25\/30\/35% for 2s"
+            "value": "10\/12.5\/15\/17.5\/20% for 2s"
           }
         ]
       }
@@ -9818,7 +9854,7 @@
         "rankitems": [
           {
             "description": "Spin Damage:",
-            "value": "45\/75\/105\/135\/165 (+25% of your Physical Power)"
+            "value": "35\/65\/95\/125\/155 (+25% of your Physical Power)"
           },
           {
             "description": "Slam Damage:",
@@ -9959,7 +9995,8 @@
             "value": "Special"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/shield-bash.jpg",
@@ -10011,7 +10048,7 @@
           "rankitems": [
             {
               "description": "Damage:",
-              "value": "100\/145\/190\/235\/280 (+50% of your Magical Power)"
+              "value": "80\/125\/170\/215\/260 (+50% of your Magical Power)"
             },
             {
               "description": "Stun Duration:",
@@ -10135,7 +10172,7 @@
           "rankitems": [
             {
               "description": "Damage:",
-              "value": "150\/250\/350\/450\/550 (+70% of your Magical Power)"
+              "value": "150\/250\/350\/450\/550 (+60% of your Magical Power)"
             },
             {
               "description": "Hits to destroy:",
@@ -10168,7 +10205,8 @@
               "value": "30"
             }
           ],
-          "rankitems": []
+          "rankitems": [
+          ]
         }
       },
       "Id": 10252,
@@ -10230,7 +10268,7 @@
         "rankitems": [
           {
             "description": "Damage:",
-            "value": "100\/145\/190\/235\/280 (+50% of your Magical Power)"
+            "value": "80\/125\/170\/215\/260 (+50% of your Magical Power)"
           },
           {
             "description": "Stun Duration:",
@@ -10339,7 +10377,7 @@
         "rankitems": [
           {
             "description": "Damage:",
-            "value": "150\/250\/350\/450\/550 (+70% of your Magical Power)"
+            "value": "150\/250\/350\/450\/550 (+60% of your Magical Power)"
           },
           {
             "description": "Hits to destroy:",
@@ -10367,7 +10405,8 @@
             "value": "30"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "basicAttack": {
@@ -10385,7 +10424,8 @@
             "value": "None"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/seismic-crush.jpg",
@@ -10565,7 +10605,7 @@
           "rankitems": [
             {
               "description": "Damage Per Hit:",
-              "value": "100\/140\/180\/220\/260 (+35% of your Physical Power)"
+              "value": "100\/135\/170\/205\/240 (+35% of your Physical Power)"
             },
             {
               "description": "Bonus Damage:",
@@ -10786,7 +10826,7 @@
         "rankitems": [
           {
             "description": "Damage Per Hit:",
-            "value": "100\/140\/180\/220\/260 (+35% of your Physical Power)"
+            "value": "100\/135\/170\/205\/240 (+35% of your Physical Power)"
           },
           {
             "description": "Bonus Damage:",
@@ -10845,7 +10885,8 @@
             "value": "1\/1\/1x damage and swing time; 3rd attack hits all enemies in the melee area"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/screech.jpg",
@@ -10897,7 +10938,7 @@
           "rankitems": [
             {
               "description": "Damage:",
-              "value": "50\/80\/110\/140\/170 (20% of your Magical Power)"
+              "value": "40\/70\/100\/130\/160 (20% of your Magical Power)"
             },
             {
               "description": "Stun Duration:",
@@ -11129,7 +11170,7 @@
         "rankitems": [
           {
             "description": "Damage:",
-            "value": "50\/80\/110\/140\/170 (20% of your Magical Power)"
+            "value": "40\/70\/100\/130\/160 (20% of your Magical Power)"
           },
           {
             "description": "Stun Duration:",
@@ -11297,7 +11338,8 @@
             "value": "1\/.8\/.8x damage and swing time"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/paralyzing-spit.jpg",
@@ -11749,7 +11791,8 @@
             "value": "None"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/shifter-of-seasons.jpg",
@@ -11885,7 +11928,7 @@
             },
             {
               "description": "Healing:",
-              "value": "10\/15\/20\/25\/30 (+15% of your Physical Power) every 0.5s"
+              "value": "10\/15\/20\/25\/30 (+10% of your Physical Power) every 0.5s"
             }
           ]
         }
@@ -11897,7 +11940,7 @@
     "Ability_4": {
       "Description": {
         "itemDescription": {
-          "cooldown": "75s",
+          "cooldown": "90s",
           "cost": "80\/90\/100\/110\/120",
           "description": "Chaac charges up his lightning axe for a short duration then unleashes a blast, Silencing, Knocking Up and damaging all enemies around him. While charging up, Chaac has Damage Mitigation and is immune to Crowd Control effects.",
           "menuitems": [
@@ -11954,7 +11997,8 @@
               "value": "Self"
             }
           ],
-          "rankitems": []
+          "rankitems": [
+          ]
         }
       },
       "Id": 9501,
@@ -12090,14 +12134,14 @@
           },
           {
             "description": "Healing:",
-            "value": "10\/15\/20\/25\/30 (+15% of your Physical Power) every 0.5s"
+            "value": "10\/15\/20\/25\/30 (+10% of your Physical Power) every 0.5s"
           }
         ]
       }
     },
     "abilityDescription4": {
       "itemDescription": {
-        "cooldown": "75s",
+        "cooldown": "90s",
         "cost": "80\/90\/100\/110\/120",
         "description": "Chaac charges up his lightning axe for a short duration then unleashes a blast, Silencing, Knocking Up and damaging all enemies around him. While charging up, Chaac has Damage Mitigation and is immune to Crowd Control effects.",
         "menuitems": [
@@ -12149,7 +12193,8 @@
             "value": "Self"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "basicAttack": {
@@ -12167,7 +12212,8 @@
             "value": "1\/.5\/1.5x damage"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/thunder-strike.jpg",
@@ -12547,7 +12593,8 @@
             "value": "None"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/crescent-moon-dance.jpg",
@@ -13063,7 +13110,8 @@
             "value": "1\/1\/.4\/.4\/.4x damage"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/spike-shot.jpg",
@@ -13314,7 +13362,7 @@
     "ManaPerFive": 4.4,
     "ManaPerLevel": 38,
     "Name": "Chernobog",
-    "OnFreeRotation": "true",
+    "OnFreeRotation": "",
     "Pantheon": "Slavic",
     "PhysicalPower": 36,
     "PhysicalPowerPerLevel": 2.6,
@@ -13523,7 +13571,8 @@
             "value": "None"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/crystallized-curses.jpg",
@@ -13959,7 +14008,8 @@
             "value": "None"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/training-exercise.jpg",
@@ -14331,7 +14381,8 @@
             "value": "None"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/time-rift.jpg",
@@ -14387,7 +14438,7 @@
             },
             {
               "description": "Final Hit Damage:",
-              "value": "70\/110\/150\/190\/230 (70% of your Physical Power)"
+              "value": "70\/110\/150\/190\/230 (60% of your Physical Power)"
             }
           ]
         }
@@ -14467,7 +14518,7 @@
             },
             {
               "description": "Claw Damage:",
-              "value": "90\/140\/190\/240\/290 (+85% of your Physical Power)"
+              "value": "90\/140\/190\/240\/290 (+80% of your Physical Power)"
             }
           ]
         }
@@ -14503,7 +14554,7 @@
           "rankitems": [
             {
               "description": "Opening Damage:",
-              "value": "150\/225\/300\/375\/450 (70% of your Physical Power)"
+              "value": "150\/225\/300\/375\/450 (60% of your Physical Power)"
             },
             {
               "description": "Rift Damage per tick:",
@@ -14536,7 +14587,8 @@
               "value": "Passive"
             }
           ],
-          "rankitems": []
+          "rankitems": [
+          ]
         }
       },
       "Id": 20675,
@@ -14602,7 +14654,7 @@
           },
           {
             "description": "Final Hit Damage:",
-            "value": "70\/110\/150\/190\/230 (70% of your Physical Power)"
+            "value": "70\/110\/150\/190\/230 (60% of your Physical Power)"
           }
         ]
       }
@@ -14672,7 +14724,7 @@
           },
           {
             "description": "Claw Damage:",
-            "value": "90\/140\/190\/240\/290 (+85% of your Physical Power)"
+            "value": "90\/140\/190\/240\/290 (+80% of your Physical Power)"
           }
         ]
       }
@@ -14703,7 +14755,7 @@
         "rankitems": [
           {
             "description": "Opening Damage:",
-            "value": "150\/225\/300\/375\/450 (70% of your Physical Power)"
+            "value": "150\/225\/300\/375\/450 (60% of your Physical Power)"
           },
           {
             "description": "Rift Damage per tick:",
@@ -14731,7 +14783,8 @@
             "value": "Passive"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "basicAttack": {
@@ -14749,7 +14802,8 @@
             "value": "1\/1\/1.5x damage and swing time"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/banshees-wail.jpg",
@@ -15249,7 +15303,8 @@
             "value": "1\/1\/1x damage and swing time. Range of 16\/20\/20+AoE"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/sanity-break.jpg",
@@ -15717,7 +15772,8 @@
             "value": "0.7\/0.7\/1\/ damage and speed; Range of 16"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/barbed-spear.jpg",
@@ -16145,7 +16201,8 @@
             "value": "None"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/heart-bomb.jpg",
@@ -16384,7 +16441,7 @@
     "ManaPerFive": 4.6,
     "ManaPerLevel": 40,
     "Name": "Da Ji",
-    "OnFreeRotation": "true",
+    "OnFreeRotation": "",
     "Pantheon": "Chinese",
     "PhysicalPower": 39,
     "PhysicalPowerPerLevel": 2.25,
@@ -16581,7 +16638,8 @@
             "value": "1\/1\/1x damage and swing time"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/horrible-burns.jpg",
@@ -17089,7 +17147,8 @@
             "value": "None"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/fools-gold.jpg",
@@ -17533,7 +17592,8 @@
             "value": "None"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/unruly-magic.jpg",
@@ -17563,7 +17623,7 @@
         "itemDescription": {
           "cooldown": "14s",
           "cost": "60\/65\/70\/75\/80",
-          "description": "Erlang Shen opens his third eye and analyzes the enemy's strengths and weaknesses.  When activated, Erlang Shen gains additional Physical Damage on each strike.\u000a\u000aIf the buff effect has ended and the ability is on Cooldown, successful Basic Attacks reduce the Cooldown of this ability by 1s.",
+          "description": "Erlang Shen opens his third eye and analyzes the enemy's strengths and weaknesses.  When activated, Erlang Shen gains additional Physical Damage and Lifesteal on each strike. He also applies a stacking debuff to enemy gods, reducing their damage dealt to all sources. Stacks last 3s.\u000a\u000aIf the buff effect has ended and the ability is on Cooldown, successful Basic Attacks reduce the Cooldown of this ability by 1s.",
           "menuitems": [
             {
               "description": "Ability:",
@@ -17581,7 +17641,19 @@
           "rankitems": [
             {
               "description": "Physical Damage:",
-              "value": "15\/27\/39\/51\/63 (+10% of your Physical Power)"
+              "value": "12\/22\/32\/42\/52 (+5% of your Physical Power)"
+            },
+            {
+              "description": "Lifesteal",
+              "value": "4\/8\/12\/16\/20 %"
+            },
+            {
+              "description": "Damage Reduction",
+              "value": "3\/4\/5\/6\/7 %"
+            },
+            {
+              "description": "Max Stacks",
+              "value": "3"
             },
             {
               "description": "Duration:",
@@ -17639,7 +17711,7 @@
         "itemDescription": {
           "cooldown": "18\/17.5\/17\/16.5\/16s",
           "cost": "65\/70\/75\/80\/85",
-          "description": "Erlang Shen transforms into a Mink or Turtle and charges forward.\u000aMink: Damages all enemies, stopping on first god hit and increasing Attack Speed for 4s.\u000aTurtle: Knocks up all enemies in path and gains a health shield for 12s.",
+          "description": "Erlang Shen transforms into a Mink or Turtle and charges forward, becoming immune to knock ups and slows.\u000aMink: Damages all enemies, stopping on first god hit and increasing Attack Speed and Movement Speed for 4s.\u000aTurtle: Gains a health shield that is boosted by 75% of your protections from items for 12s.",
           "menuitems": [
             {
               "description": "Ability:",
@@ -17661,7 +17733,7 @@
             },
             {
               "description": "Shield Health:",
-              "value": "70\/110\/150\/190\/230 "
+              "value": "50\/100\/150\/200\/250 "
             },
             {
               "description": "Mink Damage:",
@@ -17670,6 +17742,10 @@
             {
               "description": "Mink Attack Speed:",
               "value": "15\/20\/25\/30\/35%"
+            },
+            {
+              "description": "Mink Movement Speed:",
+              "value": "15%"
             }
           ]
         }
@@ -17701,7 +17777,7 @@
             },
             {
               "description": "Damage Mitigation:",
-              "value": "10\/11.25\/12.5\/13.75\/15%"
+              "value": "10\/12.5\/15\/17.5\/20%"
             },
             {
               "description": "Taunt Duration:",
@@ -17719,7 +17795,7 @@
         "itemDescription": {
           "cooldown": "",
           "cost": "",
-          "description": "Each time Erlang Shen hits an enemy with a Basic Attack, his dog hits as well for 15% of his Basic Attack power and 1% of the target's max. health. The percentage damage only works against gods and minions.",
+          "description": "Each time Erlang Shen hits an enemy with a Basic Attack, his dog hits as well for 7.5% of his Basic Attack power and 1.75% of the target's max. health. The percentage damage only works against gods and minions.",
           "menuitems": [
             {
               "description": "Ability:",
@@ -17737,7 +17813,7 @@
           "rankitems": [
             {
               "description": "Damage:",
-              "value": "(pexistsppropppower\/0.15\/+#\/+15% of your Basic Attack Power)"
+              "value": "(pexistsppropppower\/0.075\/+#\/+7.5% of your Basic Attack Power)"
             }
           ]
         }
@@ -17779,7 +17855,7 @@
       "itemDescription": {
         "cooldown": "14s",
         "cost": "60\/65\/70\/75\/80",
-        "description": "Erlang Shen opens his third eye and analyzes the enemy's strengths and weaknesses.  When activated, Erlang Shen gains additional Physical Damage on each strike.\u000a\u000aIf the buff effect has ended and the ability is on Cooldown, successful Basic Attacks reduce the Cooldown of this ability by 1s.",
+        "description": "Erlang Shen opens his third eye and analyzes the enemy's strengths and weaknesses.  When activated, Erlang Shen gains additional Physical Damage and Lifesteal on each strike. He also applies a stacking debuff to enemy gods, reducing their damage dealt to all sources. Stacks last 3s.\u000a\u000aIf the buff effect has ended and the ability is on Cooldown, successful Basic Attacks reduce the Cooldown of this ability by 1s.",
         "menuitems": [
           {
             "description": "Ability:",
@@ -17797,7 +17873,19 @@
         "rankitems": [
           {
             "description": "Physical Damage:",
-            "value": "15\/27\/39\/51\/63 (+10% of your Physical Power)"
+            "value": "12\/22\/32\/42\/52 (+5% of your Physical Power)"
+          },
+          {
+            "description": "Lifesteal",
+            "value": "4\/8\/12\/16\/20 %"
+          },
+          {
+            "description": "Damage Reduction",
+            "value": "3\/4\/5\/6\/7 %"
+          },
+          {
+            "description": "Max Stacks",
+            "value": "3"
           },
           {
             "description": "Duration:",
@@ -17845,7 +17933,7 @@
       "itemDescription": {
         "cooldown": "18\/17.5\/17\/16.5\/16s",
         "cost": "65\/70\/75\/80\/85",
-        "description": "Erlang Shen transforms into a Mink or Turtle and charges forward.\u000aMink: Damages all enemies, stopping on first god hit and increasing Attack Speed for 4s.\u000aTurtle: Knocks up all enemies in path and gains a health shield for 12s.",
+        "description": "Erlang Shen transforms into a Mink or Turtle and charges forward, becoming immune to knock ups and slows.\u000aMink: Damages all enemies, stopping on first god hit and increasing Attack Speed and Movement Speed for 4s.\u000aTurtle: Gains a health shield that is boosted by 75% of your protections from items for 12s.",
         "menuitems": [
           {
             "description": "Ability:",
@@ -17867,7 +17955,7 @@
           },
           {
             "description": "Shield Health:",
-            "value": "70\/110\/150\/190\/230 "
+            "value": "50\/100\/150\/200\/250 "
           },
           {
             "description": "Mink Damage:",
@@ -17876,6 +17964,10 @@
           {
             "description": "Mink Attack Speed:",
             "value": "15\/20\/25\/30\/35%"
+          },
+          {
+            "description": "Mink Movement Speed:",
+            "value": "15%"
           }
         ]
       }
@@ -17902,7 +17994,7 @@
           },
           {
             "description": "Damage Mitigation:",
-            "value": "10\/11.25\/12.5\/13.75\/15%"
+            "value": "10\/12.5\/15\/17.5\/20%"
           },
           {
             "description": "Taunt Duration:",
@@ -17915,7 +18007,7 @@
       "itemDescription": {
         "cooldown": "",
         "cost": "",
-        "description": "Each time Erlang Shen hits an enemy with a Basic Attack, his dog hits as well for 15% of his Basic Attack power and 1% of the target's max. health. The percentage damage only works against gods and minions.",
+        "description": "Each time Erlang Shen hits an enemy with a Basic Attack, his dog hits as well for 7.5% of his Basic Attack power and 1.75% of the target's max. health. The percentage damage only works against gods and minions.",
         "menuitems": [
           {
             "description": "Ability:",
@@ -17933,7 +18025,7 @@
         "rankitems": [
           {
             "description": "Damage:",
-            "value": "(pexistsppropppower\/0.15\/+#\/+15% of your Basic Attack Power)"
+            "value": "(pexistsppropppower\/0.075\/+#\/+7.5% of your Basic Attack Power)"
           }
         ]
       }
@@ -17953,7 +18045,8 @@
             "value": ".75\/.75\/.75\/1.1\/.9x damage and swing time; 4th attack hits all enemies in an AoE"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/spot-weakness.jpg",
@@ -18445,7 +18538,8 @@
             "value": "1\/1\/1.5x damage and swing time, hitting in a 6ft AoE on the final blow"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/wing-gust.jpg",
@@ -18889,7 +18983,8 @@
             "value": "1\/1\/1\/1x damage and swing time"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/cursed-strength.jpg",
@@ -19082,7 +19177,8 @@
               "value": "Self"
             }
           ],
-          "rankitems": []
+          "rankitems": [
+          ]
         }
       },
       "Id": 8485,
@@ -19265,7 +19361,8 @@
             "value": "Self"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "basicAttack": {
@@ -19283,7 +19380,8 @@
             "value": "None"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/unchained.jpg",
@@ -19679,7 +19777,8 @@
             "value": "None"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/irradiate.jpg",
@@ -20115,7 +20214,8 @@
             "value": "1.05\/.8\/.8\/1.5\/.95x damage and swing time"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/turn-of-fate.jpg",
@@ -20308,7 +20408,8 @@
               "value": "Self"
             }
           ],
-          "rankitems": []
+          "rankitems": [
+          ]
         }
       },
       "Id": 9561,
@@ -20491,7 +20592,8 @@
             "value": "Self"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "basicAttack": {
@@ -20509,7 +20611,8 @@
             "value": "1\/1\/1\/1x damage"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/roll-out.jpg",
@@ -20539,7 +20642,7 @@
         "itemDescription": {
           "cooldown": "14\/13\/12\/11\/10",
           "cost": "60\/65\/70\/75\/80",
-          "description": "Gilgamesh ignites his sword with the ferocity of the Sun for 4s. Enemies around the ignition take damage and are slowed for 2s. Gilgamesh's Basic Attack deals bonus damage equal to 3% of his Maximum Health to enemies hit. When Gilgamesh successfully hits an enemy with his Basic Attack the duration of this effect is extended for 0.8s, up to a maximum of 7s.",
+          "description": "Gilgamesh ignites his sword with the ferocity of the Sun for 3s. Enemies around the ignition take damage and are slowed for 2s. Gilgamesh's Basic Attack deals bonus damage equal to 2.5% of his Maximum Health to enemies hit. When Gilgamesh successfully hits an enemy with his Basic Attack the duration of this effect is extended for 0.8s, up to a maximum of 6s.",
           "menuitems": [
             {
               "description": "Ability:",
@@ -20705,11 +20808,11 @@
             },
             {
               "description": "Wind Wall Slow:",
-              "value": "50%"
+              "value": "40%"
             },
             {
               "description": "Binding Damage:",
-              "value": "150\/225\/300\/375\/450 (\/+60% of your Physical Power)"
+              "value": "150\/225\/300\/375\/450 (+50% of your Physical Power)"
             }
           ]
         }
@@ -20730,7 +20833,8 @@
               "value": "Passive"
             }
           ],
-          "rankitems": []
+          "rankitems": [
+          ]
         }
       },
       "Id": 19814,
@@ -20770,7 +20874,7 @@
       "itemDescription": {
         "cooldown": "14\/13\/12\/11\/10",
         "cost": "60\/65\/70\/75\/80",
-        "description": "Gilgamesh ignites his sword with the ferocity of the Sun for 4s. Enemies around the ignition take damage and are slowed for 2s. Gilgamesh's Basic Attack deals bonus damage equal to 3% of his Maximum Health to enemies hit. When Gilgamesh successfully hits an enemy with his Basic Attack the duration of this effect is extended for 0.8s, up to a maximum of 7s.",
+        "description": "Gilgamesh ignites his sword with the ferocity of the Sun for 3s. Enemies around the ignition take damage and are slowed for 2s. Gilgamesh's Basic Attack deals bonus damage equal to 2.5% of his Maximum Health to enemies hit. When Gilgamesh successfully hits an enemy with his Basic Attack the duration of this effect is extended for 0.8s, up to a maximum of 6s.",
         "menuitems": [
           {
             "description": "Ability:",
@@ -20921,11 +21025,11 @@
           },
           {
             "description": "Wind Wall Slow:",
-            "value": "50%"
+            "value": "40%"
           },
           {
             "description": "Binding Damage:",
-            "value": "150\/225\/300\/375\/450 (\/+60% of your Physical Power)"
+            "value": "150\/225\/300\/375\/450 (+50% of your Physical Power)"
           }
         ]
       }
@@ -20941,7 +21045,8 @@
             "value": "Passive"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "basicAttack": {
@@ -20959,7 +21064,8 @@
             "value": "None"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/sun-forged-scimitar.jpg",
@@ -21435,7 +21541,8 @@
             "value": "1\/1\/1.3\/1.75x damage and swing time"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/conviction.jpg",
@@ -21871,7 +21978,8 @@
             "value": "None"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/eagle-eye.jpg",
@@ -22315,7 +22423,8 @@
             "value": "None"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/death-from-below.jpg",
@@ -22703,7 +22812,8 @@
             "value": "None"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/water-cannon.jpg",
@@ -23147,7 +23257,8 @@
             "value": "1.25\/1.25\/1.5x damage and 1.3\/1.3\/1.5 swing time, hitting in a 7.5 AoE on first two hits"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/piercing-sight.jpg",
@@ -23364,7 +23475,8 @@
               "value": "Self"
             }
           ],
-          "rankitems": []
+          "rankitems": [
+          ]
         }
       },
       "Id": 9188,
@@ -23571,7 +23683,8 @@
             "value": "Self"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "basicAttack": {
@@ -23589,7 +23702,8 @@
             "value": "None"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/decay.jpg",
@@ -24065,7 +24179,8 @@
             "value": "None"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/royal-assault.jpg",
@@ -24461,7 +24576,8 @@
             "value": "1\/1\/1.5x damage and swing time"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/driving-strike.jpg",
@@ -24897,7 +25013,8 @@
             "value": "None"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/updraft.jpg",
@@ -24985,7 +25102,7 @@
           "rankitems": [
             {
               "description": "Damage Increase:",
-              "value": "3\/4\/5\/6\/7% for every 10% of missing health"
+              "value": "2\/3\/4\/5\/6% for every 10% of missing health"
             }
           ]
         }
@@ -25094,7 +25211,8 @@
               "value": "Self"
             }
           ],
-          "rankitems": []
+          "rankitems": [
+          ]
         }
       },
       "Id": 11027,
@@ -25187,7 +25305,7 @@
         "rankitems": [
           {
             "description": "Damage Increase:",
-            "value": "3\/4\/5\/6\/7% for every 10% of missing health"
+            "value": "2\/3\/4\/5\/6% for every 10% of missing health"
           }
         ]
       }
@@ -25281,7 +25399,8 @@
             "value": "Self"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "basicAttack": {
@@ -25299,7 +25418,8 @@
             "value": "None"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/ricochet.jpg",
@@ -25496,7 +25616,8 @@
               "value": "Physical"
             }
           ],
-          "rankitems": []
+          "rankitems": [
+          ]
         }
       },
       "Id": 16398,
@@ -25683,7 +25804,8 @@
             "value": "Physical"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "basicAttack": {
@@ -25701,7 +25823,8 @@
             "value": "1\/.75\/1.25x damage"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/somersault.jpg",
@@ -25745,7 +25868,7 @@
           "rankitems": [
             {
               "description": "Attack Speed:",
-              "value": "55\/60\/65\/70\/75%"
+              "value": "45\/50\/55\/60\/65%"
             },
             {
               "description": "Bonus Damage:",
@@ -25953,7 +26076,7 @@
         "rankitems": [
           {
             "description": "Attack Speed:",
-            "value": "55\/60\/65\/70\/75%"
+            "value": "45\/50\/55\/60\/65%"
           },
           {
             "description": "Bonus Damage:",
@@ -26105,7 +26228,8 @@
             "value": "None. Kamas return to Izanami after reaching Max Range."
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/sickle-storm.jpg",
@@ -26517,7 +26641,8 @@
             "value": "None"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/portal.jpg",
@@ -26617,7 +26742,7 @@
             },
             {
               "description": "Damage per Shot:",
-              "value": "110% of Jing Wei's Physical Power"
+              "value": "120% of Jing Wei's Physical Power"
             }
           ]
         }
@@ -26726,7 +26851,8 @@
               "value": "4s"
             }
           ],
-          "rankitems": []
+          "rankitems": [
+          ]
         }
       },
       "Id": 12766,
@@ -26831,7 +26957,7 @@
           },
           {
             "description": "Damage per Shot:",
-            "value": "110% of Jing Wei's Physical Power"
+            "value": "120% of Jing Wei's Physical Power"
           }
         ]
       }
@@ -26925,7 +27051,8 @@
             "value": "4s"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "basicAttack": {
@@ -26943,7 +27070,8 @@
             "value": "None"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/persistent-gust.jpg",
@@ -27202,7 +27330,7 @@
     "ManaPerFive": 4.5,
     "ManaPerLevel": 40,
     "Name": "Jormungandr",
-    "OnFreeRotation": "",
+    "OnFreeRotation": "true",
     "Pantheon": "Norse",
     "PhysicalPower": 0,
     "PhysicalPowerPerLevel": 0,
@@ -27419,7 +27547,8 @@
             "value": "5 attacks per sec. decreasing while firing to a minimum of 2 per sec."
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/venomous-haze.jpg",
@@ -27863,7 +27992,8 @@
             "value": "1\/.5\/.5x damage and swing time"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/nimble-strike.jpg",
@@ -28299,7 +28429,8 @@
             "value": "1x\/0.5x\/1.5x damage and swing time"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/abduct.jpg",
@@ -28847,7 +28978,8 @@
             "value": "1x damage, .33x in AoE. Lunge when no target is in range."
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/overhead-slash.jpg",
@@ -29032,7 +29164,8 @@
               "value": "Self"
             }
           ],
-          "rankitems": []
+          "rankitems": [
+          ]
         }
       },
       "Id": 7557,
@@ -29207,7 +29340,8 @@
             "value": "Self"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "basicAttack": {
@@ -29225,7 +29359,8 @@
             "value": "None"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/zephyr.jpg",
@@ -29430,7 +29565,8 @@
               "value": "Passive"
             }
           ],
-          "rankitems": []
+          "rankitems": [
+          ]
         }
       },
       "Id": 9885,
@@ -29625,7 +29761,8 @@
             "value": "Passive"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "basicAttack": {
@@ -29643,7 +29780,8 @@
             "value": "1\/0.75\/1.25 damage"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/throw-back.jpg",
@@ -29654,466 +29792,6 @@
     "godCard_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-cards\/kumbhakarna.jpg",
     "godIcon_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-icons\/kumbhakarna.jpg",
     "id": 1993,
-    "latestGod": "n",
-    "ret_msg": null
-  },
-  {
-    "Ability1": "NeNe Kappa",
-    "Ability2": "Shell Spikes",
-    "Ability3": "Sumo Slam",
-    "Ability4": "Watery Grave",
-    "Ability5": "Water Bowl",
-    "AbilityId1": 14148,
-    "AbilityId2": 14165,
-    "AbilityId3": 14166,
-    "AbilityId4": 14302,
-    "AbilityId5": 14131,
-    "Ability_1": {
-      "Description": {
-        "itemDescription": {
-          "cooldown": "16s",
-          "cost": "70\/75\/80\/85\/90",
-          "description": "Kuzenbo summons and throws the powerful NeNe Kappa, who can ricochet off of walls. After firing, if the NeNe Kappa bounces off of a wall it will travel 70 units from that point up to a maximum of 2 bounces. After reaching maximum range, or if an Enemy God is hit by the NeNe Kappa, it will burst forth from its shell, slowing and attacking them for 6s. Kuzenbo transfers 20% of his Health and Protections to the NeNe Kappa.",
-          "menuitems": [
-            {
-              "description": "Ability:",
-              "value": "Pet"
-            },
-            {
-              "description": "Affects:",
-              "value": "Enemies"
-            },
-            {
-              "description": "Damage:",
-              "value": "Magical"
-            },
-            {
-              "description": "Range:",
-              "value": "70"
-            }
-          ],
-          "rankitems": [
-            {
-              "description": "Damage:",
-              "value": "80\/120\/160\/200\/240 (+55% of your Magical Power)"
-            },
-            {
-              "description": "Kappa Damage per Hit:",
-              "value": "35\/45\/55\/65\/75"
-            },
-            {
-              "description": "Kappa Health:",
-              "value": "25\/30\/35\/40\/45 (20% of your Maximum Health)"
-            },
-            {
-              "description": "Slow:",
-              "value": "20%"
-            },
-            {
-              "description": "Slow Duration:",
-              "value": "3s"
-            }
-          ]
-        }
-      },
-      "Id": 14148,
-      "Summary": "NeNe Kappa",
-      "URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/nene-kappa.jpg"
-    },
-    "Ability_2": {
-      "Description": {
-        "itemDescription": {
-          "cooldown": "14\/13.5\/13\/12.5\/12s",
-          "cost": "50",
-          "description": "The spikes on Kuzenbo’s back extend out, damaging enemies who attack Kuzenbo. While active, each time Kuzenbo takes damage, the cooldown on NeNe Kappa and Sumo Slam is reduced. Kuzenbo may activate this ability even while under the effects of Crowd Control.",
-          "menuitems": [
-            {
-              "description": "Ability:",
-              "value": "Buff"
-            },
-            {
-              "description": "Affects:",
-              "value": "Self"
-            },
-            {
-              "description": "Damage:",
-              "value": "Magical"
-            }
-          ],
-          "rankitems": [
-            {
-              "description": "% of Damage Taken:",
-              "value": "10\/15\/20\/25\/30%"
-            },
-            {
-              "description": "Cooldown per Hit:",
-              "value": ".5\/.7\/.9\/1.1\/1.3s"
-            },
-            {
-              "description": "Duration:",
-              "value": "3s"
-            }
-          ]
-        }
-      },
-      "Id": 14165,
-      "Summary": "Shell Spikes",
-      "URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/shell-spikes.jpg"
-    },
-    "Ability_3": {
-      "Description": {
-        "itemDescription": {
-          "cooldown": "12s",
-          "cost": "60\/65\/70\/75\/80",
-          "description": "Kuzenbo charges forward, immune to slows, damaging Enemy minions and silencing using his immense strength to push the first Enemy God he hits along with him. Each subsequent Enemy he hits deals damage to both that Enemy and the god Kuzenbo is pushing. Colliding with a wall will also deal damage to the pushed god. Pushed targets can be hit a maximum of 3 times.",
-          "menuitems": [
-            {
-              "description": "Ability:",
-              "value": "Dash"
-            },
-            {
-              "description": "Affects:",
-              "value": "Enemies"
-            },
-            {
-              "description": "Damage:",
-              "value": "Magical"
-            }
-          ],
-          "rankitems": [
-            {
-              "description": "Damage per Hit:",
-              "value": "60\/95\/130\/165\/200 (+35% of your Magical Power)"
-            }
-          ]
-        }
-      },
-      "Id": 14166,
-      "Summary": "Sumo Slam",
-      "URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/sumo-slam.jpg"
-    },
-    "Ability_4": {
-      "Description": {
-        "itemDescription": {
-          "cooldown": "75s",
-          "cost": "100",
-          "description": "Kuzenbo pulls himself inwards under his shell and spins, summoning fierce currents that knock enemies back, increase his movement speed, render him immune to Crowd Control, and allow him to move freely in all directions for 2.1s. Damage after the first spin is reduced by 50%.",
-          "menuitems": [
-            {
-              "description": "Ability:",
-              "value": "Area"
-            },
-            {
-              "description": "Affects:",
-              "value": "Enemies"
-            },
-            {
-              "description": "Damage:",
-              "value": "Magical"
-            },
-            {
-              "description": "Radius:",
-              "value": "22.5"
-            }
-          ],
-          "rankitems": [
-            {
-              "description": "Damage first Hit:",
-              "value": "80\/130\/180\/230\/280 (40% of your Magical Power)"
-            },
-            {
-              "description": "Damage per Hit:",
-              "value": "40\/65\/90\/115\/140 (20% of your Magical Power)"
-            },
-            {
-              "description": "Movement Speed:",
-              "value": "45%"
-            }
-          ]
-        }
-      },
-      "Id": 14302,
-      "Summary": "Watery Grave",
-      "URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/watery-grave.jpg"
-    },
-    "Ability_5": {
-      "Description": {
-        "itemDescription": {
-          "cooldown": "",
-          "cost": "",
-          "description": "Each time Kuzenbo takes over 2% of his maximum health worth of damage, pre-mitigation, he is granted stacks of Damage Mitigation as his head fills with water (Max 10 Stacks).  Stacks last 30s and refresh when he gains another. If he is knocked up, grabbed, pulled, banished or otherwise disrupted, the bowl loses half of its stacks.",
-          "menuitems": [
-            {
-              "description": "Ability:",
-              "value": "Buff"
-            },
-            {
-              "description": "Affects:",
-              "value": "Self"
-            }
-          ],
-          "rankitems": [
-            {
-              "description": "Damage Mitigation:",
-              "value": "1.5% per 2% of Maximum Health taken"
-            },
-            {
-              "description": "Maximum Mitigation:",
-              "value": "15%"
-            },
-            {
-              "description": "Mitigation Lost:",
-              "value": "5 stacks"
-            },
-            {
-              "description": "Duration:",
-              "value": "30s"
-            }
-          ]
-        }
-      },
-      "Id": 14131,
-      "Summary": "Water Bowl",
-      "URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/water-bowl.jpg"
-    },
-    "AttackSpeed": 1,
-    "AttackSpeedPerLevel": 0.012,
-    "AutoBanned": "n",
-    "Cons": "",
-    "HP5PerLevel": 0.85,
-    "Health": 500,
-    "HealthPerFive": 8,
-    "HealthPerLevel": 100,
-    "Lore": "Kappa are devious creatures. They linger just below the surface of rivers and lakes, waiting for mortals to test the water before snatching and drowning their fleshy meal. Taken merely at their appearance and juvenile sense of humor, they could be mistaken for mischievous turtle-men, almost playful in a rude sort of way, but they are dangerously strong and ruthless when submerging their prey. King among these monsters is Kuzenbo; bigger, stronger, and more cunning than the rest, but just as infantile.\\n\\nKuzenbo led his nine thousand Kappa followers to Japan, where they harried river villages and fishing boats, using their unnatural strength to pull mortals below. So clever, so hungry had the Kappa become, that Japan’s army marched to fight back, but they were no match.\\n\\nAs the bowl-shaped indentation atop a Kappa’s head is filled with water, that Kappa grows impossibly stronger - far stronger than a mortal. Yet, bound by their strange sense of honor, a Kappa must bow when bowed to, spilling their power upon the ground. It is the only known way to defeat one.\\n\\nAnd of the countless battles Kuzenbo has fought, he was defeated only twice. Upon his second defeat at the hands of General Kiyomasa, Kuzenbo was forced to swear to never again sow strife between man and beast. A vow the Kappa King has honored ever since.\\n\\nGods, however, are fair game.",
-    "MP5PerLevel": 0.42,
-    "MagicProtection": 30,
-    "MagicProtectionPerLevel": 0.9,
-    "MagicalPower": 190,
-    "MagicalPowerPerLevel": 7.5,
-    "Mana": 200,
-    "ManaPerFive": 4.6,
-    "ManaPerLevel": 34,
-    "Name": "Kuzenbo",
-    "OnFreeRotation": "",
-    "Pantheon": "Japanese",
-    "PhysicalPower": 0,
-    "PhysicalPowerPerLevel": 0,
-    "PhysicalProtection": 18,
-    "PhysicalProtectionPerLevel": 3.2,
-    "Pros": "High Crowd Control, High Defense",
-    "Roles": "Guardian",
-    "Speed": 365,
-    "Title": "King Kappa",
-    "Type": "Melee, Magical",
-    "abilityDescription1": {
-      "itemDescription": {
-        "cooldown": "16s",
-        "cost": "70\/75\/80\/85\/90",
-        "description": "Kuzenbo summons and throws the powerful NeNe Kappa, who can ricochet off of walls. After firing, if the NeNe Kappa bounces off of a wall it will travel 70 units from that point up to a maximum of 2 bounces. After reaching maximum range, or if an Enemy God is hit by the NeNe Kappa, it will burst forth from its shell, slowing and attacking them for 6s. Kuzenbo transfers 20% of his Health and Protections to the NeNe Kappa.",
-        "menuitems": [
-          {
-            "description": "Ability:",
-            "value": "Pet"
-          },
-          {
-            "description": "Affects:",
-            "value": "Enemies"
-          },
-          {
-            "description": "Damage:",
-            "value": "Magical"
-          },
-          {
-            "description": "Range:",
-            "value": "70"
-          }
-        ],
-        "rankitems": [
-          {
-            "description": "Damage:",
-            "value": "80\/120\/160\/200\/240 (+55% of your Magical Power)"
-          },
-          {
-            "description": "Kappa Damage per Hit:",
-            "value": "35\/45\/55\/65\/75"
-          },
-          {
-            "description": "Kappa Health:",
-            "value": "25\/30\/35\/40\/45 (20% of your Maximum Health)"
-          },
-          {
-            "description": "Slow:",
-            "value": "20%"
-          },
-          {
-            "description": "Slow Duration:",
-            "value": "3s"
-          }
-        ]
-      }
-    },
-    "abilityDescription2": {
-      "itemDescription": {
-        "cooldown": "14\/13.5\/13\/12.5\/12s",
-        "cost": "50",
-        "description": "The spikes on Kuzenbo’s back extend out, damaging enemies who attack Kuzenbo. While active, each time Kuzenbo takes damage, the cooldown on NeNe Kappa and Sumo Slam is reduced. Kuzenbo may activate this ability even while under the effects of Crowd Control.",
-        "menuitems": [
-          {
-            "description": "Ability:",
-            "value": "Buff"
-          },
-          {
-            "description": "Affects:",
-            "value": "Self"
-          },
-          {
-            "description": "Damage:",
-            "value": "Magical"
-          }
-        ],
-        "rankitems": [
-          {
-            "description": "% of Damage Taken:",
-            "value": "10\/15\/20\/25\/30%"
-          },
-          {
-            "description": "Cooldown per Hit:",
-            "value": ".5\/.7\/.9\/1.1\/1.3s"
-          },
-          {
-            "description": "Duration:",
-            "value": "3s"
-          }
-        ]
-      }
-    },
-    "abilityDescription3": {
-      "itemDescription": {
-        "cooldown": "12s",
-        "cost": "60\/65\/70\/75\/80",
-        "description": "Kuzenbo charges forward, immune to slows, damaging Enemy minions and silencing using his immense strength to push the first Enemy God he hits along with him. Each subsequent Enemy he hits deals damage to both that Enemy and the god Kuzenbo is pushing. Colliding with a wall will also deal damage to the pushed god. Pushed targets can be hit a maximum of 3 times.",
-        "menuitems": [
-          {
-            "description": "Ability:",
-            "value": "Dash"
-          },
-          {
-            "description": "Affects:",
-            "value": "Enemies"
-          },
-          {
-            "description": "Damage:",
-            "value": "Magical"
-          }
-        ],
-        "rankitems": [
-          {
-            "description": "Damage per Hit:",
-            "value": "60\/95\/130\/165\/200 (+35% of your Magical Power)"
-          }
-        ]
-      }
-    },
-    "abilityDescription4": {
-      "itemDescription": {
-        "cooldown": "75s",
-        "cost": "100",
-        "description": "Kuzenbo pulls himself inwards under his shell and spins, summoning fierce currents that knock enemies back, increase his movement speed, render him immune to Crowd Control, and allow him to move freely in all directions for 2.1s. Damage after the first spin is reduced by 50%.",
-        "menuitems": [
-          {
-            "description": "Ability:",
-            "value": "Area"
-          },
-          {
-            "description": "Affects:",
-            "value": "Enemies"
-          },
-          {
-            "description": "Damage:",
-            "value": "Magical"
-          },
-          {
-            "description": "Radius:",
-            "value": "22.5"
-          }
-        ],
-        "rankitems": [
-          {
-            "description": "Damage first Hit:",
-            "value": "80\/130\/180\/230\/280 (40% of your Magical Power)"
-          },
-          {
-            "description": "Damage per Hit:",
-            "value": "40\/65\/90\/115\/140 (20% of your Magical Power)"
-          },
-          {
-            "description": "Movement Speed:",
-            "value": "45%"
-          }
-        ]
-      }
-    },
-    "abilityDescription5": {
-      "itemDescription": {
-        "cooldown": "",
-        "cost": "",
-        "description": "Each time Kuzenbo takes over 2% of his maximum health worth of damage, pre-mitigation, he is granted stacks of Damage Mitigation as his head fills with water (Max 10 Stacks).  Stacks last 30s and refresh when he gains another. If he is knocked up, grabbed, pulled, banished or otherwise disrupted, the bowl loses half of its stacks.",
-        "menuitems": [
-          {
-            "description": "Ability:",
-            "value": "Buff"
-          },
-          {
-            "description": "Affects:",
-            "value": "Self"
-          }
-        ],
-        "rankitems": [
-          {
-            "description": "Damage Mitigation:",
-            "value": "1.5% per 2% of Maximum Health taken"
-          },
-          {
-            "description": "Maximum Mitigation:",
-            "value": "15%"
-          },
-          {
-            "description": "Mitigation Lost:",
-            "value": "5 stacks"
-          },
-          {
-            "description": "Duration:",
-            "value": "30s"
-          }
-        ]
-      }
-    },
-    "basicAttack": {
-      "itemDescription": {
-        "cooldown": "",
-        "cost": "",
-        "description": "",
-        "menuitems": [
-          {
-            "description": "Damage:",
-            "value": "38 + 1.5\/Lvl (+20% of Magical Power)"
-          },
-          {
-            "description": "Progression:",
-            "value": "1\/1\/1 damage and swing time"
-          }
-        ],
-        "rankitems": []
-      }
-    },
-    "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/nene-kappa.jpg",
-    "godAbility2_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/shell-spikes.jpg",
-    "godAbility3_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/sumo-slam.jpg",
-    "godAbility4_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/watery-grave.jpg",
-    "godAbility5_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/water-bowl.jpg",
-    "godCard_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-cards\/kuzenbo.jpg",
-    "godIcon_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-icons\/kuzenbo.jpg",
-    "id": 2260,
     "latestGod": "n",
     "ret_msg": null
   },
@@ -30151,7 +29829,7 @@
           "rankitems": [
             {
               "description": "Damage per Tick:",
-              "value": "30\/45\/60\/75\/90 (+25% of your Physical Power)"
+              "value": "30\/45\/60\/75\/90 (20% of your Physical Power)"
             },
             {
               "description": "Damage Duration:",
@@ -30311,7 +29989,7 @@
           "rankitems": [
             {
               "description": "Bonus Damage:",
-              "value": "20%"
+              "value": "15%"
             }
           ]
         }
@@ -30371,7 +30049,7 @@
         "rankitems": [
           {
             "description": "Damage per Tick:",
-            "value": "30\/45\/60\/75\/90 (+25% of your Physical Power)"
+            "value": "30\/45\/60\/75\/90 (20% of your Physical Power)"
           },
           {
             "description": "Damage Duration:",
@@ -30511,7 +30189,7 @@
         "rankitems": [
           {
             "description": "Bonus Damage:",
-            "value": "20%"
+            "value": "15%"
           }
         ]
       }
@@ -30531,7 +30209,8 @@
             "value": "1\/.5\/.5\/.5\/1.5x damage and 1\/.5\/.5\/.5\/1.5x swing time"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/vanish.jpg",
@@ -30579,11 +30258,11 @@
           "rankitems": [
             {
               "description": "Damage:",
-              "value": "15\/20\/25\/30\/35 (+10% of your physical power) every 0.5s for 1.5s per charge "
+              "value": "10\/15\/20\/25\/30 (+10% of your physical power) every 0.5s for 1.5s per charge "
             },
             {
               "description": "Attack Speed Increase:",
-              "value": "40\/50\/60\/70\/80%"
+              "value": "40\/45\/50\/55\/60%"
             },
             {
               "description": "Viper Shots:",
@@ -30667,7 +30346,7 @@
           "rankitems": [
             {
               "description": "Damage:",
-              "value": "80\/130\/180\/230\/280 (+80% of your physical power)"
+              "value": "80\/130\/180\/230\/280 (+70% of your physical power)"
             },
             {
               "description": "Root Duration:",
@@ -30744,7 +30423,8 @@
               "value": "Self"
             }
           ],
-          "rankitems": []
+          "rankitems": [
+          ]
         }
       },
       "Id": 11153,
@@ -30802,11 +30482,11 @@
         "rankitems": [
           {
             "description": "Damage:",
-            "value": "15\/20\/25\/30\/35 (+10% of your physical power) every 0.5s for 1.5s per charge "
+            "value": "10\/15\/20\/25\/30 (+10% of your physical power) every 0.5s for 1.5s per charge "
           },
           {
             "description": "Attack Speed Increase:",
-            "value": "40\/50\/60\/70\/80%"
+            "value": "40\/45\/50\/55\/60%"
           },
           {
             "description": "Viper Shots:",
@@ -30880,7 +30560,7 @@
         "rankitems": [
           {
             "description": "Damage:",
-            "value": "80\/130\/180\/230\/280 (+80% of your physical power)"
+            "value": "80\/130\/180\/230\/280 (+70% of your physical power)"
           },
           {
             "description": "Root Duration:",
@@ -30947,7 +30627,8 @@
             "value": "Self"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "basicAttack": {
@@ -30965,7 +30646,8 @@
             "value": "None"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/viper-shot.jpg",
@@ -31154,7 +30836,8 @@
               "value": "Self"
             }
           ],
-          "rankitems": []
+          "rankitems": [
+          ]
         }
       },
       "Id": 9215,
@@ -31333,7 +31016,8 @@
             "value": "Self"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "basicAttack": {
@@ -31351,7 +31035,8 @@
             "value": "1\/.75\/1.25x damage and swing time"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/made-you-look.jpg",
@@ -31476,7 +31161,8 @@
               "value": "30"
             }
           ],
-          "rankitems": []
+          "rankitems": [
+          ]
         }
       },
       "Id": 16577,
@@ -31693,7 +31379,8 @@
             "value": "30"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "abilityDescription4": {
@@ -31793,7 +31480,8 @@
             "value": "None"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/eclipse.jpg",
@@ -32261,7 +31949,8 @@
             "value": "None"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/sigil-mastery.jpg",
@@ -32313,7 +32002,7 @@
           "rankitems": [
             {
               "description": "Damage per Hit:",
-              "value": "75\/95\/115\/135\/155 (+35% of your Physical Power)"
+              "value": "75\/95\/115\/135\/155 (+30% of your Physical Power)"
             },
             {
               "description": "Attack Speed:",
@@ -32373,7 +32062,7 @@
             },
             {
               "description": "Bonus Damage:",
-              "value": "20\/35\/50\/65\/80 (+15% of your Physical Power)"
+              "value": "20\/30\/40\/50\/60 (+10% of your Physical Power)"
             }
           ]
         }
@@ -32577,7 +32266,7 @@
         "rankitems": [
           {
             "description": "Damage per Hit:",
-            "value": "75\/95\/115\/135\/155 (+35% of your Physical Power)"
+            "value": "75\/95\/115\/135\/155 (+30% of your Physical Power)"
           },
           {
             "description": "Attack Speed:",
@@ -32632,7 +32321,7 @@
           },
           {
             "description": "Bonus Damage:",
-            "value": "20\/35\/50\/65\/80 (+15% of your Physical Power)"
+            "value": "20\/30\/40\/50\/60 (+10% of your Physical Power)"
           }
         ]
       }
@@ -32777,7 +32466,8 @@
             "value": "1\/1\/1.25x damage and swing time, hitting in an AoE on the final blow"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/cross-strike.jpg",
@@ -33221,7 +32911,8 @@
             "value": "1\/1\/1.5\/2x damage and swing time, hitting in an AoE on the final blow"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/universe-ring-toss.jpg",
@@ -33426,7 +33117,8 @@
               "value": "Self"
             }
           ],
-          "rankitems": []
+          "rankitems": [
+          ]
         }
       },
       "Id": 8648,
@@ -33621,7 +33313,8 @@
             "value": "Self"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "basicAttack": {
@@ -33639,7 +33332,8 @@
             "value": "None"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/spirit-arrow.jpg",
@@ -34067,7 +33761,8 @@
             "value": "1\/1\/.75\/1.25x damage and swing time"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/swift-vengeance.jpg",
@@ -34318,7 +34013,7 @@
     "ManaPerFive": 4.6,
     "ManaPerLevel": 38,
     "Name": "Nike",
-    "OnFreeRotation": "",
+    "OnFreeRotation": "true",
     "Pantheon": "Greek",
     "PhysicalPower": 37,
     "PhysicalPowerPerLevel": 2,
@@ -34527,7 +34222,8 @@
             "value": "1\/1\/1.5x damage and swing time"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/rend.jpg",
@@ -34732,7 +34428,8 @@
               "value": "Self"
             }
           ],
-          "rankitems": []
+          "rankitems": [
+          ]
         }
       },
       "Id": 10717,
@@ -34927,7 +34624,8 @@
             "value": "Self"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "basicAttack": {
@@ -34945,7 +34643,8 @@
             "value": "None"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/shadow-lock.jpg",
@@ -35397,7 +35096,8 @@
             "value": "None"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/mysterious-fog.jpg",
@@ -35873,7 +35573,8 @@
             "value": "1\/1\/1\/1.5x damage and swing time"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/lunge.jpg",
@@ -36313,7 +36014,8 @@
             "value": ".25"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/focused-light.jpg",
@@ -36757,7 +36459,8 @@
             "value": "0.5\/1\/0.5\/1x damage. The last two attacks hit all enemies in the melee area."
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/sickle-strike.jpg",
@@ -37201,7 +36904,8 @@
             "value": "1\/1\/1x damage and swing time"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/pyroclast.jpg",
@@ -37293,7 +36997,7 @@
           "rankitems": [
             {
               "description": "Explosion:",
-              "value": "90\/140\/190\/240\/290 (80% of your Magical Power)"
+              "value": "90\/140\/190\/240\/290 (+70% of your Magical Power)"
             },
             {
               "description": "Heal:",
@@ -37301,7 +37005,7 @@
             },
             {
               "description": "Bite:",
-              "value": "40\/75\/110\/145\/180 (+35% of your Magical Power)"
+              "value": "40\/75\/110\/145\/180 (+30% of your Magical Power)"
             },
             {
               "description": "Reduced Damage:",
@@ -37388,10 +37092,6 @@
               "value": "65\/90\/115\/140\/165 (30% of your Magical Power)"
             },
             {
-              "description": "Attack Speed Reduction:",
-              "value": "15%"
-            },
-            {
               "description": "Slow:",
               "value": "15\/17.5\/20\/22.5\/25%"
             },
@@ -37418,7 +37118,8 @@
               "value": "Passive"
             }
           ],
-          "rankitems": []
+          "rankitems": [
+          ]
         }
       },
       "Id": 20197,
@@ -37515,7 +37216,7 @@
         "rankitems": [
           {
             "description": "Explosion:",
-            "value": "90\/140\/190\/240\/290 (80% of your Magical Power)"
+            "value": "90\/140\/190\/240\/290 (+70% of your Magical Power)"
           },
           {
             "description": "Heal:",
@@ -37523,7 +37224,7 @@
           },
           {
             "description": "Bite:",
-            "value": "40\/75\/110\/145\/180 (+35% of your Magical Power)"
+            "value": "40\/75\/110\/145\/180 (+30% of your Magical Power)"
           },
           {
             "description": "Reduced Damage:",
@@ -37600,10 +37301,6 @@
             "value": "65\/90\/115\/140\/165 (30% of your Magical Power)"
           },
           {
-            "description": "Attack Speed Reduction:",
-            "value": "15%"
-          },
-          {
             "description": "Slow:",
             "value": "15\/17.5\/20\/22.5\/25%"
           },
@@ -37625,7 +37322,8 @@
             "value": "Passive"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "basicAttack": {
@@ -37643,7 +37341,8 @@
             "value": "7.5 AoE Harvest Activation"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/bone-rush.jpg",
@@ -38087,7 +37786,8 @@
             "value": "None"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/tidal-surge.jpg",
@@ -38523,7 +38223,8 @@
             "value": "None"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/celestial-beam.jpg",
@@ -38732,7 +38433,8 @@
               "value": "Self"
             }
           ],
-          "rankitems": []
+          "rankitems": [
+          ]
         }
       },
       "Id": 14698,
@@ -38931,7 +38633,8 @@
             "value": "Self"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "basicAttack": {
@@ -38949,7 +38652,8 @@
             "value": "None"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/percussive-storm.jpg",
@@ -39321,7 +39025,8 @@
             "value": "None"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/astral-strike.jpg",
@@ -39514,7 +39219,8 @@
               "value": "Self"
             }
           ],
-          "rankitems": []
+          "rankitems": [
+          ]
         }
       },
       "Id": 11490,
@@ -39697,7 +39403,8 @@
             "value": "Self"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "basicAttack": {
@@ -39715,7 +39422,8 @@
             "value": "1\/0.5\/0.5\/1.25x damage and swing time, hitting in an AoE on the final blow"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/dart.jpg",
@@ -39970,7 +39678,7 @@
     "ManaPerFive": 4.4,
     "ManaPerLevel": 37,
     "Name": "Ravana",
-    "OnFreeRotation": "",
+    "OnFreeRotation": "true",
     "Pantheon": "Hindu",
     "PhysicalPower": 39,
     "PhysicalPowerPerLevel": 2.2,
@@ -40183,7 +39891,8 @@
             "value": "0.75\/.5\/1.25x damage and swing time"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/prana-onslaught.jpg",
@@ -40376,7 +40085,8 @@
               "value": "Passive"
             }
           ],
-          "rankitems": []
+          "rankitems": [
+          ]
         }
       },
       "Id": 9698,
@@ -40559,7 +40269,8 @@
             "value": "Passive"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "basicAttack": {
@@ -40577,7 +40288,8 @@
             "value": "None"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/sic-em.jpg",
@@ -40709,7 +40421,7 @@
           "rankitems": [
             {
               "description": "Damage:",
-              "value": "80\/140\/200\/260\/320 (+80% of your Physical Power)"
+              "value": "80\/125\/170\/215\/260 (+90% of your Physical Power)"
             }
           ]
         }
@@ -40915,7 +40627,7 @@
         "rankitems": [
           {
             "description": "Damage:",
-            "value": "80\/140\/200\/260\/320 (+80% of your Physical Power)"
+            "value": "80\/125\/170\/215\/260 (+90% of your Physical Power)"
           }
         ]
       }
@@ -40997,7 +40709,8 @@
             "value": "1\/.75\/1.25x damage"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/deathbane.jpg",
@@ -41449,7 +41162,8 @@
             "value": "None"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/skewer.jpg",
@@ -41573,7 +41287,7 @@
     "Ability_3": {
       "Description": {
         "itemDescription": {
-          "cooldown": "18\/17.5\/17\/16.5\/16s",
+          "cooldown": "18s",
           "cost": "65\/70\/75\/80\/85",
           "description": "Shiva dashes into a pillar of fire where he meditates for a short duration, taking reduced damage and CC Immune, before being able to dash out again. Each dash deals damage to enemies and as he meditates the pillar emits an aura.\u000a\u000aBliss - Allies in the aura gain a block stack while Shiva gains up to 3 after leaving.\u000aDestruction - Enemies in the aura suffer constant damage.",
           "menuitems": [
@@ -41653,7 +41367,7 @@
             },
             {
               "description": "Damage:",
-              "value": "125\/175\/225\/275\/325 (+45% of your Physical Power) "
+              "value": "125\/175\/225\/275\/325 (+40% of your Physical Power) "
             },
             {
               "description": "Shield Damage:",
@@ -41704,7 +41418,7 @@
     },
     "AttackSpeed": 1,
     "AttackSpeedPerLevel": 0.012,
-    "AutoBanned": "y",
+    "AutoBanned": "n",
     "Cons": "",
     "HP5PerLevel": 0.7,
     "Health": 475,
@@ -41819,7 +41533,7 @@
     },
     "abilityDescription3": {
       "itemDescription": {
-        "cooldown": "18\/17.5\/17\/16.5\/16s",
+        "cooldown": "18s",
         "cost": "65\/70\/75\/80\/85",
         "description": "Shiva dashes into a pillar of fire where he meditates for a short duration, taking reduced damage and CC Immune, before being able to dash out again. Each dash deals damage to enemies and as he meditates the pillar emits an aura.\u000a\u000aBliss - Allies in the aura gain a block stack while Shiva gains up to 3 after leaving.\u000aDestruction - Enemies in the aura suffer constant damage.",
         "menuitems": [
@@ -41894,7 +41608,7 @@
           },
           {
             "description": "Damage:",
-            "value": "125\/175\/225\/275\/325 (+45% of your Physical Power) "
+            "value": "125\/175\/225\/275\/325 (+40% of your Physical Power) "
           },
           {
             "description": "Shield Damage:",
@@ -41949,7 +41663,8 @@
             "value": "1\/0.75\/1.25x damage and swing time"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/emblazoned-sweep.jpg",
@@ -41960,7 +41675,7 @@
     "godCard_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-cards\/shiva.jpg",
     "godIcon_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-icons\/shiva.jpg",
     "id": 4039,
-    "latestGod": "y",
+    "latestGod": "n",
     "ret_msg": null
   },
   {
@@ -42200,7 +41915,7 @@
     "ManaPerFive": 4.5,
     "ManaPerLevel": 35,
     "Name": "Skadi",
-    "OnFreeRotation": "",
+    "OnFreeRotation": "true",
     "Pantheon": "Norse",
     "PhysicalPower": 35,
     "PhysicalPowerPerLevel": 2.5,
@@ -42409,7 +42124,8 @@
             "value": "None"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/piercing-cold.jpg",
@@ -42845,7 +42561,8 @@
             "value": "None"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/charge-prey.jpg",
@@ -42933,7 +42650,7 @@
           "rankitems": [
             {
               "description": "Damage:",
-              "value": "40\/70\/100\/130\/160 (+35% of your magical power)"
+              "value": "40\/65\/90\/115\/140 (+35% of your magical power)"
             },
             {
               "description": "Slow:",
@@ -43017,7 +42734,7 @@
           "rankitems": [
             {
               "description": "Damage:",
-              "value": "150\/200\/250\/300\/350 (50% of your magical power)"
+              "value": "150\/200\/250\/300\/350 (+45% of your magical power)"
             },
             {
               "description": "Heat:",
@@ -43144,7 +42861,7 @@
         "rankitems": [
           {
             "description": "Damage:",
-            "value": "40\/70\/100\/130\/160 (+35% of your magical power)"
+            "value": "40\/65\/90\/115\/140 (+35% of your magical power)"
           },
           {
             "description": "Slow:",
@@ -43218,7 +42935,7 @@
         "rankitems": [
           {
             "description": "Damage:",
-            "value": "150\/200\/250\/300\/350 (50% of your magical power)"
+            "value": "150\/200\/250\/300\/350 (+45% of your magical power)"
           },
           {
             "description": "Heat:",
@@ -43265,7 +42982,8 @@
             "value": "None"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/radiance.jpg",
@@ -43458,7 +43176,8 @@
               "value": "Self"
             }
           ],
-          "rankitems": []
+          "rankitems": [
+          ]
         }
       },
       "Id": 9312,
@@ -43483,7 +43202,7 @@
     "ManaPerFive": 4.3,
     "ManaPerLevel": 35,
     "Name": "Sun Wukong",
-    "OnFreeRotation": "true",
+    "OnFreeRotation": "",
     "Pantheon": "Chinese",
     "PhysicalPower": 39,
     "PhysicalPowerPerLevel": 2,
@@ -43641,7 +43360,8 @@
             "value": "Self"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "basicAttack": {
@@ -43659,7 +43379,8 @@
             "value": "1\/.75\/1\/1.25x damage"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/the-magic-cudgel.jpg",
@@ -44047,7 +43768,8 @@
             "value": "1\/1\/1.25x damage and swing time"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/storm-kata.jpg",
@@ -44244,7 +43966,8 @@
               "value": "Self"
             }
           ],
-          "rankitems": []
+          "rankitems": [
+          ]
         }
       },
       "Id": 20902,
@@ -44431,7 +44154,8 @@
             "value": "Self"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "basicAttack": {
@@ -44449,7 +44173,8 @@
             "value": "None"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/verdant-growth.jpg",
@@ -44700,7 +44425,7 @@
     "ManaPerFive": 4.6,
     "ManaPerLevel": 35,
     "Name": "Terra",
-    "OnFreeRotation": "true",
+    "OnFreeRotation": "",
     "Pantheon": "Roman",
     "PhysicalPower": 0,
     "PhysicalPowerPerLevel": 0,
@@ -44909,7 +44634,8 @@
             "value": "1\/1\/1\/1x damage and swing time"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/force-of-nature.jpg",
@@ -45353,7 +45079,8 @@
             "value": "1\/.75\/1.5x damage and swing time, hitting in an AoE on the final blow"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/death-scythe.jpg",
@@ -45773,7 +45500,8 @@
             "value": "1\/1\/1x damage and swing time; 3rd attack hits all enemies in a 10 unit area"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/deadly-aspects.jpg",
@@ -45911,7 +45639,7 @@
         "itemDescription": {
           "cooldown": "110\/105\/100\/95\/90s",
           "cost": "80\/90\/100\/110\/120 ",
-          "description": "After a short buildup, Thor leaps into the air. While in the air, Thor can target a great distance away to come crashing down in the area, dealing damage and Stunning all enemies in the radius. For 6 seconds after landing, when Thor deals damage to a god with Mjolnir lightning will arc, damaging the enemy hit and up to two additional enemies within 30 ft. Subsequent lighting hits deal 50% damage.",
+          "description": "After a short buildup, Thor leaps into the air. While in the air, Thor can target a great distance away to come crashing down in the area, dealing damage and Stunning all enemies in the radius. For 6 seconds after landing, when Thor deals damage to a god with Mjolnir lightning will arc, damaging the enemy hit and up to two additional enemies within 35 ft. Subsequent lighting hits deal 50% damage.",
           "menuitems": [
             {
               "description": "Ability:",
@@ -45941,7 +45669,7 @@
             },
             {
               "description": "Arc Damage:",
-              "value": "15\/25\/35\/45\/55 (+15% of your Physical Power)"
+              "value": "20\/30\/40\/50\/60 (+15% of your Physical Power)"
             }
           ]
         }
@@ -46108,7 +45836,7 @@
       "itemDescription": {
         "cooldown": "110\/105\/100\/95\/90s",
         "cost": "80\/90\/100\/110\/120 ",
-        "description": "After a short buildup, Thor leaps into the air. While in the air, Thor can target a great distance away to come crashing down in the area, dealing damage and Stunning all enemies in the radius. For 6 seconds after landing, when Thor deals damage to a god with Mjolnir lightning will arc, damaging the enemy hit and up to two additional enemies within 30 ft. Subsequent lighting hits deal 50% damage.",
+        "description": "After a short buildup, Thor leaps into the air. While in the air, Thor can target a great distance away to come crashing down in the area, dealing damage and Stunning all enemies in the radius. For 6 seconds after landing, when Thor deals damage to a god with Mjolnir lightning will arc, damaging the enemy hit and up to two additional enemies within 35 ft. Subsequent lighting hits deal 50% damage.",
         "menuitems": [
           {
             "description": "Ability:",
@@ -46138,7 +45866,7 @@
           },
           {
             "description": "Arc Damage:",
-            "value": "15\/25\/35\/45\/55 (+15% of your Physical Power)"
+            "value": "20\/30\/40\/50\/60 (+15% of your Physical Power)"
           }
         ]
       }
@@ -46185,7 +45913,8 @@
             "value": "None"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/mjolnirs-attunement.jpg",
@@ -46215,7 +45944,7 @@
         "itemDescription": {
           "cooldown": "8s",
           "cost": "50\/55\/60\/65\/70",
-          "description": "Thoth conjures three Hieroglyphs around him, ignoring the Basic Attack Movement penalty. His next 3 Basic Attacks pass through Enemies and apply Ability Damage instead. If these attacks pass through the Glyph of Pain, their range is increased by 30. Hitting an Enemy God with this ability increases the damage they take from each subsequent shot by 20% and reduces the cooldown by 1s (this can only occur once per shot).",
+          "description": "Thoth conjures three Hieroglyphs around him, ignoring the Basic Attack Movement penalty. His next 3 Basic Attacks pass through Enemies and apply Ability Damage instead. If these attacks pass through the Glyph of Pain, their range is increased by 30. Hitting an Enemy God with this ability increases the damage they take from each subsequent shot by 15% and reduces the cooldown by 0.5s (this can only occur once per shot).",
           "menuitems": [
             {
               "description": "Ability:",
@@ -46436,7 +46165,7 @@
     "ManaPerFive": 4.6,
     "ManaPerLevel": 49,
     "Name": "Thoth",
-    "OnFreeRotation": "",
+    "OnFreeRotation": "true",
     "Pantheon": "Egyptian",
     "PhysicalPower": 0,
     "PhysicalPowerPerLevel": 0,
@@ -46451,7 +46180,7 @@
       "itemDescription": {
         "cooldown": "8s",
         "cost": "50\/55\/60\/65\/70",
-        "description": "Thoth conjures three Hieroglyphs around him, ignoring the Basic Attack Movement penalty. His next 3 Basic Attacks pass through Enemies and apply Ability Damage instead. If these attacks pass through the Glyph of Pain, their range is increased by 30. Hitting an Enemy God with this ability increases the damage they take from each subsequent shot by 20% and reduces the cooldown by 1s (this can only occur once per shot).",
+        "description": "Thoth conjures three Hieroglyphs around him, ignoring the Basic Attack Movement penalty. His next 3 Basic Attacks pass through Enemies and apply Ability Damage instead. If these attacks pass through the Glyph of Pain, their range is increased by 30. Hitting an Enemy God with this ability increases the damage they take from each subsequent shot by 15% and reduces the cooldown by 0.5s (this can only occur once per shot).",
         "menuitems": [
           {
             "description": "Ability:",
@@ -46645,7 +46374,8 @@
             "value": "None"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/hieroglyphic-assault.jpg",
@@ -46693,7 +46423,7 @@
           "rankitems": [
             {
               "description": "Damage:",
-              "value": "80\/90\/90\/100\/100 (+30% of your Magical Power)"
+              "value": "80\/85\/85\/90\/90 (+30% of your Magical Power)"
             }
           ]
         }
@@ -46794,7 +46524,8 @@
               "value": "Self"
             }
           ],
-          "rankitems": []
+          "rankitems": [
+          ]
         }
       },
       "Id": 19337,
@@ -46896,7 +46627,7 @@
         "rankitems": [
           {
             "description": "Damage:",
-            "value": "80\/90\/90\/100\/100 (+30% of your Magical Power)"
+            "value": "80\/85\/85\/90\/90 (+30% of your Magical Power)"
           }
         ]
       }
@@ -46982,7 +46713,8 @@
             "value": "Self"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "abilityDescription5": {
@@ -47039,7 +46771,8 @@
             "value": "None"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/primordial-onslaught.jpg",
@@ -47067,7 +46800,7 @@
     "Ability_1": {
       "Description": {
         "itemDescription": {
-          "cooldown": "10s",
+          "cooldown": "12s",
           "cost": "50\/60\/70\/80\/90",
           "description": "Tsukuyomi calls upon Shingetsu, summoning forth a Dark Moon Shuriken. The Shuriken damages enemies and stops on gods, sticking into them. If Tsukuyomi gets close to the god he retrieves the Shuriken and reduces its cooldown.\u000a\u000a<font color='#b18cd9'>After casting this ability Shingetsu's next Basic Attack becomes ranged. This attack steals Movement Speed from the enemy hit.<\/font>",
           "menuitems": [
@@ -47191,7 +46924,7 @@
             },
             {
               "description": "Bonus Damage:",
-              "value": "5 (+40% of your Physical Power)"
+              "value": "5 (+30% of your Physical Power)"
             }
           ]
         }
@@ -47311,7 +47044,7 @@
     "Type": "Melee, Physical",
     "abilityDescription1": {
       "itemDescription": {
-        "cooldown": "10s",
+        "cooldown": "12s",
         "cost": "50\/60\/70\/80\/90",
         "description": "Tsukuyomi calls upon Shingetsu, summoning forth a Dark Moon Shuriken. The Shuriken damages enemies and stops on gods, sticking into them. If Tsukuyomi gets close to the god he retrieves the Shuriken and reduces its cooldown.\u000a\u000a<font color='#b18cd9'>After casting this ability Shingetsu's next Basic Attack becomes ranged. This attack steals Movement Speed from the enemy hit.<\/font>",
         "menuitems": [
@@ -47425,7 +47158,7 @@
           },
           {
             "description": "Bonus Damage:",
-            "value": "5 (+40% of your Physical Power)"
+            "value": "5 (+30% of your Physical Power)"
           }
         ]
       }
@@ -47515,7 +47248,8 @@
             "value": "None"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/dark-moon-shuriken.jpg",
@@ -47712,7 +47446,8 @@
               "value": "Self"
             }
           ],
-          "rankitems": []
+          "rankitems": [
+          ]
         }
       },
       "Id": 9032,
@@ -47899,7 +47634,8 @@
             "value": "Self"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "basicAttack": {
@@ -47917,7 +47653,8 @@
             "value": "1\/.5\/1.5x damage"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/fearless.jpg",
@@ -48305,7 +48042,8 @@
             "value": "None"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/bladed-arrow.jpg",
@@ -48725,7 +48463,8 @@
             "value": "None"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/clear-the-path.jpg",
@@ -49105,7 +48844,8 @@
             "value": "None"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/backfire.jpg",
@@ -49509,7 +49249,8 @@
             "value": "None"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/branching-bola.jpg",
@@ -49953,7 +49694,8 @@
             "value": "1\/1\/1\/1x damage and swing time"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/furious-roar.jpg",
@@ -50453,7 +50195,8 @@
             "value": "Projectile hits allies in a larger radius and passes through them"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/bouncing-bubble.jpg",
@@ -50849,7 +50592,8 @@
             "value": "None"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/ice-wall.jpg",
@@ -50861,6 +50605,475 @@
     "godIcon_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-icons\/ymir.jpg",
     "id": 1670,
     "latestGod": "n",
+    "ret_msg": null
+  },
+  {
+    "Ability1": "Flames of the Phoenix",
+    "Ability2": "Dao Cultivation",
+    "Ability3": "Celestial Flight",
+    "Ability4": "Dueling Dragons",
+    "Ability5": "Master of the Dao",
+    "AbilityId1": 21702,
+    "AbilityId2": 21703,
+    "AbilityId3": 21704,
+    "AbilityId4": 21705,
+    "AbilityId5": 21707,
+    "Ability_1": {
+      "Description": {
+        "itemDescription": {
+          "cooldown": "11\/10.5\/10\/9.5\/9s",
+          "cost": "60\/65\/70\/75\/80",
+          "description": "Yu Huang conjures four cinders of the phoenix, spreading them in an X shape. The cinders rush inward, dealing damage once as they travel. When the cinders meet, they explode in a field of flames that persists for 3s, burning enemies inside. If Yu Huang is Attuned, when the cinders explode, all enemies in the area have their Magical Protections reduced.",
+          "menuitems": [
+            {
+              "description": "Ability:",
+              "value": "Ground Target"
+            },
+            {
+              "description": "Affects:",
+              "value": "Enemy"
+            },
+            {
+              "description": "Damage:",
+              "value": "Magical"
+            }
+          ],
+          "rankitems": [
+            {
+              "description": "Cinder Damage:",
+              "value": "50\/75\/100\/125\/150 (+35% of your Magical Power)"
+            },
+            {
+              "description": "Initial Damage:",
+              "value": "40\/55\/70\/85\/100 (+30% of your Magical Power)"
+            },
+            {
+              "description": "Burn Damage:",
+              "value": "5 (+8% of your Magical Power) every 0.5s"
+            },
+            {
+              "description": "Burn Duration:",
+              "value": "2s "
+            },
+            {
+              "description": "Protection Reduction:",
+              "value": "4\/6\/8\/10\/12 for 3s "
+            }
+          ]
+        }
+      },
+      "Id": 21702,
+      "Summary": "Flames of the Phoenix",
+      "URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/flames-of-the-phoenix.jpg"
+    },
+    "Ability_2": {
+      "Description": {
+        "itemDescription": {
+          "cooldown": "13s",
+          "cost": "60\/65\/70\/75\/80",
+          "description": "Yu Huang begins cultivating his Dao before firing a projectile that damages and slows enemies it passes through. As it travels, it leaves behind a trail that explodes, damaging and rooting all enemies. This ability can be fired early to deal 60% of its damage, gaining additional damage up to 1s. Yu Huang can also continue charging up to 3s to earn more Dao on firing.",
+          "menuitems": [
+            {
+              "description": "Ability:",
+              "value": "AoE"
+            },
+            {
+              "description": "Affects:",
+              "value": "Enemy"
+            },
+            {
+              "description": "Damage:",
+              "value": "Magical"
+            },
+            {
+              "description": "Range:",
+              "value": "60"
+            }
+          ],
+          "rankitems": [
+            {
+              "description": "Projectile Damage:",
+              "value": "50\/70\/90\/110\/130 (+35% of your Magical Power)"
+            },
+            {
+              "description": "AoE Damage:",
+              "value": "50\/95\/140\/185\/230 (+50% of your Magical Power)"
+            },
+            {
+              "description": "Slow:",
+              "value": "20% for 1s "
+            },
+            {
+              "description": "Root Duration:",
+              "value": "1s "
+            },
+            {
+              "description": "Max Dao Gain:",
+              "value": "6 "
+            }
+          ]
+        }
+      },
+      "Id": 21703,
+      "Summary": "Dao Cultivation",
+      "URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/dao-cultivation.jpg"
+    },
+    "Ability_3": {
+      "Description": {
+        "itemDescription": {
+          "cooldown": "20s",
+          "cost": "70",
+          "description": "Yu Huang calls forth the Pearl Dragon from beneath him, banishing himself into the air and becoming untargetable. He then gracefully floats back down to the ground in a controlled flight, damaging enemies where he lands. While Yu Huang is floating, he may refire this ability to increase his downward momentum, causing him to fall faster. If Yu Huang is Attuned, the Pearl Dragon follows him as he descends, knocking back any enemies beneath him.",
+          "menuitems": [
+            {
+              "description": "Ability:",
+              "value": "AoE"
+            },
+            {
+              "description": "Affects:",
+              "value": "Self\/Enemy"
+            },
+            {
+              "description": "Damage:",
+              "value": "Magical"
+            },
+            {
+              "description": "Radius:",
+              "value": "15"
+            }
+          ],
+          "rankitems": [
+            {
+              "description": "Damage:",
+              "value": "70\/120\/170\/220\/270 (+50% of your Magical Power)"
+            },
+            {
+              "description": "Movement Speed:",
+              "value": "15% "
+            }
+          ]
+        }
+      },
+      "Id": 21704,
+      "Summary": "Celestial Flight",
+      "URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/celestial-flight.jpg"
+    },
+    "Ability_4": {
+      "Description": {
+        "itemDescription": {
+          "cooldown": "100s",
+          "cost": "100",
+          "description": "Yu Huang manifests a huge surge of dragon-shaped energy, becoming CC immune and summoning the Pearl Dragon to oppose him. He then has 3s to aim his dragon of energy toward the Pearl Dragon, who will charge directly at it. Both dragons damage and push enemies caught in the blast. If the dragons collide, a damaging explosion occurs in the area. If Yu Huang is Attuned, the width of the dragons is increased by 50%.",
+          "menuitems": [
+            {
+              "description": "Ability:",
+              "value": "Ground Target"
+            },
+            {
+              "description": "Affects:",
+              "value": "Enemy"
+            },
+            {
+              "description": "Damage:",
+              "value": "Magical"
+            },
+            {
+              "description": "Range:",
+              "value": "100\/60"
+            }
+          ],
+          "rankitems": [
+            {
+              "description": "Push Damage:",
+              "value": "150\/225\/300\/375\/450 (+50% of your Magical Power)"
+            },
+            {
+              "description": "Explosion Damage:",
+              "value": "100\/140\/180\/220\/260 (+45% of your Magical Power)"
+            }
+          ]
+        }
+      },
+      "Id": 21705,
+      "Summary": "Dueling Dragons",
+      "URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/dueling-dragons.jpg"
+    },
+    "Ability_5": {
+      "Description": {
+        "itemDescription": {
+          "cooldown": "",
+          "cost": "",
+          "description": "Yu Huang attunes himself to the Dao, giving his Basic Attacks and Abilities additional effects. He gains a stack of Dao every 15s. He also gains a stack by hitting an enemy God after not taking or dealing damage for 3s. Once he has 6 or more stacks, Yu Huang becomes Attuned, allowing his Basic Attacks chain to one additional enemy.",
+          "menuitems": [
+            {
+              "description": "Ability:",
+              "value": "Passive"
+            }
+          ],
+          "rankitems": [
+            {
+              "description": "Chain Basic Attack Damage",
+              "value": "75%"
+            },
+            {
+              "description": "Attunement Cost:",
+              "value": "6 Dao"
+            },
+            {
+              "description": "Max Stacks",
+              "value": "12 Dao"
+            }
+          ]
+        }
+      },
+      "Id": 21707,
+      "Summary": "Master of the Dao",
+      "URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/master-of-the-dao.jpg"
+    },
+    "AttackSpeed": 1,
+    "AttackSpeedPerLevel": 0.012,
+    "AutoBanned": "n",
+    "Cons": "",
+    "HP5PerLevel": 0.47,
+    "Health": 400,
+    "HealthPerFive": 7,
+    "HealthPerLevel": 77,
+    "Lore": "From the first moment of his existence, Yu Huang, the Jade Emperor, has sought only to enlighten and uplift both man and god. Kind, intelligent and wise, he devoted himself to helping the needy and showed respect to all living things. This was more difficult than one might imagine, for at this time the world was more dangerous.\\n\\nMonsters and demons prowled the lands of men, and defied the will of the gods. The Heavenly Court was in disarray, and the gods had no leader to unite them. The Jade Emperor had not become emperor yet.\\n\\nIn this time, Yu Huang roamed the world as a demigod, helping those mortals that he could. But even his great powers could not contend with the sheer number of fell beings who haunted the earth. Heartsick and weary, he retreated to a mountain cave, where he spent the next several millennia cultivating his Dao.\\n\\nBut during this period there arose a great king among the demons who tormented the world. This demon king wished to rule over the heavens and the earth, and made war upon the gods. The gods resisted and the demon king went into seclusion to expand its power through dark sorceries and twisted rites. After several millennia it returned at the head of an army of all the foulest things in creation, and resumed its conquest of existence, leading its army into the heavens to do battle with the gods themselves. But it did not do so unopposed – for the Jade Emperor had returned as well.\\n\\nEven as the gods fell to the might of the demon king, Yu Huang ascended to the heavens and challenged the creature. Their duel shook the very pillars of heaven and the world itself nearly perished in the ensuing conflagration. In the end, the demon king was defeated – not by the might of Yu Huang, but rather by his benevolence and wisdom. The creature fell from the heavens, and only the gods know where it now rests.\\n\\nIn the aftermath, mortal and god alike acclaimed their savior the sovereign of sovereigns, and ruler of all creation. The Jade Emperor had ascended to his throne.",
+    "MP5PerLevel": 0.44,
+    "MagicProtection": 30,
+    "MagicProtectionPerLevel": 0.9,
+    "MagicalPower": 175,
+    "MagicalPowerPerLevel": 7.5,
+    "Mana": 280,
+    "ManaPerFive": 4.7,
+    "ManaPerLevel": 55,
+    "Name": "Yu Huang",
+    "OnFreeRotation": "",
+    "Pantheon": "Chinese",
+    "PhysicalPower": 0,
+    "PhysicalPowerPerLevel": 0,
+    "PhysicalProtection": 12,
+    "PhysicalProtectionPerLevel": 3,
+    "Pros": "High Area Damage",
+    "Roles": "Mage",
+    "Speed": 355,
+    "Title": "The Jade Emperor",
+    "Type": "Ranged, Magical",
+    "abilityDescription1": {
+      "itemDescription": {
+        "cooldown": "11\/10.5\/10\/9.5\/9s",
+        "cost": "60\/65\/70\/75\/80",
+        "description": "Yu Huang conjures four cinders of the phoenix, spreading them in an X shape. The cinders rush inward, dealing damage once as they travel. When the cinders meet, they explode in a field of flames that persists for 3s, burning enemies inside. If Yu Huang is Attuned, when the cinders explode, all enemies in the area have their Magical Protections reduced.",
+        "menuitems": [
+          {
+            "description": "Ability:",
+            "value": "Ground Target"
+          },
+          {
+            "description": "Affects:",
+            "value": "Enemy"
+          },
+          {
+            "description": "Damage:",
+            "value": "Magical"
+          }
+        ],
+        "rankitems": [
+          {
+            "description": "Cinder Damage:",
+            "value": "50\/75\/100\/125\/150 (+35% of your Magical Power)"
+          },
+          {
+            "description": "Initial Damage:",
+            "value": "40\/55\/70\/85\/100 (+30% of your Magical Power)"
+          },
+          {
+            "description": "Burn Damage:",
+            "value": "5 (+8% of your Magical Power) every 0.5s"
+          },
+          {
+            "description": "Burn Duration:",
+            "value": "2s "
+          },
+          {
+            "description": "Protection Reduction:",
+            "value": "4\/6\/8\/10\/12 for 3s "
+          }
+        ]
+      }
+    },
+    "abilityDescription2": {
+      "itemDescription": {
+        "cooldown": "13s",
+        "cost": "60\/65\/70\/75\/80",
+        "description": "Yu Huang begins cultivating his Dao before firing a projectile that damages and slows enemies it passes through. As it travels, it leaves behind a trail that explodes, damaging and rooting all enemies. This ability can be fired early to deal 60% of its damage, gaining additional damage up to 1s. Yu Huang can also continue charging up to 3s to earn more Dao on firing.",
+        "menuitems": [
+          {
+            "description": "Ability:",
+            "value": "AoE"
+          },
+          {
+            "description": "Affects:",
+            "value": "Enemy"
+          },
+          {
+            "description": "Damage:",
+            "value": "Magical"
+          },
+          {
+            "description": "Range:",
+            "value": "60"
+          }
+        ],
+        "rankitems": [
+          {
+            "description": "Projectile Damage:",
+            "value": "50\/70\/90\/110\/130 (+35% of your Magical Power)"
+          },
+          {
+            "description": "AoE Damage:",
+            "value": "50\/95\/140\/185\/230 (+50% of your Magical Power)"
+          },
+          {
+            "description": "Slow:",
+            "value": "20% for 1s "
+          },
+          {
+            "description": "Root Duration:",
+            "value": "1s "
+          },
+          {
+            "description": "Max Dao Gain:",
+            "value": "6 "
+          }
+        ]
+      }
+    },
+    "abilityDescription3": {
+      "itemDescription": {
+        "cooldown": "20s",
+        "cost": "70",
+        "description": "Yu Huang calls forth the Pearl Dragon from beneath him, banishing himself into the air and becoming untargetable. He then gracefully floats back down to the ground in a controlled flight, damaging enemies where he lands. While Yu Huang is floating, he may refire this ability to increase his downward momentum, causing him to fall faster. If Yu Huang is Attuned, the Pearl Dragon follows him as he descends, knocking back any enemies beneath him.",
+        "menuitems": [
+          {
+            "description": "Ability:",
+            "value": "AoE"
+          },
+          {
+            "description": "Affects:",
+            "value": "Self\/Enemy"
+          },
+          {
+            "description": "Damage:",
+            "value": "Magical"
+          },
+          {
+            "description": "Radius:",
+            "value": "15"
+          }
+        ],
+        "rankitems": [
+          {
+            "description": "Damage:",
+            "value": "70\/120\/170\/220\/270 (+50% of your Magical Power)"
+          },
+          {
+            "description": "Movement Speed:",
+            "value": "15% "
+          }
+        ]
+      }
+    },
+    "abilityDescription4": {
+      "itemDescription": {
+        "cooldown": "100s",
+        "cost": "100",
+        "description": "Yu Huang manifests a huge surge of dragon-shaped energy, becoming CC immune and summoning the Pearl Dragon to oppose him. He then has 3s to aim his dragon of energy toward the Pearl Dragon, who will charge directly at it. Both dragons damage and push enemies caught in the blast. If the dragons collide, a damaging explosion occurs in the area. If Yu Huang is Attuned, the width of the dragons is increased by 50%.",
+        "menuitems": [
+          {
+            "description": "Ability:",
+            "value": "Ground Target"
+          },
+          {
+            "description": "Affects:",
+            "value": "Enemy"
+          },
+          {
+            "description": "Damage:",
+            "value": "Magical"
+          },
+          {
+            "description": "Range:",
+            "value": "100\/60"
+          }
+        ],
+        "rankitems": [
+          {
+            "description": "Push Damage:",
+            "value": "150\/225\/300\/375\/450 (+50% of your Magical Power)"
+          },
+          {
+            "description": "Explosion Damage:",
+            "value": "100\/140\/180\/220\/260 (+45% of your Magical Power)"
+          }
+        ]
+      }
+    },
+    "abilityDescription5": {
+      "itemDescription": {
+        "cooldown": "",
+        "cost": "",
+        "description": "Yu Huang attunes himself to the Dao, giving his Basic Attacks and Abilities additional effects. He gains a stack of Dao every 15s. He also gains a stack by hitting an enemy God after not taking or dealing damage for 3s. Once he has 6 or more stacks, Yu Huang becomes Attuned, allowing his Basic Attacks chain to one additional enemy.",
+        "menuitems": [
+          {
+            "description": "Ability:",
+            "value": "Passive"
+          }
+        ],
+        "rankitems": [
+          {
+            "description": "Chain Basic Attack Damage",
+            "value": "75%"
+          },
+          {
+            "description": "Attunement Cost:",
+            "value": "6 Dao"
+          },
+          {
+            "description": "Max Stacks",
+            "value": "12 Dao"
+          }
+        ]
+      }
+    },
+    "basicAttack": {
+      "itemDescription": {
+        "cooldown": "",
+        "cost": "",
+        "description": "",
+        "menuitems": [
+          {
+            "description": "Damage:",
+            "value": "35 + 1.5\/Lvl (+20% of Magical Power)"
+          },
+          {
+            "description": "Progression:",
+            "value": "None"
+          }
+        ],
+        "rankitems": [
+        ]
+      }
+    },
+    "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/flames-of-the-phoenix.jpg",
+    "godAbility2_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/dao-cultivation.jpg",
+    "godAbility3_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/celestial-flight.jpg",
+    "godAbility4_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/dueling-dragons.jpg",
+    "godAbility5_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/master-of-the-dao.jpg",
+    "godCard_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-cards\/yu-huang.jpg",
+    "godIcon_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-icons\/yu-huang.jpg",
+    "id": 4060,
+    "latestGod": "y",
     "ret_msg": null
   },
   {
@@ -50897,7 +51110,7 @@
           "rankitems": [
             {
               "description": "Damage:",
-              "value": "40\/70\/100\/130\/160 (+50% of your Magical Power)"
+              "value": "30\/60\/90\/120\/150 (+50% of your Magical Power)"
             },
             {
               "description": "Arcs:",
@@ -50905,7 +51118,7 @@
             },
             {
               "description": "Slow:",
-              "value": "30% for 2s"
+              "value": "20% for 2s"
             }
           ]
         }
@@ -50985,7 +51198,7 @@
           "rankitems": [
             {
               "description": "Damage:",
-              "value": "50\/80\/110\/140\/170 (+25% of your Magical Power)"
+              "value": "40\/70\/100\/130\/160 (+25% of your Magical Power)"
             }
           ]
         }
@@ -51084,7 +51297,7 @@
     "ManaPerFive": 4.6,
     "ManaPerLevel": 44,
     "Name": "Zeus",
-    "OnFreeRotation": "true",
+    "OnFreeRotation": "",
     "Pantheon": "Greek",
     "PhysicalPower": 0,
     "PhysicalPowerPerLevel": 0,
@@ -51117,7 +51330,7 @@
         "rankitems": [
           {
             "description": "Damage:",
-            "value": "40\/70\/100\/130\/160 (+50% of your Magical Power)"
+            "value": "30\/60\/90\/120\/150 (+50% of your Magical Power)"
           },
           {
             "description": "Arcs:",
@@ -51125,7 +51338,7 @@
           },
           {
             "description": "Slow:",
-            "value": "30% for 2s"
+            "value": "20% for 2s"
           }
         ]
       }
@@ -51195,7 +51408,7 @@
         "rankitems": [
           {
             "description": "Damage:",
-            "value": "50\/80\/110\/140\/170 (+25% of your Magical Power)"
+            "value": "40\/70\/100\/130\/160 (+25% of your Magical Power)"
           }
         ]
       }
@@ -51277,7 +51490,8 @@
             "value": "None"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/chain-lightning.jpg",
@@ -51689,7 +51903,8 @@
             "value": "None"
           }
         ],
-        "rankitems": []
+        "rankitems": [
+        ]
       }
     },
     "godAbility1_URL": "https:\/\/webcdn.hirezstudios.com\/smite\/god-abilities\/expose-evil.jpg",

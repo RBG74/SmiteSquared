@@ -12,6 +12,21 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Update="Ressources\Jsons\GetGodLeaderboard\GetGodLeaderboard_1779.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Jsons\GetGodRecommendedItems\GetGodRecommendedItems_1779.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Jsons\GetGods.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Jsons\GetGodSkins\GetGodSkins_1779.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Jsons\GetItems.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Update="Ressources\Session.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>

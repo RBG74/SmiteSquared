@@ -1,0 +1,1002 @@
+[
+  {
+    "god_id": "1779",
+    "losses": "11",
+    "player_id": "700745194",
+    "player_name": "Sarpeii",
+    "player_ranking": "77.226334",
+    "rank": "1",
+    "ret_msg": null,
+    "wins": "30"
+  },
+  {
+    "god_id": "1779",
+    "losses": "2",
+    "player_id": "701609045",
+    "player_name": "TheFrenchEmperor",
+    "player_ranking": "74.211647",
+    "rank": "2",
+    "ret_msg": null,
+    "wins": "15"
+  },
+  {
+    "god_id": "1779",
+    "losses": "38",
+    "player_id": "11212758",
+    "player_name": "Skippercool",
+    "player_ranking": "72.600838",
+    "rank": "3",
+    "ret_msg": null,
+    "wins": "61"
+  },
+  {
+    "god_id": "1779",
+    "losses": "2",
+    "player_id": "4836497",
+    "player_name": "saddface",
+    "player_ranking": "72.496994",
+    "rank": "4",
+    "ret_msg": null,
+    "wins": "11"
+  },
+  {
+    "god_id": "1779",
+    "losses": "5",
+    "player_id": "2830256",
+    "player_name": "CJharo",
+    "player_ranking": "72.261528",
+    "rank": "5",
+    "ret_msg": null,
+    "wins": "19"
+  },
+  {
+    "god_id": "1779",
+    "losses": "3",
+    "player_id": "6619004",
+    "player_name": "TheBestAtTheGame",
+    "player_ranking": "70.980858",
+    "rank": "6",
+    "ret_msg": null,
+    "wins": "15"
+  },
+  {
+    "god_id": "1779",
+    "losses": "8",
+    "player_id": "704132748",
+    "player_name": "zFreezer",
+    "player_ranking": "70.929352",
+    "rank": "7",
+    "ret_msg": null,
+    "wins": "18"
+  },
+  {
+    "god_id": "1779",
+    "losses": "0",
+    "player_id": "6067727",
+    "player_name": "lyinglion8751",
+    "player_ranking": "70.331619",
+    "rank": "8",
+    "ret_msg": null,
+    "wins": "10"
+  },
+  {
+    "god_id": "1779",
+    "losses": "50",
+    "player_id": "716681837",
+    "player_name": "GGNORExd",
+    "player_ranking": "70.121521",
+    "rank": "9",
+    "ret_msg": null,
+    "wins": "73"
+  },
+  {
+    "god_id": "1779",
+    "losses": "29",
+    "player_id": "13329024",
+    "player_name": "playingin200ping",
+    "player_ranking": "70.032768",
+    "rank": "10",
+    "ret_msg": null,
+    "wins": "41"
+  },
+  {
+    "god_id": "1779",
+    "losses": "11",
+    "player_id": "3419296",
+    "player_name": "LightMotif",
+    "player_ranking": "69.465469",
+    "rank": "11",
+    "ret_msg": null,
+    "wins": "18"
+  },
+  {
+    "god_id": "1779",
+    "losses": "2",
+    "player_id": "4465048",
+    "player_name": "Zalgattis",
+    "player_ranking": "69.160065",
+    "rank": "12",
+    "ret_msg": null,
+    "wins": "10"
+  },
+  {
+    "god_id": "1779",
+    "losses": "6",
+    "player_id": "128408",
+    "player_name": "EddýG",
+    "player_ranking": "69.070045",
+    "rank": "13",
+    "ret_msg": null,
+    "wins": "13"
+  },
+  {
+    "god_id": "1779",
+    "losses": "1",
+    "player_id": "1741740",
+    "player_name": "Chiappola",
+    "player_ranking": "68.970467",
+    "rank": "14",
+    "ret_msg": null,
+    "wins": "9"
+  },
+  {
+    "god_id": "1779",
+    "losses": "1",
+    "player_id": "8206061",
+    "player_name": "Somtex",
+    "player_ranking": "68.901886",
+    "rank": "15",
+    "ret_msg": null,
+    "wins": "10"
+  },
+  {
+    "god_id": "1779",
+    "losses": "2",
+    "player_id": "2522018",
+    "player_name": "Rapio",
+    "player_ranking": "68.899117",
+    "rank": "16",
+    "ret_msg": null,
+    "wins": "12"
+  },
+  {
+    "god_id": "1779",
+    "losses": "16",
+    "player_id": "701660121",
+    "player_name": "NinJaBoltZz",
+    "player_ranking": "68.757515",
+    "rank": "17",
+    "ret_msg": null,
+    "wins": "29"
+  },
+  {
+    "god_id": "1779",
+    "losses": "17",
+    "player_id": "2213150",
+    "player_name": "NyJo",
+    "player_ranking": "68.745102",
+    "rank": "18",
+    "ret_msg": null,
+    "wins": "29"
+  },
+  {
+    "god_id": "1779",
+    "losses": "7",
+    "player_id": "2464007",
+    "player_name": "Dzoni",
+    "player_ranking": "68.499771",
+    "rank": "19",
+    "ret_msg": null,
+    "wins": "15"
+  },
+  {
+    "god_id": "1779",
+    "losses": "4",
+    "player_id": "713991470",
+    "player_name": "Grecco24",
+    "player_ranking": "68.46386",
+    "rank": "20",
+    "ret_msg": null,
+    "wins": "12"
+  },
+  {
+    "god_id": "1779",
+    "losses": "7",
+    "player_id": "716701718",
+    "player_name": "VoidBlinking",
+    "player_ranking": "68.24305",
+    "rank": "21",
+    "ret_msg": null,
+    "wins": "15"
+  },
+  {
+    "god_id": "1779",
+    "losses": "12",
+    "player_id": "703596092",
+    "player_name": "pagong37",
+    "player_ranking": "68.118813",
+    "rank": "22",
+    "ret_msg": null,
+    "wins": "20"
+  },
+  {
+    "god_id": "1779",
+    "losses": "4",
+    "player_id": "714108826",
+    "player_name": "NanoBruv",
+    "player_ranking": "68.082031",
+    "rank": "23",
+    "ret_msg": null,
+    "wins": "13"
+  },
+  {
+    "god_id": "1779",
+    "losses": "4",
+    "player_id": "5713451",
+    "player_name": "Rememory",
+    "player_ranking": "68.051773",
+    "rank": "24",
+    "ret_msg": null,
+    "wins": "11"
+  },
+  {
+    "god_id": "1779",
+    "losses": "26",
+    "player_id": "11773191",
+    "player_name": "Goldies",
+    "player_ranking": "67.859642",
+    "rank": "25",
+    "ret_msg": null,
+    "wins": "36"
+  },
+  {
+    "god_id": "1779",
+    "losses": "4",
+    "player_id": "709006402",
+    "player_name": "Яаνeи",
+    "player_ranking": "67.838799",
+    "rank": "26",
+    "ret_msg": null,
+    "wins": "11"
+  },
+  {
+    "god_id": "1779",
+    "losses": "3",
+    "player_id": "10057705",
+    "player_name": "Ginkgoviloba",
+    "player_ranking": "67.823471",
+    "rank": "27",
+    "ret_msg": null,
+    "wins": "11"
+  },
+  {
+    "god_id": "1779",
+    "losses": "2",
+    "player_id": "7957796",
+    "player_name": "Mαchine",
+    "player_ranking": "67.805496",
+    "rank": "28",
+    "ret_msg": null,
+    "wins": "10"
+  },
+  {
+    "god_id": "1779",
+    "losses": "5",
+    "player_id": "2784051",
+    "player_name": "Adapting",
+    "player_ranking": "67.805199",
+    "rank": "29",
+    "ret_msg": null,
+    "wins": "12"
+  },
+  {
+    "god_id": "1779",
+    "losses": "5",
+    "player_id": "503859670",
+    "player_name": "",
+    "player_ranking": "67.764923",
+    "rank": "30",
+    "ret_msg": null,
+    "wins": "13"
+  },
+  {
+    "god_id": "1779",
+    "losses": "2",
+    "player_id": "13331029",
+    "player_name": "わたしの名はブルー",
+    "player_ranking": "67.713501",
+    "rank": "31",
+    "ret_msg": null,
+    "wins": "10"
+  },
+  {
+    "god_id": "1779",
+    "losses": "21",
+    "player_id": "10097393",
+    "player_name": "Topzerα",
+    "player_ranking": "67.712936",
+    "rank": "32",
+    "ret_msg": null,
+    "wins": "27"
+  },
+  {
+    "god_id": "1779",
+    "losses": "9",
+    "player_id": "7414098",
+    "player_name": "NullPointrExcep",
+    "player_ranking": "67.624962",
+    "rank": "33",
+    "ret_msg": null,
+    "wins": "16"
+  },
+  {
+    "god_id": "1779",
+    "losses": "5",
+    "player_id": "5527941",
+    "player_name": "Dalouubis",
+    "player_ranking": "67.513916",
+    "rank": "34",
+    "ret_msg": null,
+    "wins": "13"
+  },
+  {
+    "god_id": "1779",
+    "losses": "9",
+    "player_id": "3231469",
+    "player_name": "Varis",
+    "player_ranking": "67.510849",
+    "rank": "35",
+    "ret_msg": null,
+    "wins": "17"
+  },
+  {
+    "god_id": "1779",
+    "losses": "20",
+    "player_id": "506468674",
+    "player_name": "",
+    "player_ranking": "67.456886",
+    "rank": "36",
+    "ret_msg": null,
+    "wins": "26"
+  },
+  {
+    "god_id": "1779",
+    "losses": "23",
+    "player_id": "2353235",
+    "player_name": "HardStuckRandom",
+    "player_ranking": "67.374863",
+    "rank": "37",
+    "ret_msg": null,
+    "wins": "29"
+  },
+  {
+    "god_id": "1779",
+    "losses": "9",
+    "player_id": "7911543",
+    "player_name": "bigtippa",
+    "player_ranking": "67.356255",
+    "rank": "38",
+    "ret_msg": null,
+    "wins": "14"
+  },
+  {
+    "god_id": "1779",
+    "losses": "12",
+    "player_id": "10047215",
+    "player_name": "masterlogyc",
+    "player_ranking": "67.266365",
+    "rank": "39",
+    "ret_msg": null,
+    "wins": "19"
+  },
+  {
+    "god_id": "1779",
+    "losses": "5",
+    "player_id": "3688522",
+    "player_name": "negronut8751",
+    "player_ranking": "67.1007",
+    "rank": "40",
+    "ret_msg": null,
+    "wins": "11"
+  },
+  {
+    "god_id": "1779",
+    "losses": "19",
+    "player_id": "5700356",
+    "player_name": "SaySorrytoboss",
+    "player_ranking": "66.92942",
+    "rank": "41",
+    "ret_msg": null,
+    "wins": "25"
+  },
+  {
+    "god_id": "1779",
+    "losses": "71",
+    "player_id": "714221478",
+    "player_name": "HandsomeHugo",
+    "player_ranking": "66.926895",
+    "rank": "42",
+    "ret_msg": null,
+    "wins": "93"
+  },
+  {
+    "god_id": "1779",
+    "losses": "6",
+    "player_id": "5690424",
+    "player_name": "woosâh",
+    "player_ranking": "66.913406",
+    "rank": "43",
+    "ret_msg": null,
+    "wins": "12"
+  },
+  {
+    "god_id": "1779",
+    "losses": "7",
+    "player_id": "5870378",
+    "player_name": "Metxe",
+    "player_ranking": "66.910347",
+    "rank": "44",
+    "ret_msg": null,
+    "wins": "15"
+  },
+  {
+    "god_id": "1779",
+    "losses": "3",
+    "player_id": "3773714",
+    "player_name": "EnderBae1",
+    "player_ranking": "66.873589",
+    "rank": "45",
+    "ret_msg": null,
+    "wins": "9"
+  },
+  {
+    "god_id": "1779",
+    "losses": "5",
+    "player_id": "1775470",
+    "player_name": "AppointedGnome",
+    "player_ranking": "66.856606",
+    "rank": "46",
+    "ret_msg": null,
+    "wins": "11"
+  },
+  {
+    "god_id": "1779",
+    "losses": "22",
+    "player_id": "7801986",
+    "player_name": "Boroughbugha",
+    "player_ranking": "66.777916",
+    "rank": "47",
+    "ret_msg": null,
+    "wins": "33"
+  },
+  {
+    "god_id": "1779",
+    "losses": "8",
+    "player_id": "700742655",
+    "player_name": "shlumbo",
+    "player_ranking": "66.768143",
+    "rank": "48",
+    "ret_msg": null,
+    "wins": "15"
+  },
+  {
+    "god_id": "1779",
+    "losses": "12",
+    "player_id": "700985294",
+    "player_name": "LoudWingzz",
+    "player_ranking": "66.686745",
+    "rank": "49",
+    "ret_msg": null,
+    "wins": "19"
+  },
+  {
+    "god_id": "1779",
+    "losses": "4",
+    "player_id": "10087145",
+    "player_name": "DaIynn",
+    "player_ranking": "66.683182",
+    "rank": "50",
+    "ret_msg": null,
+    "wins": "10"
+  },
+  {
+    "god_id": "1779",
+    "losses": "7",
+    "player_id": "8684658",
+    "player_name": "Skαzα",
+    "player_ranking": "66.639008",
+    "rank": "51",
+    "ret_msg": null,
+    "wins": "16"
+  },
+  {
+    "god_id": "1779",
+    "losses": "12",
+    "player_id": "11406002",
+    "player_name": "mistercappp",
+    "player_ranking": "66.634102",
+    "rank": "52",
+    "ret_msg": null,
+    "wins": "19"
+  },
+  {
+    "god_id": "1779",
+    "losses": "7",
+    "player_id": "10045283",
+    "player_name": "Rockev",
+    "player_ranking": "66.46785",
+    "rank": "53",
+    "ret_msg": null,
+    "wins": "14"
+  },
+  {
+    "god_id": "1779",
+    "losses": "6",
+    "player_id": "6248360",
+    "player_name": "sam4soccer2",
+    "player_ranking": "66.458534",
+    "rank": "54",
+    "ret_msg": null,
+    "wins": "14"
+  },
+  {
+    "god_id": "1779",
+    "losses": "6",
+    "player_id": "5982536",
+    "player_name": "Iandavichi",
+    "player_ranking": "66.417435",
+    "rank": "55",
+    "ret_msg": null,
+    "wins": "10"
+  },
+  {
+    "god_id": "1779",
+    "losses": "3",
+    "player_id": "702236453",
+    "player_name": "Layers",
+    "player_ranking": "66.404999",
+    "rank": "56",
+    "ret_msg": null,
+    "wins": "8"
+  },
+  {
+    "god_id": "1779",
+    "losses": "4",
+    "player_id": "869613",
+    "player_name": "MaterialsScience",
+    "player_ranking": "66.397728",
+    "rank": "57",
+    "ret_msg": null,
+    "wins": "10"
+  },
+  {
+    "god_id": "1779",
+    "losses": "3",
+    "player_id": "2575478",
+    "player_name": "Llamautistic",
+    "player_ranking": "66.37278",
+    "rank": "58",
+    "ret_msg": null,
+    "wins": "9"
+  },
+  {
+    "god_id": "1779",
+    "losses": "24",
+    "player_id": "2749501",
+    "player_name": "Donãldtrump",
+    "player_ranking": "66.338799",
+    "rank": "59",
+    "ret_msg": null,
+    "wins": "32"
+  },
+  {
+    "god_id": "1779",
+    "losses": "4",
+    "player_id": "11310696",
+    "player_name": "JimiDiablo",
+    "player_ranking": "66.238831",
+    "rank": "60",
+    "ret_msg": null,
+    "wins": "10"
+  },
+  {
+    "god_id": "1779",
+    "losses": "3",
+    "player_id": "700057457",
+    "player_name": "BalmungHaseo",
+    "player_ranking": "66.198334",
+    "rank": "61",
+    "ret_msg": null,
+    "wins": "8"
+  },
+  {
+    "god_id": "1779",
+    "losses": "6",
+    "player_id": "700503924",
+    "player_name": "asdfasddfasdfsda",
+    "player_ranking": "66.159477",
+    "rank": "62",
+    "ret_msg": null,
+    "wins": "12"
+  },
+  {
+    "god_id": "1779",
+    "losses": "23",
+    "player_id": "5664559",
+    "player_name": "sneakyturtle8751",
+    "player_ranking": "66.144356",
+    "rank": "63",
+    "ret_msg": null,
+    "wins": "28"
+  },
+  {
+    "god_id": "1779",
+    "losses": "6",
+    "player_id": "1720284",
+    "player_name": "UserLame",
+    "player_ranking": "66.094612",
+    "rank": "64",
+    "ret_msg": null,
+    "wins": "12"
+  },
+  {
+    "god_id": "1779",
+    "losses": "9",
+    "player_id": "5246044",
+    "player_name": "Wingmaus",
+    "player_ranking": "66.079918",
+    "rank": "65",
+    "ret_msg": null,
+    "wins": "14"
+  },
+  {
+    "god_id": "1779",
+    "losses": "4",
+    "player_id": "716857507",
+    "player_name": "AngelaMerkell",
+    "player_ranking": "66.030273",
+    "rank": "66",
+    "ret_msg": null,
+    "wins": "9"
+  },
+  {
+    "god_id": "1779",
+    "losses": "4",
+    "player_id": "8765150",
+    "player_name": "XxxBorvorixxX",
+    "player_ranking": "65.967033",
+    "rank": "67",
+    "ret_msg": null,
+    "wins": "9"
+  },
+  {
+    "god_id": "1779",
+    "losses": "5",
+    "player_id": "714903257",
+    "player_name": "z44z44",
+    "player_ranking": "65.957451",
+    "rank": "68",
+    "ret_msg": null,
+    "wins": "10"
+  },
+  {
+    "god_id": "1779",
+    "losses": "4",
+    "player_id": "14088787",
+    "player_name": "ror2",
+    "player_ranking": "65.902649",
+    "rank": "69",
+    "ret_msg": null,
+    "wins": "8"
+  },
+  {
+    "god_id": "1779",
+    "losses": "8",
+    "player_id": "1616729",
+    "player_name": "Siker",
+    "player_ranking": "65.815437",
+    "rank": "70",
+    "ret_msg": null,
+    "wins": "13"
+  },
+  {
+    "god_id": "1779",
+    "losses": "7",
+    "player_id": "10478789",
+    "player_name": "LetMeAdcc",
+    "player_ranking": "65.815376",
+    "rank": "71",
+    "ret_msg": null,
+    "wins": "12"
+  },
+  {
+    "god_id": "1779",
+    "losses": "4",
+    "player_id": "711248305",
+    "player_name": "Fifilza7",
+    "player_ranking": "65.750549",
+    "rank": "72",
+    "ret_msg": null,
+    "wins": "8"
+  },
+  {
+    "god_id": "1779",
+    "losses": "11",
+    "player_id": "10047048",
+    "player_name": "CaptianA",
+    "player_ranking": "65.717461",
+    "rank": "73",
+    "ret_msg": null,
+    "wins": "16"
+  },
+  {
+    "god_id": "1779",
+    "losses": "15",
+    "player_id": "703597517",
+    "player_name": "zxVortex",
+    "player_ranking": "65.671623",
+    "rank": "74",
+    "ret_msg": null,
+    "wins": "19"
+  },
+  {
+    "god_id": "1779",
+    "losses": "6",
+    "player_id": "710720499",
+    "player_name": "Dandalph",
+    "player_ranking": "65.576706",
+    "rank": "75",
+    "ret_msg": null,
+    "wins": "10"
+  },
+  {
+    "god_id": "1779",
+    "losses": "5",
+    "player_id": "715977247",
+    "player_name": "EldenBeast",
+    "player_ranking": "65.504692",
+    "rank": "76",
+    "ret_msg": null,
+    "wins": "9"
+  },
+  {
+    "god_id": "1779",
+    "losses": "9",
+    "player_id": "712341955",
+    "player_name": "DarwinZ10",
+    "player_ranking": "65.486252",
+    "rank": "77",
+    "ret_msg": null,
+    "wins": "14"
+  },
+  {
+    "god_id": "1779",
+    "losses": "3",
+    "player_id": "10075059",
+    "player_name": "Skoné",
+    "player_ranking": "65.388054",
+    "rank": "78",
+    "ret_msg": null,
+    "wins": "7"
+  },
+  {
+    "god_id": "1779",
+    "losses": "13",
+    "player_id": "700713350",
+    "player_name": "Eatzz",
+    "player_ranking": "65.314453",
+    "rank": "79",
+    "ret_msg": null,
+    "wins": "16"
+  },
+  {
+    "god_id": "1779",
+    "losses": "9",
+    "player_id": "702136050",
+    "player_name": "DameNWK",
+    "player_ranking": "65.296951",
+    "rank": "80",
+    "ret_msg": null,
+    "wins": "17"
+  },
+  {
+    "god_id": "1779",
+    "losses": "5",
+    "player_id": "9944997",
+    "player_name": "guzmanator",
+    "player_ranking": "65.276634",
+    "rank": "81",
+    "ret_msg": null,
+    "wins": "8"
+  },
+  {
+    "god_id": "1779",
+    "losses": "3",
+    "player_id": "709255971",
+    "player_name": "F7WARRI0R",
+    "player_ranking": "65.270752",
+    "rank": "82",
+    "ret_msg": null,
+    "wins": "7"
+  },
+  {
+    "god_id": "1779",
+    "losses": "5",
+    "player_id": "704101719",
+    "player_name": "Oathhh",
+    "player_ranking": "65.194374",
+    "rank": "83",
+    "ret_msg": null,
+    "wins": "12"
+  },
+  {
+    "god_id": "1779",
+    "losses": "3",
+    "player_id": "4636992",
+    "player_name": "Elуne",
+    "player_ranking": "65.1726",
+    "rank": "84",
+    "ret_msg": null,
+    "wins": "7"
+  },
+  {
+    "god_id": "1779",
+    "losses": "3",
+    "player_id": "9178521",
+    "player_name": "Weani",
+    "player_ranking": "65.160522",
+    "rank": "85",
+    "ret_msg": null,
+    "wins": "7"
+  },
+  {
+    "god_id": "1779",
+    "losses": "5",
+    "player_id": "8542024",
+    "player_name": "Diοr",
+    "player_ranking": "65.153999",
+    "rank": "86",
+    "ret_msg": null,
+    "wins": "11"
+  },
+  {
+    "god_id": "1779",
+    "losses": "12",
+    "player_id": "710640197",
+    "player_name": "Machinehead21",
+    "player_ranking": "65.137436",
+    "rank": "87",
+    "ret_msg": null,
+    "wins": "18"
+  },
+  {
+    "god_id": "1779",
+    "losses": "20",
+    "player_id": "11600132",
+    "player_name": "exterminad0r36",
+    "player_ranking": "65.087135",
+    "rank": "88",
+    "ret_msg": null,
+    "wins": "25"
+  },
+  {
+    "god_id": "1779",
+    "losses": "3",
+    "player_id": "5331563",
+    "player_name": "Gonza444",
+    "player_ranking": "65.080093",
+    "rank": "89",
+    "ret_msg": null,
+    "wins": "7"
+  },
+  {
+    "god_id": "1779",
+    "losses": "13",
+    "player_id": "700082942",
+    "player_name": "Yrase",
+    "player_ranking": "65.057388",
+    "rank": "90",
+    "ret_msg": null,
+    "wins": "15"
+  },
+  {
+    "god_id": "1779",
+    "losses": "13",
+    "player_id": "6764651",
+    "player_name": "BananaKíng",
+    "player_ranking": "65.03299",
+    "rank": "91",
+    "ret_msg": null,
+    "wins": "19"
+  },
+  {
+    "god_id": "1779",
+    "losses": "3",
+    "player_id": "9590426",
+    "player_name": "Gorks01",
+    "player_ranking": "65.023834",
+    "rank": "92",
+    "ret_msg": null,
+    "wins": "9"
+  },
+  {
+    "god_id": "1779",
+    "losses": "27",
+    "player_id": "10742974",
+    "player_name": "MrXonic",
+    "player_ranking": "65.009552",
+    "rank": "93",
+    "ret_msg": null,
+    "wins": "41"
+  },
+  {
+    "god_id": "1779",
+    "losses": "3",
+    "player_id": "702126633",
+    "player_name": "OffBrandGizzle",
+    "player_ranking": "64.993889",
+    "rank": "94",
+    "ret_msg": null,
+    "wins": "7"
+  },
+  {
+    "god_id": "1779",
+    "losses": "5",
+    "player_id": "6742930",
+    "player_name": "Rëvo",
+    "player_ranking": "64.964874",
+    "rank": "95",
+    "ret_msg": null,
+    "wins": "8"
+  },
+  {
+    "god_id": "1779",
+    "losses": "12",
+    "player_id": "9947449",
+    "player_name": "Vádimká",
+    "player_ranking": "64.894897",
+    "rank": "96",
+    "ret_msg": null,
+    "wins": "17"
+  },
+  {
+    "god_id": "1779",
+    "losses": "6",
+    "player_id": "715291829",
+    "player_name": "Fran70menos1",
+    "player_ranking": "64.86145",
+    "rank": "97",
+    "ret_msg": null,
+    "wins": "9"
+  },
+  {
+    "god_id": "1779",
+    "losses": "6",
+    "player_id": "1942783",
+    "player_name": "ThaRealBRUh",
+    "player_ranking": "64.824028",
+    "rank": "98",
+    "ret_msg": null,
+    "wins": "6"
+  },
+  {
+    "god_id": "1779",
+    "losses": "17",
+    "player_id": "7387934",
+    "player_name": "Zeldrιs",
+    "player_ranking": "64.804657",
+    "rank": "99",
+    "ret_msg": null,
+    "wins": "22"
+  },
+  {
+    "god_id": "1779",
+    "losses": "4",
+    "player_id": "10061165",
+    "player_name": "BarryAllenVz",
+    "player_ranking": "64.793465",
+    "rank": "100",
+    "ret_msg": null,
+    "wins": "7"
+  }
+]

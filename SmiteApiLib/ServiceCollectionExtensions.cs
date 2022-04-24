@@ -17,5 +17,11 @@ namespace SmiteApiLib
             services.AddHttpClient<IGodsAndItemsService>();
             services.AddScoped<IGodsAndItemsService, GodsAndItemsService>();
         }
+
+        public static void AddSmiteApiFakeServices(this IServiceCollection services)
+        {
+            services.AddScoped<IConnectivityService, FakeConnectivityService>();
+            services.AddScoped<IGodsAndItemsService, FakeGodsAndItemsService>();
+        }
     }
 }
