@@ -13,7 +13,7 @@ namespace SmiteApiLib.Models.DTO.JsonConverters
 
         public override void Write(Utf8JsonWriter writer, bool value, JsonSerializerOptions options)
         {
-            throw new NotImplementedException();
+            writer.WriteStringValue(value ? "Y" : "N");
         }
     }
 }
