@@ -1,8 +1,8 @@
 ﻿using System.Text.Json.Serialization;
 
-namespace SmiteApiLib.Models.DTO
+namespace SmiteApiLib.Models
 {
-    public class GetHirezServerStatusDTO : BaseDTO
+    public class GetHirezServerStatus : ReturnMessageBase
     {
         [JsonPropertyName("entry_datetime")]
         public string? EntryDatetime { get; set; }

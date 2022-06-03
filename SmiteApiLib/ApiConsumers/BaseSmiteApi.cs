@@ -1,5 +1,5 @@
 ﻿using Microsoft.Extensions.Logging;
-using SmiteApiLib.Models.DTO;
+using SmiteApiLib.Models;
 using SmiteApiLib.Ressources.Constants;
 using SmiteApiLib.Ressources.Exceptions;
 using SmiteApiLib.Ressources.Helpers;
@@ -62,7 +62,7 @@ namespace SmiteApiLib.ApiConsumers
             {
                 var url = ApiUriHelper.GetCreateSessionUrl();
                 var jsonResponse = await _httpClient.GetStringAsync(url);
-                var response = JsonSerializer.Deserialize<CreateSessionDTO>(jsonResponse);
+                var response = JsonSerializer.Deserialize<CreateSession>(jsonResponse);
                 sessionId = response!.SessionId!;
                 await LocalSessionHelper.WriteSessionId(sessionId);
             }

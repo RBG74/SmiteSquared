@@ -1,4 +1,4 @@
-﻿using SmiteApiLib.Models.DTO;
+﻿using SmiteApiLib.Models;
 
 namespace SmiteApiLib.ApiConsumers
 {
@@ -6,10 +6,10 @@ namespace SmiteApiLib.ApiConsumers
     {
         Task<string> Ping();
 
-        Task<IEnumerable<GetDataUsedDTO>> GetDataUsed();
+        Task<IEnumerable<GetDataUsed>> GetDataUsed();
 
-        Task<IEnumerable<GetHirezServerStatusDTO>> GetHirezServerStatus();
+        Task<IEnumerable<GetHirezServerStatus>> GetHirezServerStatus();
 
-        Task<GetPatchInfoDTO> GetPatchInfo();
+        Task<GetPatchInfo> GetPatchInfo();
     }
 }

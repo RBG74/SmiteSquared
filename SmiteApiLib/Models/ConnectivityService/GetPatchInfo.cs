@@ -1,8 +1,8 @@
 ﻿using System.Text.Json.Serialization;
 
-namespace SmiteApiLib.Models.DTO
+namespace SmiteApiLib.Models
 {
-    public class GetPatchInfoDTO : BaseDTO
+    public class GetPatchInfo : ReturnMessageBase
     {
         [JsonPropertyName("version_string")]
         public string? Version { get; set; }

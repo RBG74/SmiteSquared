@@ -1,8 +1,8 @@
 ﻿using System.Text.Json.Serialization;
 
-namespace SmiteApiLib.Models.DTO
+namespace SmiteApiLib.Models
 {
-    internal class CreateSessionDTO : BaseDTO
+    internal class CreateSession : ReturnMessageBase
     {
         [JsonPropertyName("session_id")]
         public string? SessionId { get; set; }

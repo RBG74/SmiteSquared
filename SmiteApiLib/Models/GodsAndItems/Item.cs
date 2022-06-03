@@ -1,11 +1,11 @@
-﻿using SmiteApiLib.Models.DTO.JsonConverters;
+﻿using SmiteApiLib.Models.JsonConverters;
 using System.Text.Json.Serialization;
 
-namespace SmiteApiLib.Models.DTO
+namespace SmiteApiLib.Models
 {
 #pragma warning disable CS8618 // Non-nullable field must contain a non-null value when exiting constructor. Consider declaring as nullable.
 
-    public partial class ItemDTO : BaseDTO
+    public partial class Item : ReturnMessageBase
     {
         [JsonPropertyName("ActiveFlag")]
         [JsonConverter(typeof(YesNoToBoolJsonConverter))]
@@ -37,8 +37,7 @@ namespace SmiteApiLib.Models.DTO
         public long Price { get; set; }
 
         [JsonPropertyName("RestrictedRoles")]
-        [JsonConverter(typeof(StringToRolesEnumJsonConverter))]
-        public IEnumerable<RoleEnum> RestrictedRoles { get; set; }
+        public IEnumerable<string> RestrictedRoles { get; set; }
 
         [JsonPropertyName("RootItemId")]
         public long RootItemId { get; set; }

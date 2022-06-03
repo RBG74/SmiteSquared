@@ -1,10 +1,10 @@
 ﻿using System.Text.Json.Serialization;
 
-namespace SmiteApiLib.Models.DTO
+namespace SmiteApiLib.Models
 {
 #pragma warning disable CS8618 // Non-nullable field must contain a non-null value when exiting constructor. Consider declaring as nullable.
 
-    public class GodRecommendedItemDTO : BaseDTO
+    public class GodRecommendedItem : ReturnMessageBase
     {
         [JsonPropertyName("god_id")]
         public long GodId { get; set; }

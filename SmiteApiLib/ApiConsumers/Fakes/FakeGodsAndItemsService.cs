@@ -1,5 +1,5 @@
 ﻿using Microsoft.Extensions.Logging;
-using SmiteApiLib.Models.DTO;
+using SmiteApiLib.Models;
 using SmiteApiLib.Ressources.Enums;
 using System.Reflection;
 using System.Text.Json;
@@ -22,19 +22,19 @@ namespace SmiteApiLib.ApiConsumers
             throw ex;
         }
 
-        public Task<IEnumerable<GodAltAbilityDTO>> GetGodAltAbilities()
+        public Task<IEnumerable<GodAltAbility>> GetGodAltAbilities()
         {
             throw new NotImplementedException();
         }
 
-        public Task<IEnumerable<GodLeaderboardDTO>> GetGodLeaderboard(int godId = 1779, QueueEnum queue = QueueEnum.ConquestRanked)
+        public Task<IEnumerable<GodLeaderboard>> GetGodLeaderboard(int godId = 1779, QueueEnum queue = QueueEnum.ConquestRanked)
         {
             try
             {
                 var filePath = Path.Combine(basePath, $"GetGodLeaderboard\\GetGodLeaderboard_{godId}.json");
                 _logger?.LogInformation($"Getting file: {filePath}");
                 var json = File.ReadAllText(filePath);
-                var result = JsonSerializer.Deserialize<IEnumerable<GodLeaderboardDTO>>(json)!;
+                var result = JsonSerializer.Deserialize<IEnumerable<GodLeaderboard>>(json)!;
                 return Task.FromResult(result);
             }
             catch (Exception ex)
@@ -44,14 +44,14 @@ namespace SmiteApiLib.ApiConsumers
             }
         }
 
-        public Task<IEnumerable<GodRecommendedItemDTO>> GetGodRecommendedItems(int godId = 1779, LanguageCodeEnum? languageCode = null)
+        public Task<IEnumerable<GodRecommendedItem>> GetGodRecommendedItems(int godId = 1779, LanguageCodeEnum? languageCode = null)
         {
             try
             {
                 var filePath = Path.Combine(basePath, $"GetGodRecommendedItems\\GetGodRecommendedItems_{godId}.json");
                 _logger?.LogInformation($"Getting file: {filePath}");
                 var json = File.ReadAllText(filePath);
-                var result = JsonSerializer.Deserialize<IEnumerable<GodRecommendedItemDTO>>(json)!;
+                var result = JsonSerializer.Deserialize<IEnumerable<GodRecommendedItem>>(json)!;
                 return Task.FromResult(result);
             }
             catch (Exception ex)
@@ -61,14 +61,14 @@ namespace SmiteApiLib.ApiConsumers
             }
         }
 
-        public Task<IEnumerable<GodDTO>> GetGods(LanguageCodeEnum? languageCode = null)
+        public Task<IEnumerable<God>> GetGods(LanguageCodeEnum? languageCode = null)
         {
             try
             {
                 var filePath = Path.Combine(basePath, $"GetGods.json");
                 _logger?.LogInformation($"Getting file: {filePath}");
                 var json = File.ReadAllText(filePath);
-                var result = JsonSerializer.Deserialize<IEnumerable<GodDTO>>(json)!;
+                var result = JsonSerializer.Deserialize<IEnumerable<God>>(json)!;
                 return Task.FromResult(result);
             }
             catch (Exception ex)
@@ -78,14 +78,14 @@ namespace SmiteApiLib.ApiConsumers
             }
         }
 
-        public Task<IEnumerable<GodSkinDTO>> GetGodSkins(int godId = 1779, LanguageCodeEnum? languageCode = null)
+        public Task<IEnumerable<GodSkin>> GetGodSkins(int godId = 1779, LanguageCodeEnum? languageCode = null)
         {
             try
             {
                 var filePath = Path.Combine(basePath, $"GetGodSkins\\GetGodSkins_{godId}.json");
                 _logger?.LogInformation($"Getting file: {filePath}");
                 var json = File.ReadAllText(filePath);
-                var result = JsonSerializer.Deserialize<IEnumerable<GodSkinDTO>>(json)!;
+                var result = JsonSerializer.Deserialize<IEnumerable<GodSkin>>(json)!;
                 return Task.FromResult(result);
             }
             catch (Exception ex)
@@ -95,14 +95,14 @@ namespace SmiteApiLib.ApiConsumers
             }
         }
 
-        public Task<IEnumerable<ItemDTO>> GetItems(LanguageCodeEnum? languageCode = null)
+        public Task<IEnumerable<Item>> GetItems(LanguageCodeEnum? languageCode = null)
         {
             try
             {
                 var filePath = Path.Combine(basePath, $"GetItems.json");
                 _logger?.LogInformation($"Getting file: {filePath}");
                 var json = File.ReadAllText(filePath);
-                var result = JsonSerializer.Deserialize<IEnumerable<ItemDTO>>(json)!;
+                var result = JsonSerializer.Deserialize<IEnumerable<Item>>(json)!;
                 return Task.FromResult(result);
             }
             catch (Exception ex)

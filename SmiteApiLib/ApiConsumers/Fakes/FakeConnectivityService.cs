@@ -1,20 +1,20 @@
-﻿using SmiteApiLib.Models.DTO;
+﻿using SmiteApiLib.Models;
 
 namespace SmiteApiLib.ApiConsumers
 {
     public class FakeConnectivityService : IConnectivityService
     {
-        public Task<IEnumerable<GetDataUsedDTO>> GetDataUsed()
+        public Task<IEnumerable<GetDataUsed>> GetDataUsed()
         {
             throw new NotImplementedException();
         }
 
-        public Task<IEnumerable<GetHirezServerStatusDTO>> GetHirezServerStatus()
+        public Task<IEnumerable<GetHirezServerStatus>> GetHirezServerStatus()
         {
             throw new NotImplementedException();
         }
 
-        public Task<GetPatchInfoDTO> GetPatchInfo()
+        public Task<GetPatchInfo> GetPatchInfo()
         {
             throw new NotImplementedException();
         }

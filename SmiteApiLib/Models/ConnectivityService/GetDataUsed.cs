@@ -1,8 +1,8 @@
 ﻿using System.Text.Json.Serialization;
 
-namespace SmiteApiLib.Models.DTO
+namespace SmiteApiLib.Models
 {
-    public class GetDataUsedDTO : BaseDTO
+    public class GetDataUsed : ReturnMessageBase
     {
         [JsonPropertyName("Active_Sessions")]
         public int ActiveSessions { get; set; }

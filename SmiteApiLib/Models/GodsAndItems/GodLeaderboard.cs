@@ -1,11 +1,11 @@
-﻿using SmiteApiLib.Models.DTO.JsonConverters;
+﻿using SmiteApiLib.Models.JsonConverters;
 using System.Text.Json.Serialization;
 
-namespace SmiteApiLib.Models.DTO
+namespace SmiteApiLib.Models
 {
 #pragma warning disable CS8618 // Non-nullable field must contain a non-null value when exiting constructor. Consider declaring as nullable.
 
-    public class GodLeaderboardDTO : BaseDTO
+    public class GodLeaderboard : ReturnMessageBase
     {
         [JsonPropertyName("god_id")]
         [JsonConverter(typeof(StringToLongJsonConverter))]

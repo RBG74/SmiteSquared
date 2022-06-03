@@ -1,11 +1,11 @@
-﻿using SmiteApiLib.Models.DTO.JsonConverters;
+﻿using SmiteApiLib.Models.JsonConverters;
 using System.Text.Json.Serialization;
 
-namespace SmiteApiLib.Models.DTO
+namespace SmiteApiLib.Models
 {
 #pragma warning disable CS8618 // Non-nullable field must contain a non-null value when exiting constructor. Consider declaring as nullable.
 
-    public class GodDTO : BaseDTO
+    public class God : ReturnMessageBase
     {
         [JsonPropertyName("Ability1")]
         public string AbilityName1 { get; set; }
@@ -129,8 +129,7 @@ namespace SmiteApiLib.Models.DTO
         public string Pros { get; set; }
 
         [JsonPropertyName("Roles")]
-        [JsonConverter(typeof(JsonStringEnumConverter))]
-        public RoleEnum Roles { get; set; }
+        public string Roles { get; set; }
 
         [JsonPropertyName("Speed")]
         public long Speed { get; set; }
@@ -206,13 +205,13 @@ namespace SmiteApiLib.Models.DTO
         public string Description { get; set; }
 
         [JsonPropertyName("menuitems")]
-        public Item[] Menuitems { get; set; }
+        public AbilityItem[] Menuitems { get; set; }
 
         [JsonPropertyName("rankitems")]
-        public Item[] Rankitems { get; set; }
+        public AbilityItem[] Rankitems { get; set; }
     }
 
-    public class Item
+    public class AbilityItem
     {
         [JsonPropertyName("description")]
         public string Description { get; set; }

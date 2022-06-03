@@ -1,20 +1,20 @@
-﻿using SmiteApiLib.Models.DTO;
+﻿using SmiteApiLib.Models;
 using SmiteApiLib.Ressources.Enums;
 
 namespace SmiteApiLib.ApiConsumers
 {
     public interface IGodsAndItemsService
     {
-        Task<IEnumerable<GodDTO>> GetGods(LanguageCodeEnum? languageCode = null);
+        Task<IEnumerable<God>> GetGods(LanguageCodeEnum? languageCode = null);
 
-        Task<IEnumerable<GodLeaderboardDTO>> GetGodLeaderboard(int godId, QueueEnum queue);
+        Task<IEnumerable<GodLeaderboard>> GetGodLeaderboard(int godId, QueueEnum queue);
 
-        Task<IEnumerable<GodAltAbilityDTO>> GetGodAltAbilities();
+        Task<IEnumerable<GodAltAbility>> GetGodAltAbilities();
 
-        Task<IEnumerable<GodSkinDTO>> GetGodSkins(int godId, LanguageCodeEnum? languageCode = null);
+        Task<IEnumerable<GodSkin>> GetGodSkins(int godId, LanguageCodeEnum? languageCode = null);
 
-        Task<IEnumerable<GodRecommendedItemDTO>> GetGodRecommendedItems(int godId, LanguageCodeEnum? languageCode = null);
+        Task<IEnumerable<GodRecommendedItem>> GetGodRecommendedItems(int godId, LanguageCodeEnum? languageCode = null);
 
-        Task<IEnumerable<ItemDTO>> GetItems(LanguageCodeEnum? languageCode = null);
+        Task<IEnumerable<Item>> GetItems(LanguageCodeEnum? languageCode = null);
     }
 }

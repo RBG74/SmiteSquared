@@ -1,5 +1,5 @@
 ﻿using Microsoft.Extensions.Logging;
-using SmiteApiLib.Models.DTO;
+using SmiteApiLib.Models;
 using SmiteApiLib.Ressources.Constants;
 using SmiteApiLib.Ressources.Enums;
 using SmiteApiLib.Ressources.Exceptions;
@@ -34,7 +34,7 @@ namespace SmiteApiLib.ApiConsumers
             }
         }
 
-        public async Task<IEnumerable<GetDataUsedDTO>> GetDataUsed()
+        public async Task<IEnumerable<GetDataUsed>> GetDataUsed()
         {
             _logger?.LogInformation($"Calling method {nameof(GetDataUsed)}");
 
@@ -42,7 +42,7 @@ namespace SmiteApiLib.ApiConsumers
             {
                 var url = ApiUriHelper.GetBaseApiUrl(ApiMethodEnum.GetDataUsed);
                 var jsonResponse = await ExecuteRequest(url);
-                var response = JsonSerializer.Deserialize<IEnumerable<GetDataUsedDTO>>(jsonResponse)!;
+                var response = JsonSerializer.Deserialize<IEnumerable<GetDataUsed>>(jsonResponse)!;
                 return response;
             }
             catch (Exception ex)
@@ -52,7 +52,7 @@ namespace SmiteApiLib.ApiConsumers
             }
         }
 
-        public async Task<IEnumerable<GetHirezServerStatusDTO>> GetHirezServerStatus()
+        public async Task<IEnumerable<GetHirezServerStatus>> GetHirezServerStatus()
         {
             _logger?.LogInformation($"Calling method {nameof(GetHirezServerStatus)}");
 
@@ -60,7 +60,7 @@ namespace SmiteApiLib.ApiConsumers
             {
                 var url = ApiUriHelper.GetBaseApiUrl(ApiMethodEnum.GetHirezServerStatus);
                 var jsonResponse = await ExecuteRequest(url);
-                var response = JsonSerializer.Deserialize<IEnumerable<GetHirezServerStatusDTO>>(jsonResponse)!;
+                var response = JsonSerializer.Deserialize<IEnumerable<GetHirezServerStatus>>(jsonResponse)!;
                 return response;
             }
             catch (Exception ex)
@@ -70,7 +70,7 @@ namespace SmiteApiLib.ApiConsumers
             }
         }
 
-        public async Task<GetPatchInfoDTO> GetPatchInfo()
+        public async Task<GetPatchInfo> GetPatchInfo()
         {
             _logger?.LogInformation($"Calling method {nameof(GetPatchInfo)}");
 
@@ -78,7 +78,7 @@ namespace SmiteApiLib.ApiConsumers
             {
                 var url = ApiUriHelper.GetBaseApiUrl(ApiMethodEnum.GetPatchInfo);
                 var jsonResponse = await ExecuteRequest(url);
-                var response = JsonSerializer.Deserialize<GetPatchInfoDTO>(jsonResponse)!;
+                var response = JsonSerializer.Deserialize<GetPatchInfo>(jsonResponse)!;
                 return response;
             }
             catch (Exception ex)
