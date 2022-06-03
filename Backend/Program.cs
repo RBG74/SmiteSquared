@@ -11,6 +11,18 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddSmiteApiFakeServices();
 
+var corsPolicyName = "CORSPolicy";
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy(name: corsPolicyName,
+                      policy =>
+                      {
+                          policy.AllowAnyOrigin();
+                          policy.AllowAnyHeader();
+                          policy.AllowAnyMethod();
+                      });
+});
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -18,6 +30,7 @@ if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
+    app.UseCors(corsPolicyName);
 }
 
 app.UseHttpsRedirection();
