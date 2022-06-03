@@ -2,7 +2,7 @@
 {
     public class AbilityDTO
     {
-        public AbilityDTO(SmiteApiLib.Models.DTO.Ability source)
+        public AbilityDTO(SmiteApiLib.Models.Ability source)
         {
             Id = source.Id;
             Name = source.Summary;

@@ -2,13 +2,17 @@
 {
     public class GodDTO
     {
-        public GodDTO(SmiteApiLib.Models.DTO.GodDTO source)
+        public GodDTO(SmiteApiLib.Models.God source)
         {
             Id = source.Id;
             Name = source.Name;
             Title = source.Title;
+            Roles = source.Roles;
+            Type = source.Type;
             Pantheon = source.Pantheon;
             Lore = source.Lore;
+            Pros = source.Pros;
+            Cons = source.Cons;
             PortaitUri = source.GodIconUrl;
             CardUri = source.GodCardUrl;
             Passive = new AbilityDTO(source.Ability5);
@@ -24,8 +28,12 @@
         public long Id { get; set; }
         public string Name { get; set; }
         public string Title { get; set; }
+        public string Roles { get; set; }
+        public string Type { get; set; }
         public string Pantheon { get; set; }
         public string Lore { get; set; }
+        public string Pros { get; set; }
+        public string Cons { get; set; }
         public Uri PortaitUri { get; set; }
         public Uri CardUri { get; set; }
         public AbilityDTO Passive { get; set; }

@@ -2,7 +2,7 @@
 {
     public class GodStatisticsDTO
     {
-        public GodStatisticsDTO(SmiteApiLib.Models.DTO.GodDTO source)
+        public GodStatisticsDTO(SmiteApiLib.Models.God source)
         {
             AttackSpeed = source.AttackSpeed;
             AttackSpeedPerLevel = source.AttackSpeedPerLevel;
