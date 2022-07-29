@@ -18,7 +18,7 @@ export class GodsComponent implements OnInit {
   }
 
   getGods(): void {
-    this.smiteApiService.getGods().subscribe((x) => (this.gods = x));
-    this.smiteApiService.getGod(2110).subscribe((x) => (this.otherGod = x));
+    this.smiteApiService.getGods().subscribe((x) => this.gods = x);
+    this.smiteApiService.getGod(2110).subscribe((x) => this.otherGod = x);
   }
 }

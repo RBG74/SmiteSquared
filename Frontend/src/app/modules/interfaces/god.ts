@@ -1,5 +1,7 @@
+
 export interface God {
-    id: number;
-    name: string;
-    title: string;
+  id: number;
+  name: string;
+  title: string;
+  portaitUri: URL;
 }
