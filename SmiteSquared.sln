@@ -7,27 +7,27 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestingThingsOut", "Testing
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmiteApiLib", "SmiteApiLib\SmiteApiLib.csproj", "{F9ED2C9E-AE8B-4CBB-82FE-4984B4CA44EE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Backend", "Backend\Backend.csproj", "{E3A754B4-4BF9-441C-8582-87E185642D10}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Backend", "Backend\Backend.csproj", "{E3A754B4-4BF9-441C-8582-87E185642D10}"
 EndProject
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "FrontendAngular", "FrontendAngular\", "{F5074371-3EF4-4E18-AB35-611C4ABA2C9F}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Frontend", "Frontend\", "{D452C507-F4A9-4EA1-9E70-5AD60CFD5B73}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8"
-		Debug.AspNetCompiler.VirtualPath = "/localhost_53480"
-		Debug.AspNetCompiler.PhysicalPath = "FrontendAngular\"
-		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_53480\"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_49777"
+		Debug.AspNetCompiler.PhysicalPath = "Frontend\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_49777\"
 		Debug.AspNetCompiler.Updateable = "true"
 		Debug.AspNetCompiler.ForceOverwrite = "true"
 		Debug.AspNetCompiler.FixedNames = "false"
 		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.VirtualPath = "/localhost_53480"
-		Release.AspNetCompiler.PhysicalPath = "FrontendAngular\"
-		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_53480\"
+		Release.AspNetCompiler.VirtualPath = "/localhost_49777"
+		Release.AspNetCompiler.PhysicalPath = "Frontend\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_49777\"
 		Release.AspNetCompiler.Updateable = "true"
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
-		VWDPort = "53480"
-		SlnRelativePath = "FrontendAngular\"
+		VWDPort = "49777"
+		SlnRelativePath = "Frontend\"
 	EndProjectSection
 EndProject
 Global
@@ -48,10 +48,10 @@ Global
 		{E3A754B4-4BF9-441C-8582-87E185642D10}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E3A754B4-4BF9-441C-8582-87E185642D10}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E3A754B4-4BF9-441C-8582-87E185642D10}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F5074371-3EF4-4E18-AB35-611C4ABA2C9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F5074371-3EF4-4E18-AB35-611C4ABA2C9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F5074371-3EF4-4E18-AB35-611C4ABA2C9F}.Release|Any CPU.ActiveCfg = Debug|Any CPU
-		{F5074371-3EF4-4E18-AB35-611C4ABA2C9F}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{D452C507-F4A9-4EA1-9E70-5AD60CFD5B73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D452C507-F4A9-4EA1-9E70-5AD60CFD5B73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D452C507-F4A9-4EA1-9E70-5AD60CFD5B73}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{D452C507-F4A9-4EA1-9E70-5AD60CFD5B73}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

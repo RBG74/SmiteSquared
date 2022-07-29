@@ -55,5 +55,23 @@ namespace Backend.Controllers
                 return Problem(ex.Message);
             }
         }
+
+        [HttpGet("Skins/{godId}")]
+        public async Task<ActionResult<GodSkinDTO>> GetSkins(int godId)
+        {
+            try
+            {
+                var godSkins = await _godsAndItemsService.GetGodSkins(godId);
+                if (godSkins != null)
+                    return Ok(godSkins.Select(x => new GodSkinDTO(x)));
+                else
+                    return NotFound($"There are no god with id={godId}.");
+            }
+            catch (Exception ex)
+            {
+                _logger?.LogError(ex.Message, ex);
+                return Problem(ex.Message);
+            }
+        }
     }
 }
